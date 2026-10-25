@@ -1,0 +1,11 @@
+# PyTorch is installed separately by setup.ps1 (CUDA 11.8 build):
+#   pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 --index-url https://download.pytorch.org/whl/cu118
+transformers
+accelerate
+scikit-learn
+seaborn
+matplotlib
+scipy
+pandas
+Pillow
+sentencepiece

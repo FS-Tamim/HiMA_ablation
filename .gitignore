@@ -1,0 +1,18 @@
+﻿# Python environments (several GB)
+.venv/
+.pybase/
+**/.venv/
+**/.pybase/
+__pycache__/
+*.pyc
+
+# model checkpoints and large files
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.zip
+
+# dataset (if it is ever copied here)
+Img/
+**/Img/

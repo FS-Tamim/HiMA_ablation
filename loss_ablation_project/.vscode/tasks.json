@@ -1,0 +1,40 @@
+{
+    "version": "2.0.0",
+    "inputs": [
+        {
+            "id": "dataRoot",
+            "type": "promptString",
+            "description": "Folder that CONTAINS hierarchical_aggression.csv",
+            "default": "D:\\datasets\\hierarchical-mimosa"
+        }
+    ],
+    "tasks": [
+        {
+            "label": "1. Setup environment",
+            "type": "shell",
+            "command": "powershell",
+            "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}\\setup.ps1"],
+            "options": { "cwd": "${workspaceFolder}" },
+            "problemMatcher": [],
+            "presentation": { "reveal": "always", "panel": "dedicated", "clear": true }
+        },
+        {
+            "label": "2. Run loss ablation",
+            "type": "shell",
+            "command": "powershell",
+            "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}\\run.ps1", "-DataRoot", "${input:dataRoot}"],
+            "options": { "cwd": "${workspaceFolder}" },
+            "problemMatcher": [],
+            "presentation": { "reveal": "always", "panel": "dedicated", "clear": true }
+        },
+        {
+            "label": "3. Run loss ablation (no DataLoader workers)",
+            "type": "shell",
+            "command": "powershell",
+            "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}\\run.ps1", "-DataRoot", "${input:dataRoot}", "-NoWorkers"],
+            "options": { "cwd": "${workspaceFolder}" },
+            "problemMatcher": [],
+            "presentation": { "reveal": "always", "panel": "dedicated", "clear": true }
+        }
+    ]
+}
