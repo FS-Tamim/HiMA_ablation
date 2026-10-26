@@ -1,0 +1,45 @@
+\begin{table}[!t]
+\centering
+\caption{Loss-function ablation on the proposed HRFDCA (test set, mean $\pm$ std over 3 seeds).}
+\label{tab:loss_ablation_hrfdca}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lcccccc}
+\hline
+\multirow{2}{*}{Loss} & \multicolumn{3}{c}{Coarse-grained} & \multicolumn{3}{c}{Fine-grained} \\
+\cline{2-7}
+ & A & F1 & G & A & F1 & G \\
+\hline
+CE & 0.8412 $\pm$ 0.0041 & 0.8327 $\pm$ 0.0088 & 0.7206 $\pm$ 0.0355 & 0.8132 $\pm$ 0.0145 & 0.8140 $\pm$ 0.0130 & 0.8018 $\pm$ 0.0115 \\
+W.CE & 0.8227 $\pm$ 0.0109 & 0.8261 $\pm$ 0.0106 & \textbf{0.7815 $\pm$ 0.0184} & 0.8123 $\pm$ 0.0275 & 0.8151 $\pm$ 0.0239 & 0.8045 $\pm$ 0.0238 \\
+L.S.CE & \textbf{0.8488 $\pm$ 0.0024} & \textbf{0.8463 $\pm$ 0.0043} & 0.7720 $\pm$ 0.0210 & 0.8086 $\pm$ 0.0124 & 0.8116 $\pm$ 0.0102 & 0.7992 $\pm$ 0.0092 \\
+Focal & 0.8392 $\pm$ 0.0094 & 0.8295 $\pm$ 0.0185 & 0.7139 $\pm$ 0.0699 & \textbf{0.8306 $\pm$ 0.0348} & \textbf{0.8316 $\pm$ 0.0343} & \textbf{0.8228 $\pm$ 0.0342} \\
+W.Focal & 0.8392 $\pm$ 0.0169 & 0.8377 $\pm$ 0.0142 & 0.7690 $\pm$ 0.0452 & 0.8031 $\pm$ 0.0210 & 0.8071 $\pm$ 0.0198 & 0.7984 $\pm$ 0.0235 \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table*}[!t]
+\centering
+\caption{Weighted F1 across loss functions for unimodal baselines and the proposed HRFDCA.}
+\label{tab:loss_ablation_all}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccccccc}
+\hline
+Loss & HRFDCA & mBERT & b-BERT & XLM-R & MuRIL & EfficientNet & ResNet & ViT & ConvNext & Swin-T \\
+\hline
+\multicolumn{11}{c}{\textit{Coarse-grained}} \\
+CE & 0.8327 & 0.7695 & 0.8150 & 0.8230 & 0.8164 & 0.7174 & 0.7140 & 0.7220 & 0.7419 & 0.7583 \\
+W.CE & 0.8261 & 0.7896 & \textbf{0.8218} & 0.8036 & \textbf{0.8360} & \textbf{0.7388} & \textbf{0.7540} & \textbf{0.7431} & 0.7592 & \textbf{0.7630} \\
+L.S.CE & \textbf{0.8463} & \textbf{0.8194} & 0.8173 & \textbf{0.8358} & 0.8341 & 0.7216 & 0.7517 & 0.7159 & 0.7605 & 0.7450 \\
+Focal & 0.8295 & 0.8006 & 0.8042 & 0.8249 & 0.8110 & 0.7336 & 0.7354 & 0.7304 & 0.7306 & 0.7406 \\
+W.Focal & 0.8377 & 0.7725 & 0.7692 & 0.8141 & 0.8051 & 0.7193 & 0.7494 & 0.7317 & \textbf{0.7737} & 0.7450 \\
+\hline
+\multicolumn{11}{c}{\textit{Fine-grained}} \\
+CE & 0.8140 & 0.6934 & 0.7333 & 0.7367 & 0.7719 & 0.6573 & 0.7162 & 0.6646 & \textbf{0.7620} & 0.7405 \\
+W.CE & 0.8151 & 0.7035 & 0.7800 & 0.7598 & 0.7749 & \textbf{0.6837} & \textbf{0.7189} & 0.6594 & 0.7410 & 0.7278 \\
+L.S.CE & 0.8116 & \textbf{0.7288} & 0.7395 & 0.7651 & 0.7774 & 0.6715 & 0.7159 & \textbf{0.6658} & 0.7536 & \textbf{0.7579} \\
+Focal & \textbf{0.8316} & 0.7064 & \textbf{0.7912} & \textbf{0.7695} & \textbf{0.7974} & 0.6550 & 0.6951 & 0.6444 & 0.7432 & 0.7295 \\
+W.Focal & 0.8071 & 0.7286 & 0.7898 & 0.7522 & 0.7972 & 0.6417 & 0.7004 & 0.6388 & 0.7512 & 0.7397 \\
+\hline
+\end{tabular}}
+\end{table*}
