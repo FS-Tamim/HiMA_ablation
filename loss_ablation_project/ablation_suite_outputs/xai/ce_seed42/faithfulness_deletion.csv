@@ -1,0 +1,5 @@
+level,attribution,n,removed_frac,drop_top,drop_random,top_beats_random
+L1,Text (IG words),484,0.2,0.1698,0.0366,0.814
+L1,Image (Grad-CAM cells),485,0.2,0.0213,0.002,0.8165
+L2,Text (IG words),362,0.2,0.3564,0.0622,0.8315
+L2,Image (Grad-CAM cells),363,0.2,0.0314,0.0007,0.8099

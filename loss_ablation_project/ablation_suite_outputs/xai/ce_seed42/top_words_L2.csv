@@ -1,0 +1,81 @@
+﻿predicted_class,word,mean_share,count
+gendered aggression,মেয়েরা,0.4182,4
+gendered aggression,মেয়ে,0.3393,7
+gendered aggression,বোন,0.2569,3
+gendered aggression,দুধ,0.1771,7
+gendered aggression,তোমাকে,0.1376,3
+gendered aggression,মেহেদী,0.1348,4
+gendered aggression,তোমার,0.1319,8
+gendered aggression,বিয়ে,0.123,3
+gendered aggression,লাগানোর,0.1209,3
+gendered aggression,ছোট,0.0986,5
+gendered aggression,ছেলেরা,0.0944,3
+gendered aggression,ছেলে,0.093,3
+gendered aggression,আগে,0.0914,9
+gendered aggression,ভালোবাসা,0.0901,4
+gendered aggression,খাওয়া,0.0874,3
+gendered aggression,কিন্তু,0.0771,4
+gendered aggression,তুমি,0.0768,3
+gendered aggression,পরে,0.0693,3
+gendered aggression,দুয়ে,0.0626,4
+gendered aggression,আঙ্গুল,0.0616,3
+others,বাংলাদেশের,0.3296,3
+others,সাকিব,0.2007,3
+others,আমাকে,0.1895,3
+others,তোর,0.1534,5
+others,আমার,0.1009,20
+others,আমি,0.09,17
+others,দুই,0.0879,3
+others,ভাই,0.0824,8
+others,দিবি,0.0819,4
+others,কেউ,0.0806,3
+others,ছেলে,0.0792,4
+others,যখন,0.0748,7
+others,তো,0.0737,7
+others,গান,0.0737,6
+others,হারিয়ে,0.0676,4
+others,পাড়ায়,0.0532,3
+others,ইয়ে,0.0514,3
+others,যা,0.0506,9
+others,এক,0.0483,3
+others,একটা,0.0482,6
+political aggression,দিদির,0.4555,3
+political aggression,তৃণমূলের,0.4327,3
+political aggression,বিজেপির,0.3621,5
+political aggression,ছাত্রলীগ,0.3098,3
+political aggression,সরকার,0.2438,3
+political aggression,বিজেপি,0.2412,6
+political aggression,দিদি,0.2239,3
+political aggression,তৃণমূল,0.1874,6
+political aggression,নেতার,0.1785,3
+political aggression,মমতা,0.1637,5
+political aggression,নেতা,0.1574,6
+political aggression,রাজ্য,0.106,3
+political aggression,চাকরি,0.0956,5
+political aggression,তিনু,0.0699,4
+political aggression,জন,0.0686,3
+political aggression,সরকারি,0.0667,4
+political aggression,কাজ,0.0644,3
+political aggression,জাতির,0.0634,3
+political aggression,তাহলে,0.0606,3
+political aggression,করা,0.0584,4
+religious aggression,ধর্ম,0.4279,8
+religious aggression,নাস্তিকদের,0.4276,6
+religious aggression,মুসলিম,0.3961,4
+religious aggression,ইছলামী,0.3942,4
+religious aggression,হুজুর,0.3211,3
+religious aggression,নাস্তিক,0.2962,12
+religious aggression,ঈশ্বর,0.2507,4
+religious aggression,হিন্দু,0.2342,4
+religious aggression,মুছলিমরা,0.1818,4
+religious aggression,বিবি,0.1237,4
+religious aggression,কোরআন,0.0959,4
+religious aggression,শিক্ষা,0.0801,3
+religious aggression,দোয়া,0.0706,3
+religious aggression,কইরা,0.0579,3
+religious aggression,মোনাজাত,0.0547,4
+religious aggression,হয়,0.0519,9
+religious aggression,বেশি,0.0509,3
+religious aggression,কুরবানি,0.0471,3
+religious aggression,ইসলাম,0.0456,5
+religious aggression,করুন,0.0418,6
