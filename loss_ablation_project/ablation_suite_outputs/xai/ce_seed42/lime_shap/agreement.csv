@@ -1,849 +1,849 @@
 idx,level,predicted_class,n_words,n_segments,text_spearman,image_spearman
 0,L1,Aggressive,7,28,0.8214,0.908
 0,L2,others,7,28,0.7857,0.7712
-1,L1,Aggressive,33,28,0.8108,0.7696
-1,L2,others,33,28,0.7624,0.6492
-2,L1,Aggressive,16,32,0.7412,0.8409
-2,L2,religious aggression,16,32,0.8294,0.8303
-3,L1,Non-Aggressive,15,34,0.9714,0.8234
-4,L1,Aggressive,17,33,0.9044,0.7844
-4,L2,political aggression,17,33,0.8627,0.8396
-5,L1,Non-Aggressive,18,31,0.9051,0.9121
-6,L1,Aggressive,3,31,1.0,0.523
-6,L2,religious aggression,3,31,1.0,0.4879
-7,L1,Aggressive,10,34,0.7697,0.7772
-7,L2,others,10,34,0.9636,0.6816
-8,L1,Non-Aggressive,11,32,0.8545,0.7438
-9,L1,Aggressive,24,32,0.5374,0.6675
-9,L2,religious aggression,24,32,0.6313,0.8138
-10,L1,Aggressive,22,37,0.6296,0.7338
-10,L2,political aggression,22,37,0.5325,0.6956
-11,L1,Aggressive,36,28,0.635,0.584
-11,L2,others,36,28,0.2507,0.7137
-12,L1,Aggressive,2,25,,0.7515
-12,L2,gendered aggression,2,25,,0.4662
-13,L1,Aggressive,5,36,1.0,0.8224
-13,L2,religious aggression,5,36,1.0,0.8275
-14,L1,Aggressive,33,43,0.3285,0.5159
-14,L2,religious aggression,33,43,0.3058,0.4425
-15,L1,Aggressive,40,32,0.16,0.5385
-15,L2,religious aggression,40,32,0.5026,0.4861
-16,L1,Aggressive,14,31,0.956,0.721
-16,L2,others,14,31,0.7055,0.6218
-17,L1,Non-Aggressive,9,36,0.9333,0.8752
-18,L1,Aggressive,11,35,0.9909,0.5171
-18,L2,others,11,35,0.9,0.8605
-19,L1,Non-Aggressive,19,37,0.8947,0.6849
-20,L1,Aggressive,29,29,0.7163,0.7143
-20,L2,political aggression,29,29,0.3384,0.6685
-21,L1,Aggressive,8,25,0.881,0.89
-21,L2,others,8,25,0.5238,0.55
-22,L1,Non-Aggressive,13,27,0.8846,0.8968
-23,L1,Aggressive,14,33,0.7802,0.6912
-23,L2,others,14,33,0.8549,0.8222
-24,L1,Aggressive,21,33,0.7065,0.6471
-24,L2,political aggression,21,33,0.7519,0.614
-25,L1,Aggressive,19,21,0.9702,0.8753
-25,L2,religious aggression,19,21,0.8737,0.861
-26,L1,Aggressive,7,36,0.9286,0.7063
-26,L2,others,7,36,0.9643,0.7542
-27,L1,Non-Aggressive,27,28,0.7125,0.7772
-28,L1,Aggressive,7,33,0.8929,0.6578
-28,L2,others,7,33,0.8929,0.743
-29,L1,Non-Aggressive,5,30,1.0,0.8162
-30,L1,Non-Aggressive,12,31,0.951,0.6875
-31,L1,Aggressive,21,28,0.8753,0.8183
-31,L2,others,21,28,0.9494,0.6054
-32,L1,Aggressive,13,34,0.6429,0.6834
-32,L2,religious aggression,13,34,0.7802,0.8102
-33,L1,Aggressive,11,41,0.8818,0.7169
-33,L2,gendered aggression,11,41,0.9364,0.842
-34,L1,Non-Aggressive,27,30,0.6508,0.7713
-35,L1,Non-Aggressive,18,31,0.87,0.825
-36,L1,Aggressive,16,33,0.8647,0.5612
-36,L2,gendered aggression,16,33,0.8147,0.4943
-37,L1,Aggressive,21,32,0.7805,0.5033
-37,L2,political aggression,21,32,0.6455,0.5374
-38,L1,Aggressive,5,41,0.9,0.6436
-38,L2,political aggression,5,41,1.0,0.6267
-39,L1,Aggressive,17,26,0.9779,0.8557
-39,L2,others,17,26,0.9412,0.6862
-40,L1,Aggressive,6,38,0.8857,0.5262
-40,L2,others,6,38,1.0,0.4864
-41,L1,Aggressive,10,33,0.9758,0.8359
-41,L2,gendered aggression,10,33,0.9879,0.7904
-42,L1,Aggressive,21,38,0.8636,0.6671
-42,L2,gendered aggression,21,38,0.9286,0.7499
-43,L1,Aggressive,12,34,0.6224,0.747
-43,L2,religious aggression,12,34,0.8881,0.9239
-44,L1,Aggressive,21,29,0.7571,0.3118
-44,L2,religious aggression,21,29,0.7935,0.5128
-45,L1,Aggressive,10,36,0.9758,0.6154
-45,L2,gendered aggression,10,36,0.9879,0.6842
-46,L1,Aggressive,13,31,0.9725,0.7423
-46,L2,gendered aggression,13,31,0.9286,0.631
-47,L1,Non-Aggressive,15,31,0.6857,0.9008
-48,L1,Aggressive,36,35,0.357,0.5104
-48,L2,religious aggression,36,35,0.4502,0.3092
-49,L1,Aggressive,9,30,0.4167,0.9217
-49,L2,gendered aggression,9,30,0.9833,0.5488
-50,L1,Non-Aggressive,2,39,,0.7842
-51,L1,Non-Aggressive,18,36,0.5129,0.8275
-52,L1,Aggressive,4,39,1.0,0.7109
-52,L2,religious aggression,4,39,1.0,0.8182
-53,L1,Aggressive,6,32,0.8286,0.5993
-53,L2,political aggression,6,32,0.7714,0.7287
-54,L1,Aggressive,7,28,0.8214,0.6492
-54,L2,political aggression,7,28,0.9643,0.7236
-55,L1,Non-Aggressive,6,34,0.7714,0.6956
-56,L1,Non-Aggressive,4,32,0.8,0.7573
-57,L1,Non-Aggressive,19,31,0.8842,0.6944
-58,L1,Aggressive,9,37,0.9667,0.857
-58,L2,gendered aggression,9,37,1.0,0.7613
-59,L1,Aggressive,4,44,1.0,0.6991
-59,L2,political aggression,4,44,1.0,0.4211
-60,L1,Aggressive,15,37,0.9607,0.5574
-60,L2,political aggression,15,37,0.9464,0.831
-61,L1,Non-Aggressive,17,38,0.8799,0.7341
-62,L1,Non-Aggressive,14,35,0.6747,0.5429
-63,L1,Non-Aggressive,27,32,0.8217,0.8277
-64,L1,Aggressive,16,29,0.9471,0.6714
-64,L2,others,16,29,0.6324,0.7847
-65,L1,Aggressive,8,34,0.9524,0.6464
-65,L2,gendered aggression,8,34,0.9286,0.8136
-66,L1,Aggressive,30,29,0.6966,0.769
-66,L2,religious aggression,30,29,0.4674,0.8148
-67,L1,Aggressive,21,34,0.8403,0.7497
-67,L2,others,21,34,0.9,0.6834
-68,L1,Aggressive,21,35,0.8623,0.5605
-68,L2,religious aggression,21,35,0.726,0.7006
-69,L1,Aggressive,12,30,0.8182,0.7304
-69,L2,others,12,30,0.9441,0.8403
-70,L1,Aggressive,22,29,0.6861,0.7448
-70,L2,political aggression,22,29,0.52,0.9236
-71,L1,Aggressive,18,25,0.6987,0.8308
-71,L2,religious aggression,18,25,0.5253,0.9346
-72,L1,Aggressive,7,35,0.9286,0.6745
-72,L2,others,7,35,0.9286,0.7176
-73,L1,Aggressive,10,29,0.9515,0.8813
-73,L2,political aggression,10,29,0.9152,0.8276
-74,L1,Aggressive,8,38,0.9048,0.3538
-74,L2,religious aggression,8,38,0.7857,0.5862
-75,L1,Aggressive,12,25,0.9021,0.6608
-75,L2,religious aggression,12,25,0.8182,0.7554
-76,L1,Non-Aggressive,23,26,0.8804,0.8838
-77,L1,Aggressive,12,39,0.8252,0.7907
-77,L2,political aggression,12,39,0.9091,0.4923
-78,L1,Aggressive,13,37,0.6484,0.8407
-78,L2,political aggression,13,37,0.4341,0.7783
-79,L1,Aggressive,11,38,0.7636,0.8648
-79,L2,gendered aggression,11,38,0.8909,0.8483
-80,L1,Aggressive,13,28,0.7967,0.6114
-80,L2,others,13,28,0.6978,0.5517
-81,L1,Non-Aggressive,19,35,0.8561,0.7459
-82,L1,Aggressive,5,37,1.0,0.706
-82,L2,others,5,37,0.9,0.5413
-83,L1,Aggressive,7,32,0.9643,0.7031
-83,L2,gendered aggression,7,32,0.9643,0.5729
-84,L1,Aggressive,10,40,0.7697,0.6023
-84,L2,others,10,40,0.3333,0.7291
-85,L1,Aggressive,8,34,0.9048,0.6813
-85,L2,others,8,34,0.9524,0.7348
-86,L1,Aggressive,6,39,0.9429,0.651
-86,L2,political aggression,6,39,1.0,0.6694
-87,L1,Non-Aggressive,22,38,0.8272,0.7991
-88,L1,Aggressive,23,32,0.7194,0.7137
-88,L2,religious aggression,23,32,0.5504,0.743
-89,L1,Non-Aggressive,18,31,0.8906,0.821
-90,L1,Non-Aggressive,34,28,0.2859,0.728
-91,L1,Aggressive,32,36,0.7643,0.7691
-91,L2,gendered aggression,32,36,0.5711,0.381
-92,L1,Aggressive,6,40,0.7714,0.4912
-92,L2,others,6,40,0.9429,0.6946
-93,L1,Non-Aggressive,3,34,1.0,0.8552
-94,L1,Non-Aggressive,15,34,0.7571,0.7928
-95,L1,Aggressive,14,34,0.9121,0.6819
-95,L2,others,14,34,0.8681,0.8203
-96,L1,Aggressive,7,30,0.9286,0.9417
-96,L2,religious aggression,7,30,0.8571,0.9297
-97,L1,Aggressive,10,36,0.7333,0.6471
-97,L2,political aggression,10,36,0.9394,0.7199
-98,L1,Aggressive,12,32,0.4685,0.8427
-98,L2,gendered aggression,12,32,0.979,0.6862
-99,L1,Aggressive,17,34,0.7696,0.6226
-99,L2,political aggression,17,34,0.6005,0.5199
-100,L1,Non-Aggressive,11,34,0.8182,0.4454
-101,L1,Aggressive,25,33,0.8131,0.744
-101,L2,gendered aggression,25,33,0.8385,0.9268
-102,L1,Non-Aggressive,15,33,0.8821,0.7851
-103,L1,Aggressive,11,35,0.9636,0.7868
-103,L2,gendered aggression,11,35,0.9909,0.6232
-104,L1,Non-Aggressive,10,38,0.9515,0.7229
-105,L1,Non-Aggressive,8,32,0.9762,0.9337
-106,L1,Aggressive,9,31,0.7833,0.2702
-106,L2,religious aggression,9,31,1.0,0.8161
-107,L1,Aggressive,38,32,0.4474,0.5777
-107,L2,religious aggression,38,32,0.6148,0.4773
-108,L1,Aggressive,27,33,0.4866,0.5876
-108,L2,gendered aggression,27,33,0.5788,0.5107
-109,L1,Non-Aggressive,10,33,1.0,0.732
-110,L1,Aggressive,6,29,0.9429,0.9118
-110,L2,political aggression,6,29,0.9429,0.7246
-111,L1,Aggressive,9,30,0.85,0.8732
-111,L2,others,9,30,1.0,0.939
-112,L1,Aggressive,23,26,0.5751,0.7921
-112,L2,religious aggression,23,26,0.2816,0.8639
-113,L1,Aggressive,1,37,,0.7715
-113,L2,others,1,37,,0.8393
-114,L1,Aggressive,23,30,0.6403,0.572
-114,L2,religious aggression,23,30,0.5356,0.7495
-115,L1,Non-Aggressive,15,39,0.7571,0.8079
-116,L1,Aggressive,37,29,0.5194,0.6709
-116,L2,religious aggression,37,29,0.7459,0.8887
-117,L1,Aggressive,22,36,0.8848,0.2057
-117,L2,others,22,36,0.8024,0.7588
-118,L1,Aggressive,12,26,0.9021,0.8379
-118,L2,others,12,26,0.965,0.8701
-119,L1,Aggressive,8,19,0.6429,0.6018
-119,L2,others,8,19,1.0,0.7684
-120,L1,Aggressive,14,26,0.9077,0.7381
-120,L2,religious aggression,14,26,0.6396,0.905
-121,L1,Aggressive,4,34,1.0,0.6846
-121,L2,political aggression,4,34,0.8,0.483
-122,L1,Aggressive,10,35,0.8424,0.57
-122,L2,others,10,35,0.9394,0.7992
-123,L1,Aggressive,5,41,1.0,0.4226
-123,L2,political aggression,5,41,0.9,0.4232
-124,L1,Non-Aggressive,9,41,0.95,0.7465
-125,L1,Aggressive,18,33,0.7131,0.6822
-125,L2,political aggression,18,33,0.6987,0.7035
-126,L1,Aggressive,11,26,0.9545,0.5925
-126,L2,others,11,26,0.9909,0.7169
-127,L1,Aggressive,9,35,1.0,0.7824
-127,L2,gendered aggression,9,35,0.9833,0.8148
-128,L1,Aggressive,30,36,0.4452,0.6801
-128,L2,religious aggression,30,36,0.6,0.8945
-129,L1,Aggressive,7,35,0.8214,0.7487
-129,L2,others,7,35,0.8214,0.5059
-130,L1,Aggressive,34,22,0.4338,0.8035
-130,L2,others,34,22,0.5025,0.6341
-131,L1,Aggressive,54,38,0.2403,0.4107
-131,L2,religious aggression,54,38,0.3079,0.159
-132,L1,Aggressive,9,35,0.8,0.7244
-132,L2,religious aggression,9,35,0.7167,0.7779
-133,L1,Aggressive,5,39,1.0,0.8364
-133,L2,gendered aggression,5,39,0.9,0.6769
-134,L1,Aggressive,6,35,1.0,0.6165
-134,L2,others,6,35,0.9429,0.5123
-135,L1,Aggressive,16,38,0.9647,0.5855
-135,L2,others,16,38,0.9265,0.8291
-136,L1,Aggressive,14,35,0.9165,0.8723
-136,L2,others,14,35,0.8505,0.8137
-137,L1,Aggressive,28,38,0.8571,0.6825
-137,L2,gendered aggression,28,38,0.5703,0.8451
-138,L1,Aggressive,7,38,0.8214,0.728
-138,L2,gendered aggression,7,38,0.9643,0.5531
-139,L1,Aggressive,7,39,0.9643,0.6032
-139,L2,political aggression,7,39,0.9643,0.7543
-140,L1,Non-Aggressive,15,34,0.8179,0.8646
-141,L1,Non-Aggressive,21,37,0.8636,0.6046
-142,L1,Non-Aggressive,24,19,0.7939,0.7667
-143,L1,Aggressive,7,28,0.9643,0.7603
-143,L2,others,7,28,0.4643,0.6897
-144,L1,Aggressive,21,31,0.9247,0.5988
-144,L2,political aggression,21,31,0.8792,0.9278
-145,L1,Aggressive,24,30,0.9043,0.5867
-145,L2,religious aggression,24,30,0.4922,0.3815
-146,L1,Aggressive,3,37,1.0,0.5934
-146,L2,others,3,37,0.5,0.8992
-147,L1,Aggressive,26,33,0.3388,0.6912
-147,L2,political aggression,26,33,0.4783,0.6928
-148,L1,Non-Aggressive,8,33,0.8333,0.8473
-149,L1,Non-Aggressive,13,41,0.9396,0.8988
-150,L1,Aggressive,5,33,0.9,0.8239
-150,L2,gendered aggression,5,33,1.0,0.8733
-151,L1,Aggressive,6,29,1.0,0.7783
-151,L2,others,6,29,1.0,0.6251
-152,L1,Aggressive,29,34,0.7,0.7403
-152,L2,gendered aggression,29,34,0.8379,0.9089
-153,L1,Non-Aggressive,19,28,0.7825,0.6847
-154,L1,Aggressive,12,37,0.8741,0.5718
-154,L2,political aggression,12,37,0.9091,0.7015
-155,L1,Aggressive,20,34,0.7429,0.8127
-155,L2,others,20,34,0.6075,0.7879
-156,L1,Non-Aggressive,16,34,0.9529,0.824
-157,L1,Non-Aggressive,12,25,0.8322,0.8169
-158,L1,Aggressive,14,35,0.8198,0.7387
-158,L2,gendered aggression,14,35,0.8813,0.6437
-159,L1,Aggressive,13,27,0.8187,0.7912
-159,L2,others,13,27,0.7033,0.6258
-160,L1,Aggressive,13,40,0.7637,0.8938
-160,L2,gendered aggression,13,40,0.8956,0.8842
-161,L1,Non-Aggressive,7,34,0.8571,0.8261
-162,L1,Non-Aggressive,7,37,0.9643,0.8089
-163,L1,Aggressive,11,30,0.9182,0.6111
-163,L2,gendered aggression,11,30,0.9727,0.5644
-164,L1,Aggressive,11,34,0.8818,0.9193
-164,L2,gendered aggression,11,34,0.9818,0.8802
-165,L1,Aggressive,30,37,0.644,0.5038
-165,L2,religious aggression,30,37,0.2071,0.537
-166,L1,Aggressive,11,37,0.6909,0.4803
-166,L2,political aggression,11,37,0.8273,0.5642
-167,L1,Aggressive,17,32,0.6912,0.8567
-167,L2,gendered aggression,17,32,0.951,0.7482
-168,L1,Aggressive,24,37,0.6496,0.5806
-168,L2,political aggression,24,37,0.533,0.5218
-169,L1,Aggressive,19,31,0.886,0.546
-169,L2,others,19,31,0.7912,0.8448
-170,L1,Non-Aggressive,8,38,0.881,0.5339
-171,L1,Aggressive,8,29,1.0,0.599
-171,L2,political aggression,8,29,0.9286,0.6788
-172,L1,Aggressive,7,31,0.8929,0.5911
-172,L2,others,7,31,1.0,0.7919
-173,L1,Non-Aggressive,7,35,1.0,0.7543
-174,L1,Aggressive,9,34,0.45,0.8429
-174,L2,others,9,34,0.7167,0.9352
-175,L1,Aggressive,16,34,0.8265,0.7837
-175,L2,others,16,34,0.9265,0.681
-176,L1,Non-Aggressive,15,37,0.9,0.779
-177,L1,Aggressive,26,40,0.5077,0.7983
-177,L2,political aggression,26,40,0.775,0.854
-178,L1,Aggressive,13,34,0.8022,0.8148
-178,L2,gendered aggression,13,34,0.5879,0.787
-179,L1,Non-Aggressive,4,33,1.0,0.8493
-180,L1,Non-Aggressive,15,28,0.8857,0.8374
-181,L1,Aggressive,18,27,0.9546,0.7051
-181,L2,gendered aggression,18,27,0.808,0.7131
-182,L1,Aggressive,10,35,0.7939,0.6863
-182,L2,others,10,35,0.9152,0.9529
-183,L1,Aggressive,13,29,0.8187,0.6266
-183,L2,religious aggression,13,29,0.956,0.5084
-184,L1,Aggressive,29,27,0.3975,0.5433
-184,L2,religious aggression,29,27,0.6182,0.7063
-185,L1,Non-Aggressive,11,32,0.9545,0.9021
-186,L1,Aggressive,13,32,0.9286,0.8277
-186,L2,others,13,32,0.9231,0.8365
-187,L1,Non-Aggressive,19,33,0.8439,0.7005
-188,L1,Aggressive,5,33,1.0,0.8175
-188,L2,gendered aggression,5,33,0.6,0.7293
-189,L1,Aggressive,5,30,1.0,0.806
-189,L2,others,5,30,1.0,0.4794
-190,L1,Aggressive,4,35,1.0,0.7146
-190,L2,gendered aggression,4,35,1.0,0.8389
-191,L1,Aggressive,6,31,1.0,0.7923
-191,L2,political aggression,6,31,0.9429,0.7149
-192,L1,Aggressive,12,39,0.6643,0.7231
-192,L2,others,12,39,0.965,0.6358
-193,L1,Aggressive,19,35,0.8421,0.7798
-193,L2,political aggression,19,35,0.5298,0.6146
-194,L1,Aggressive,5,34,1.0,0.5875
-194,L2,gendered aggression,5,34,0.9,0.5743
-195,L1,Aggressive,4,35,1.0,0.6756
-195,L2,political aggression,4,35,1.0,0.7616
-196,L1,Aggressive,52,29,0.4762,0.3379
-196,L2,religious aggression,52,29,0.1812,0.2488
-197,L1,Aggressive,17,34,0.7819,0.7265
-197,L2,gendered aggression,17,34,0.7868,0.7586
-198,L1,Aggressive,5,42,0.8,0.6274
-198,L2,others,5,42,0.6,0.7033
-199,L1,Aggressive,15,35,0.7357,0.7655
-199,L2,political aggression,15,35,0.6036,0.4742
-200,L1,Aggressive,15,27,0.6393,0.0403
-200,L2,religious aggression,15,27,0.6321,0.0995
-201,L1,Aggressive,10,33,0.4667,0.5585
-201,L2,political aggression,10,33,0.9636,0.7467
-202,L1,Aggressive,13,28,0.9341,0.7668
-202,L2,others,13,28,0.8681,0.7143
-203,L1,Aggressive,16,33,0.8824,0.631
-203,L2,political aggression,16,33,0.6676,0.6905
-204,L1,Aggressive,13,39,0.7857,0.7806
-204,L2,others,13,39,0.956,0.797
-205,L1,Aggressive,17,35,0.8946,0.593
-205,L2,others,17,35,0.777,0.8401
-206,L1,Non-Aggressive,14,31,0.9253,0.7649
-207,L1,Aggressive,6,41,0.9429,0.3057
-207,L2,gendered aggression,6,41,0.9429,0.1967
-208,L1,Non-Aggressive,12,28,0.8951,0.8418
-209,L1,Aggressive,14,29,0.5033,0.5754
-209,L2,religious aggression,14,29,0.8945,0.6094
-210,L1,Non-Aggressive,12,31,0.965,0.825
-211,L1,Aggressive,13,37,0.9176,0.6479
-211,L2,religious aggression,13,37,0.8901,0.6091
-212,L1,Aggressive,16,37,0.8,0.5043
-212,L2,religious aggression,16,37,0.7559,0.5654
-213,L1,Aggressive,5,33,0.9,0.5956
-213,L2,gendered aggression,5,33,0.9,0.7811
-214,L1,Non-Aggressive,11,39,0.9455,0.5472
-215,L1,Aggressive,12,26,0.9021,0.5576
-215,L2,others,12,26,0.9091,0.7504
-216,L1,Non-Aggressive,9,35,0.95,0.8748
-217,L1,Aggressive,17,31,0.4951,0.8915
-217,L2,gendered aggression,17,31,0.4657,0.9097
-218,L1,Aggressive,7,36,0.6786,0.7647
-218,L2,others,7,36,0.9286,0.8219
-219,L1,Aggressive,13,33,0.7088,0.4713
-219,L2,religious aggression,13,33,0.6868,0.6654
-220,L1,Aggressive,10,44,0.9515,0.6712
-220,L2,religious aggression,10,44,0.8545,0.7463
-221,L1,Aggressive,16,35,0.7941,0.4661
-221,L2,political aggression,16,35,0.8735,0.5123
-222,L1,Aggressive,6,29,0.9429,0.7616
-222,L2,religious aggression,6,29,0.8857,0.7355
-223,L1,Aggressive,18,32,0.5315,0.75
-223,L2,religious aggression,18,32,0.7957,0.7918
-224,L1,Aggressive,4,32,1.0,0.6433
-224,L2,gendered aggression,4,32,0.8,0.7005
-225,L1,Non-Aggressive,13,35,0.8297,0.7877
-226,L1,Aggressive,16,41,0.7824,0.5848
-226,L2,political aggression,16,41,0.6912,0.5824
-227,L1,Non-Aggressive,13,31,0.9615,0.8476
-228,L1,Aggressive,14,32,0.8637,0.5202
-228,L2,gendered aggression,14,32,0.9648,0.1631
-229,L1,Non-Aggressive,19,28,0.814,0.9212
-230,L1,Aggressive,11,40,0.9182,0.5381
-230,L2,political aggression,11,40,0.9545,0.4255
-231,L1,Aggressive,11,35,1.0,0.8641
-231,L2,gendered aggression,11,35,0.9636,0.9339
-232,L1,Aggressive,10,41,0.9273,0.7726
-232,L2,political aggression,10,41,0.5152,0.6826
-233,L1,Non-Aggressive,6,34,1.0,0.6746
-234,L1,Aggressive,4,31,1.0,0.5726
-234,L2,religious aggression,4,31,1.0,0.7536
-235,L1,Aggressive,6,36,0.9429,0.5755
-235,L2,gendered aggression,6,36,0.6,0.5045
-236,L1,Aggressive,12,39,0.8252,0.5682
-236,L2,religious aggression,12,39,0.4056,0.4312
-237,L1,Non-Aggressive,14,34,0.789,0.7849
-238,L1,Non-Aggressive,7,38,0.8929,0.7398
-239,L1,Non-Aggressive,19,27,0.7018,0.7692
-240,L1,Aggressive,17,33,0.8137,0.8219
-240,L2,others,17,33,0.8186,0.5461
-241,L1,Aggressive,15,35,0.8679,0.6289
-241,L2,others,15,35,0.625,0.7815
-242,L1,Non-Aggressive,17,34,0.6127,0.7173
-243,L1,Aggressive,17,32,0.9289,0.7705
-243,L2,others,17,32,0.8505,0.6895
-244,L1,Aggressive,29,34,0.6626,0.7366
-244,L2,religious aggression,29,34,0.5202,0.7714
-245,L1,Aggressive,9,30,0.85,0.7531
-245,L2,others,9,30,0.8167,0.3704
-246,L1,Aggressive,9,33,0.8667,0.8118
-246,L2,gendered aggression,9,33,0.7833,0.7894
-247,L1,Aggressive,17,34,0.8235,0.5646
-247,L2,others,17,34,0.8235,0.8778
-248,L1,Aggressive,9,41,0.85,0.5399
-248,L2,others,9,41,0.9,0.7221
-249,L1,Non-Aggressive,13,32,0.9231,0.8955
-250,L1,Aggressive,6,42,1.0,0.4537
-250,L2,others,6,42,0.9429,0.9457
-251,L1,Aggressive,17,34,0.9216,0.5859
-251,L2,gendered aggression,17,34,0.8603,0.3922
-252,L1,Aggressive,7,33,0.8571,0.5224
-252,L2,political aggression,7,33,1.0,0.6845
-253,L1,Aggressive,10,39,0.903,0.5879
-253,L2,religious aggression,10,39,0.9879,0.8306
-254,L1,Aggressive,13,34,0.7418,0.8362
-254,L2,religious aggression,13,34,0.7912,0.9306
-255,L1,Aggressive,12,35,0.8322,0.6613
-255,L2,religious aggression,12,35,0.8811,0.6543
-256,L1,Non-Aggressive,9,25,0.7167,0.8408
-257,L1,Aggressive,27,24,0.6661,0.9417
-257,L2,others,27,24,0.6111,0.4522
-258,L1,Aggressive,18,38,0.9071,0.8593
-258,L2,gendered aggression,18,38,0.8535,0.7588
-259,L1,Aggressive,6,34,0.7714,0.5282
-259,L2,political aggression,6,34,1.0,0.662
-260,L1,Aggressive,61,29,0.1506,0.7448
-260,L2,religious aggression,61,29,0.0344,0.7906
-261,L1,Non-Aggressive,17,33,0.9069,0.7323
-262,L1,Aggressive,27,35,0.7143,0.5703
-262,L2,political aggression,27,35,0.5122,0.6308
-263,L1,Aggressive,10,32,0.9152,0.8193
-263,L2,religious aggression,10,32,0.9758,0.8695
-264,L1,Aggressive,15,30,0.5464,0.5279
-264,L2,religious aggression,15,30,0.5393,0.7014
-265,L1,Non-Aggressive,32,28,0.6855,0.9048
-266,L1,Aggressive,10,35,0.6121,0.4997
-266,L2,others,10,35,0.7212,0.8871
-267,L1,Non-Aggressive,11,34,0.9545,0.8659
-268,L1,Non-Aggressive,5,36,1.0,0.8865
-269,L1,Non-Aggressive,9,41,0.8833,0.5995
-270,L1,Aggressive,24,30,0.9104,0.7522
-270,L2,others,24,30,0.9052,0.7642
-271,L1,Non-Aggressive,6,40,0.8857,0.6946
-272,L1,Aggressive,22,28,0.9571,0.7329
-272,L2,others,22,28,0.7866,0.8155
-273,L1,Non-Aggressive,4,34,1.0,0.7094
-274,L1,Aggressive,12,37,0.6783,0.4929
-274,L2,political aggression,12,37,0.7273,0.5429
-275,L1,Aggressive,2,36,,0.7846
-275,L2,others,2,36,,0.512
-276,L1,Aggressive,14,34,0.7451,0.7696
-276,L2,religious aggression,14,34,0.7187,0.8845
-277,L1,Aggressive,13,29,0.8736,0.7094
-277,L2,others,13,29,0.8077,0.4148
-278,L1,Aggressive,18,39,0.6718,0.5998
-278,L2,religious aggression,18,39,0.8617,0.7012
-279,L1,Aggressive,37,31,0.4512,0.7819
-279,L2,religious aggression,37,31,0.4035,0.9673
-280,L1,Aggressive,6,40,0.6,0.3685
-280,L2,others,6,40,0.9429,0.8281
-281,L1,Aggressive,10,27,0.8909,0.5733
-281,L2,gendered aggression,10,27,0.9636,0.268
-282,L1,Aggressive,7,38,0.8929,0.4192
-282,L2,religious aggression,7,38,1.0,0.5645
-283,L1,Non-Aggressive,7,35,0.8214,0.5118
-284,L1,Aggressive,6,29,1.0,0.7567
-284,L2,others,6,29,0.7714,0.7222
-285,L1,Aggressive,15,36,0.9464,0.7053
-285,L2,others,15,36,0.8357,0.7241
-286,L1,Aggressive,15,38,0.9214,0.6501
-286,L2,others,15,38,0.875,0.819
-287,L1,Aggressive,28,30,0.6196,0.9186
-287,L2,gendered aggression,28,30,0.7362,0.8403
-288,L1,Aggressive,37,38,0.3926,0.7173
-288,L2,religious aggression,37,38,0.4459,0.7669
-289,L1,Aggressive,9,41,0.75,0.4913
-289,L2,others,9,41,0.2333,0.5848
-290,L1,Aggressive,14,26,0.9033,0.8674
-290,L2,religious aggression,14,26,0.8637,0.9029
-291,L1,Aggressive,26,34,0.708,0.2727
-291,L2,others,26,34,0.8222,0.9028
-292,L1,Aggressive,12,37,0.9021,0.4663
-292,L2,gendered aggression,12,37,0.965,0.504
-293,L1,Aggressive,11,34,0.9909,0.8096
-293,L2,others,11,34,0.7,0.7479
-294,L1,Aggressive,24,29,0.8252,0.8877
-294,L2,gendered aggression,24,29,0.9009,0.732
-295,L1,Aggressive,8,28,0.9286,0.7411
-295,L2,gendered aggression,8,28,0.9048,0.8774
-296,L1,Aggressive,8,36,0.8571,0.547
-296,L2,others,8,36,0.8333,0.8028
-297,L1,Aggressive,8,32,0.7619,0.6008
-297,L2,others,8,32,0.8333,0.937
-298,L1,Aggressive,16,40,0.7353,0.563
-298,L2,religious aggression,16,40,0.7382,0.6585
-299,L1,Aggressive,10,41,0.9515,0.4354
-299,L2,gendered aggression,10,41,0.9273,0.6887
-300,L1,Aggressive,21,31,0.7455,0.7335
-300,L2,religious aggression,21,31,0.8558,0.8157
-301,L1,Non-Aggressive,20,31,0.9218,0.7637
-302,L1,Aggressive,16,31,0.8853,0.6831
-302,L2,political aggression,16,31,0.7471,0.846
-303,L1,Non-Aggressive,4,27,1.0,0.8889
-304,L1,Aggressive,13,32,0.7308,0.8369
-304,L2,others,13,32,0.7527,0.6067
-305,L1,Non-Aggressive,5,31,1.0,0.8258
-306,L1,Aggressive,4,37,1.0,0.7786
-306,L2,gendered aggression,4,37,1.0,0.7627
-307,L1,Aggressive,21,30,0.6727,0.5933
-307,L2,gendered aggression,21,30,0.4961,0.5141
-308,L1,Aggressive,18,26,0.7523,0.9207
-308,L2,others,18,26,0.8246,0.8161
-309,L1,Non-Aggressive,13,35,0.967,0.5742
-310,L1,Aggressive,15,29,0.9607,0.9069
-310,L2,religious aggression,15,29,0.9357,0.834
-311,L1,Aggressive,7,34,0.9643,0.6083
-311,L2,political aggression,7,34,0.8571,0.7482
-312,L1,Aggressive,20,32,0.7504,0.9091
-312,L2,religious aggression,20,32,0.5564,0.9289
-313,L1,Non-Aggressive,17,31,0.7941,0.5923
-314,L1,Non-Aggressive,10,33,0.8061,0.858
-315,L1,Aggressive,13,34,0.8462,0.6458
-315,L2,religious aggression,13,34,0.7143,0.7574
-316,L1,Aggressive,6,35,0.9429,0.6535
-316,L2,religious aggression,6,35,1.0,0.6669
-317,L1,Non-Aggressive,15,32,0.8714,0.6983
-318,L1,Non-Aggressive,8,35,0.9524,0.5625
-319,L1,Aggressive,16,37,0.8118,0.6261
-319,L2,political aggression,16,37,0.9029,0.4225
-320,L1,Aggressive,29,31,0.7,0.8113
-320,L2,religious aggression,29,31,0.7232,0.9282
-321,L1,Aggressive,8,42,1.0,0.5094
-321,L2,others,8,42,0.9762,0.5394
-322,L1,Aggressive,28,30,0.6946,0.9083
-322,L2,others,28,30,0.671,0.5626
-323,L1,Aggressive,17,29,0.6912,0.7862
-323,L2,religious aggression,17,29,0.7794,0.9207
-324,L1,Aggressive,13,28,0.9725,0.5857
-324,L2,others,13,28,0.511,0.665
-325,L1,Aggressive,3,28,1.0,0.8144
-325,L2,gendered aggression,3,28,0.5,0.9245
-326,L1,Aggressive,9,33,0.9833,0.5468
-326,L2,others,9,33,0.8833,0.8964
-327,L1,Aggressive,25,36,0.7931,0.495
-327,L2,religious aggression,25,36,0.5123,0.7781
-328,L1,Aggressive,18,36,0.6512,0.8744
-328,L2,religious aggression,18,36,0.5955,0.8497
-329,L1,Aggressive,11,24,0.8727,0.9183
-329,L2,others,11,24,0.9909,0.6748
-330,L1,Non-Aggressive,12,36,0.9301,0.8728
-331,L1,Aggressive,10,32,0.9515,0.6199
-331,L2,others,10,32,0.9273,0.5634
-332,L1,Aggressive,23,35,0.6126,0.6527
-332,L2,religious aggression,23,35,0.4368,0.7852
-333,L1,Aggressive,20,38,0.4812,0.8061
-333,L2,religious aggression,20,38,0.6737,0.8915
-334,L1,Aggressive,24,36,0.687,0.653
-334,L2,religious aggression,24,36,0.853,0.7753
-335,L1,Aggressive,7,35,0.8929,0.5339
-335,L2,others,7,35,0.9643,0.6134
-336,L1,Non-Aggressive,9,36,0.9333,0.8075
-337,L1,Aggressive,10,27,0.903,0.7631
-337,L2,political aggression,10,27,0.4424,0.7778
-338,L1,Non-Aggressive,8,32,0.9524,0.6848
-339,L1,Aggressive,29,37,0.731,0.5178
-339,L2,political aggression,29,37,0.8394,0.8182
-340,L1,Aggressive,24,34,0.5339,0.6574
-340,L2,religious aggression,24,34,0.6252,0.5545
-341,L1,Aggressive,15,29,0.8536,0.5084
-341,L2,religious aggression,15,29,0.6179,0.8532
-342,L1,Aggressive,8,42,0.881,0.5986
-342,L2,gendered aggression,8,42,0.9762,0.5054
-343,L1,Aggressive,5,37,0.7,0.6873
-343,L2,religious aggression,5,37,1.0,0.6669
-344,L1,Aggressive,15,29,0.9571,0.8493
-344,L2,others,15,29,0.9179,0.7039
-345,L1,Aggressive,14,43,0.9385,0.7307
-345,L2,others,14,43,0.9824,0.666
-346,L1,Aggressive,7,38,0.9286,0.8251
-346,L2,gendered aggression,7,38,0.9643,0.8192
-347,L1,Aggressive,7,40,0.4643,0.6818
-347,L2,religious aggression,7,40,0.7857,0.818
-348,L1,Aggressive,16,37,0.8294,0.5242
-348,L2,gendered aggression,16,37,0.9118,0.6555
-349,L1,Non-Aggressive,10,43,0.697,0.8984
-350,L1,Aggressive,11,36,0.9,0.5488
-350,L2,gendered aggression,11,36,0.9818,0.5866
-351,L1,Aggressive,13,34,0.9341,0.4961
-351,L2,gendered aggression,13,34,0.5549,0.299
-352,L1,Non-Aggressive,8,29,0.9048,0.8975
-353,L1,Aggressive,5,29,1.0,0.7857
-353,L2,others,5,29,0.9,0.9473
-354,L1,Aggressive,9,33,0.9333,0.5568
-354,L2,political aggression,9,33,0.9833,0.5277
-355,L1,Non-Aggressive,14,36,0.9516,0.8486
-356,L1,Non-Aggressive,29,26,0.6951,0.8345
-357,L1,Aggressive,23,31,0.7144,0.7819
-357,L2,others,23,31,0.502,0.4944
-358,L1,Aggressive,24,38,0.48,0.6785
-358,L2,religious aggression,24,38,0.1791,0.7801
-359,L1,Aggressive,23,31,0.6067,0.8395
-359,L2,political aggression,23,31,0.4289,0.5714
-360,L1,Non-Aggressive,19,37,0.8912,0.83
-361,L1,Non-Aggressive,4,21,0.8,0.8792
-362,L1,Non-Aggressive,5,29,1.0,0.7532
-363,L1,Aggressive,15,33,0.8429,0.7326
-363,L2,religious aggression,15,33,0.6036,0.8613
-364,L1,Aggressive,25,37,0.3785,0.7975
-364,L2,political aggression,25,37,0.2154,0.372
-365,L1,Non-Aggressive,32,30,0.8306,0.8225
-366,L1,Non-Aggressive,12,34,0.979,0.8167
-367,L1,Aggressive,8,37,0.881,0.698
-367,L2,political aggression,8,37,0.6667,0.4478
-368,L1,Aggressive,5,35,1.0,0.6599
-368,L2,religious aggression,5,35,1.0,0.7969
-369,L1,Non-Aggressive,14,27,0.9516,0.826
-370,L1,Non-Aggressive,12,33,0.7552,0.8961
-371,L1,Aggressive,5,29,0.9,0.7177
-371,L2,religious aggression,5,29,1.0,0.9187
-372,L1,Non-Aggressive,21,36,0.9091,0.6664
-373,L1,Aggressive,29,37,0.632,0.683
-373,L2,religious aggression,29,37,0.4877,0.7404
-374,L1,Aggressive,37,28,0.2499,0.7734
-374,L2,political aggression,37,28,0.2252,0.5687
-375,L1,Aggressive,16,32,0.9353,0.9142
-375,L2,others,16,32,0.9853,0.9128
-376,L1,Aggressive,25,30,0.8646,0.7059
-376,L2,political aggression,25,30,0.8546,0.5261
-377,L1,Aggressive,19,32,0.8719,0.7889
-377,L2,others,19,32,0.8596,0.6441
-378,L1,Aggressive,9,33,0.8667,0.7416
-378,L2,political aggression,9,33,0.6833,0.7236
-379,L1,Aggressive,12,39,0.9091,0.566
-379,L2,political aggression,12,39,0.8112,0.8168
-380,L1,Aggressive,6,35,0.7714,0.7384
-380,L2,others,6,35,1.0,0.8073
-381,L1,Aggressive,5,38,0.8,0.7289
-381,L2,political aggression,5,38,1.0,0.2931
-382,L1,Aggressive,6,36,0.9429,0.862
-382,L2,gendered aggression,6,36,0.8857,0.5987
-383,L1,Aggressive,16,39,0.8765,0.8391
-383,L2,others,16,39,0.9794,0.7621
-384,L1,Non-Aggressive,4,34,1.0,0.7888
-385,L1,Non-Aggressive,14,27,0.8681,0.9237
-386,L1,Aggressive,15,28,0.7643,0.7625
-386,L2,others,15,28,0.7071,0.4828
-387,L1,Aggressive,15,32,0.775,0.816
-387,L2,political aggression,15,32,0.9786,0.8193
-388,L1,Non-Aggressive,14,42,0.9648,0.6266
-389,L1,Aggressive,23,32,0.8192,0.6884
-389,L2,religious aggression,23,32,0.9486,0.7042
-390,L1,Aggressive,23,41,0.6828,0.1632
-390,L2,political aggression,23,41,0.7688,0.1591
-391,L1,Non-Aggressive,20,27,0.9519,0.8278
-392,L1,Non-Aggressive,24,37,0.7974,0.9016
-393,L1,Aggressive,16,34,0.8824,0.857
-393,L2,others,16,34,0.7941,0.9077
-394,L1,Aggressive,22,36,0.4839,0.8806
-394,L2,gendered aggression,22,36,0.6296,0.8095
-395,L1,Aggressive,10,32,0.9152,0.7636
-395,L2,religious aggression,10,32,0.9636,0.8039
-396,L1,Aggressive,22,32,0.6781,0.857
-396,L2,political aggression,22,32,0.8792,0.882
-397,L1,Aggressive,11,37,0.8909,0.5706
-397,L2,political aggression,11,37,0.9,0.344
-398,L1,Aggressive,18,33,0.8741,0.7313
-398,L2,others,18,33,0.8431,0.8516
-399,L1,Aggressive,23,31,0.6996,0.7492
-399,L2,political aggression,23,31,0.7095,0.3879
-400,L1,Aggressive,6,33,0.8286,0.6969
-400,L2,gendered aggression,6,33,0.7714,0.6972
-401,L1,Non-Aggressive,26,33,0.9015,0.8239
-402,L1,Aggressive,15,30,0.65,0.6734
-402,L2,others,15,30,0.3357,0.5813
-403,L1,Non-Aggressive,19,40,0.8702,0.8495
-404,L1,Non-Aggressive,17,28,0.8873,0.8369
-405,L1,Aggressive,10,39,0.8909,0.6532
-405,L2,others,10,39,0.9515,0.8219
-406,L1,Non-Aggressive,25,35,0.9438,0.6683
-407,L1,Non-Aggressive,20,29,0.8632,0.7788
-408,L1,Non-Aggressive,13,30,0.8956,0.7869
-409,L1,Aggressive,15,33,0.9321,0.6895
-409,L2,religious aggression,15,33,0.5357,0.8583
-410,L1,Aggressive,29,38,0.8409,0.7796
-410,L2,gendered aggression,29,38,0.6754,0.7295
-411,L1,Aggressive,19,30,0.6579,0.6512
-411,L2,political aggression,19,30,0.5474,0.6387
-412,L1,Aggressive,17,28,0.7696,0.6601
-412,L2,religious aggression,17,28,0.8554,0.8719
-413,L1,Aggressive,9,38,0.9,0.6238
-413,L2,others,9,38,0.75,0.6772
-414,L1,Aggressive,16,31,0.5941,0.8194
-414,L2,political aggression,16,31,0.5824,0.552
-415,L1,Aggressive,29,34,0.4887,0.6
-415,L2,others,29,34,0.7296,0.5312
-416,L1,Non-Aggressive,20,36,0.6256,0.819
-417,L1,Aggressive,9,37,0.8167,0.6366
-417,L2,gendered aggression,9,37,0.8,0.4784
-418,L1,Non-Aggressive,24,26,0.7913,0.6636
-419,L1,Aggressive,15,38,0.8929,0.4728
-419,L2,religious aggression,15,38,0.9036,0.5818
-420,L1,Aggressive,18,30,0.6698,0.7135
-420,L2,gendered aggression,18,30,0.8493,0.7308
-421,L1,Aggressive,4,31,1.0,0.8315
-421,L2,others,4,31,1.0,0.698
-422,L1,Non-Aggressive,14,26,0.9165,0.7791
-423,L1,Aggressive,10,30,0.9273,0.9177
-423,L2,gendered aggression,10,30,0.8909,0.6672
-424,L1,Aggressive,20,30,0.9414,0.8487
-424,L2,others,20,30,0.9248,0.8309
-425,L1,Aggressive,9,35,0.9333,0.6395
-425,L2,political aggression,9,35,0.9667,0.9375
-426,L1,Aggressive,18,35,0.8431,0.8241
-426,L2,political aggression,18,35,0.8411,0.7835
-427,L1,Aggressive,7,39,0.9643,0.5628
-427,L2,gendered aggression,7,39,1.0,0.6543
-428,L1,Non-Aggressive,21,40,0.7377,0.7484
-429,L1,Non-Aggressive,20,29,0.8316,0.7463
-430,L1,Aggressive,8,34,0.9048,0.736
-430,L2,others,8,34,1.0,0.8026
-431,L1,Aggressive,19,33,0.6772,0.74
-431,L2,political aggression,19,33,0.8509,0.7473
-432,L1,Aggressive,30,33,0.4785,0.8503
-432,L2,political aggression,30,33,0.4785,0.6059
-433,L1,Aggressive,34,31,0.6544,0.7806
-433,L2,political aggression,34,31,0.2538,0.8298
-434,L1,Aggressive,21,36,0.7052,0.6425
-434,L2,religious aggression,21,36,0.5364,0.8641
-435,L1,Aggressive,14,32,0.8462,0.7133
-435,L2,others,14,32,0.833,0.9505
-436,L1,Non-Aggressive,18,37,0.8865,0.7532
-437,L1,Non-Aggressive,13,32,0.9066,0.6976
-438,L1,Aggressive,4,38,1.0,0.5919
-438,L2,religious aggression,4,38,1.0,0.5908
-439,L1,Aggressive,8,33,0.9524,0.7457
-439,L2,religious aggression,8,33,0.9762,0.8152
-440,L1,Aggressive,10,30,0.903,0.903
-440,L2,gendered aggression,10,30,0.9515,0.741
-441,L1,Aggressive,7,34,0.9643,0.6018
-441,L2,gendered aggression,7,34,1.0,0.6443
-442,L1,Aggressive,14,35,0.389,0.6868
-442,L2,others,14,35,0.7363,0.8739
-443,L1,Aggressive,4,29,0.8,0.7695
-443,L2,political aggression,4,29,1.0,0.6291
-444,L1,Aggressive,6,30,1.0,0.7366
-444,L2,religious aggression,6,30,1.0,0.9097
-445,L1,Non-Aggressive,21,36,0.6805,0.6628
-446,L1,Aggressive,11,38,0.7636,0.6687
-446,L2,gendered aggression,11,38,0.9,0.8599
-447,L1,Aggressive,21,38,0.8091,0.6704
-447,L2,political aggression,21,38,0.2766,0.4111
-448,L1,Aggressive,14,32,0.833,0.7654
-448,L2,gendered aggression,14,32,0.8725,0.6001
-449,L1,Aggressive,9,14,0.95,0.9165
-449,L2,others,9,14,0.9667,0.1253
-450,L1,Aggressive,3,30,1.0,0.8269
-450,L2,others,3,30,1.0,0.8318
-451,L1,Aggressive,11,33,0.7182,0.7055
-451,L2,gendered aggression,11,33,0.7818,0.7507
-452,L1,Non-Aggressive,20,32,0.8767,0.901
-453,L1,Aggressive,5,41,1.0,0.5692
-453,L2,others,5,41,0.7,0.658
-454,L1,Aggressive,6,38,1.0,0.7035
-454,L2,others,6,38,1.0,0.803
-455,L1,Aggressive,8,43,0.7857,0.8401
-455,L2,gendered aggression,8,43,0.9762,0.7246
-456,L1,Aggressive,14,36,0.7495,0.9236
-456,L2,religious aggression,14,36,0.7846,0.7676
-457,L1,Aggressive,2,35,,0.5762
-457,L2,others,2,35,,0.5997
-458,L1,Non-Aggressive,6,34,0.9429,0.9074
-459,L1,Aggressive,26,31,0.4359,0.6661
-459,L2,political aggression,26,31,0.481,0.6395
-460,L1,Aggressive,21,37,0.4584,0.4927
-460,L2,religious aggression,21,37,0.6429,0.6674
-461,L1,Aggressive,11,37,0.7,0.6515
-461,L2,gendered aggression,11,37,0.8182,0.6425
-462,L1,Aggressive,34,26,0.7378,0.8913
-462,L2,gendered aggression,34,26,0.8011,0.9556
-463,L1,Aggressive,17,30,0.701,0.5533
-463,L2,religious aggression,17,30,0.2377,0.7117
-464,L1,Aggressive,3,32,1.0,0.6694
-464,L2,others,3,32,0.5,0.5649
-465,L1,Aggressive,14,28,0.8549,0.8008
-465,L2,gendered aggression,14,28,0.9033,0.821
-466,L1,Non-Aggressive,10,31,0.7576,0.654
-467,L1,Aggressive,19,28,0.7474,0.6409
-467,L2,gendered aggression,19,28,0.8404,0.5359
-468,L1,Aggressive,24,31,0.7096,0.877
-468,L2,others,24,31,0.2852,0.721
-469,L1,Non-Aggressive,11,31,0.9636,0.8871
-470,L1,Aggressive,7,31,0.8571,0.7863
-470,L2,political aggression,7,31,1.0,0.7992
-471,L1,Aggressive,30,27,0.8065,0.898
-471,L2,gendered aggression,30,27,0.7749,0.8584
-472,L1,Aggressive,9,36,0.9333,0.7066
-472,L2,gendered aggression,9,36,0.9667,0.7326
-473,L1,Aggressive,7,33,0.9286,0.4205
-473,L2,religious aggression,7,33,0.9643,0.642
-474,L1,Aggressive,28,37,0.6316,0.569
-474,L2,religious aggression,28,37,0.5036,0.6155
-475,L1,Aggressive,12,31,0.5385,0.7621
-475,L2,religious aggression,12,31,0.8531,0.9347
-476,L1,Non-Aggressive,22,36,0.9176,0.7995
-477,L1,Aggressive,12,37,0.9441,0.5062
-477,L2,gendered aggression,12,37,0.979,0.8393
-478,L1,Aggressive,4,29,1.0,0.9241
-478,L2,religious aggression,4,29,1.0,0.9734
-479,L1,Aggressive,10,33,0.9758,0.7761
-479,L2,religious aggression,10,33,0.4909,0.8158
-480,L1,Aggressive,44,29,0.4316,0.8488
-480,L2,others,44,29,0.5928,0.8897
-481,L1,Non-Aggressive,10,32,0.9879,0.8955
-482,L1,Aggressive,10,33,0.7697,0.7744
-482,L2,political aggression,10,33,0.9879,0.8519
-483,L1,Aggressive,15,33,0.8,0.7871
-483,L2,gendered aggression,15,33,0.8893,0.888
-484,L1,Aggressive,5,29,1.0,0.8202
-484,L2,others,5,29,1.0,0.867
+1,L1,Aggressive,33,28,0.7838,0.6639
+1,L2,others,33,28,0.6741,0.6935
+2,L1,Aggressive,16,32,0.9176,0.8526
+2,L2,religious aggression,16,32,0.8912,0.8479
+3,L1,Non-Aggressive,15,34,0.95,0.8188
+4,L1,Aggressive,17,33,0.8971,0.6748
+4,L2,political aggression,17,33,0.7402,0.8088
+5,L1,Non-Aggressive,18,31,0.8493,0.9435
+6,L1,Aggressive,3,31,1.0,0.6101
+6,L2,religious aggression,3,31,1.0,0.5714
+7,L1,Aggressive,10,34,0.6848,0.6767
+7,L2,others,10,34,0.9394,0.8332
+8,L1,Non-Aggressive,11,32,0.8364,0.8171
+9,L1,Aggressive,24,32,0.7496,0.7137
+9,L2,religious aggression,24,32,0.6922,0.8171
+10,L1,Aggressive,22,37,0.4421,0.7117
+10,L2,political aggression,22,37,0.5426,0.7639
+11,L1,Aggressive,36,28,0.7063,0.5233
+11,L2,others,36,28,0.3091,0.8435
+12,L1,Aggressive,2,25,,0.6992
+12,L2,gendered aggression,2,25,,0.5515
+13,L1,Aggressive,5,36,1.0,0.809
+13,L2,religious aggression,5,36,1.0,0.8512
+14,L1,Aggressive,33,43,0.4826,0.6761
+14,L2,religious aggression,33,43,0.5712,0.5646
+15,L1,Aggressive,40,32,0.3529,0.6004
+15,L2,religious aggression,40,32,0.3659,0.5865
+16,L1,Aggressive,14,31,0.9473,0.7613
+16,L2,others,14,31,0.6396,0.4758
+17,L1,Non-Aggressive,9,36,0.9667,0.8232
+18,L1,Aggressive,11,35,0.9091,0.4132
+18,L2,others,11,35,0.8364,0.9308
+19,L1,Non-Aggressive,19,37,0.9368,0.7589
+20,L1,Aggressive,29,29,0.6542,0.633
+20,L2,political aggression,29,29,0.5887,0.7788
+21,L1,Aggressive,8,25,0.881,0.9146
+21,L2,others,8,25,0.619,0.5285
+22,L1,Non-Aggressive,13,27,0.8791,0.9255
+23,L1,Aggressive,14,33,0.8462,0.6721
+23,L2,others,14,33,0.789,0.6377
+24,L1,Aggressive,21,33,0.7519,0.8533
+24,L2,political aggression,21,33,0.7506,0.638
+25,L1,Aggressive,19,21,0.9649,0.8039
+25,L2,religious aggression,19,21,0.9421,0.8481
+26,L1,Aggressive,7,36,0.7143,0.4752
+26,L2,others,7,36,1.0,0.7665
+27,L1,Non-Aggressive,27,28,0.6386,0.7236
+28,L1,Aggressive,7,33,0.9643,0.6928
+28,L2,others,7,33,0.8571,0.7299
+29,L1,Non-Aggressive,5,30,1.0,0.8158
+30,L1,Non-Aggressive,12,31,0.972,0.7544
+31,L1,Aggressive,21,28,0.7403,0.613
+31,L2,others,21,28,0.9442,0.6639
+32,L1,Aggressive,13,34,0.7747,0.6058
+32,L2,religious aggression,13,34,0.8626,0.8747
+33,L1,Aggressive,11,41,0.8818,0.6366
+33,L2,gendered aggression,11,41,0.9364,0.828
+34,L1,Non-Aggressive,27,30,0.8297,0.8091
+35,L1,Non-Aggressive,18,31,0.7812,0.7601
+36,L1,Aggressive,16,33,0.9412,0.6059
+36,L2,gendered aggression,16,33,0.8471,0.6835
+37,L1,Aggressive,21,32,0.839,0.6917
+37,L2,political aggression,21,32,0.7688,0.6217
+38,L1,Aggressive,5,41,0.9,0.7125
+38,L2,political aggression,5,41,1.0,0.5556
+39,L1,Aggressive,17,26,0.848,0.8769
+39,L2,others,17,26,0.8064,0.5768
+40,L1,Aggressive,6,38,0.9429,0.6297
+40,L2,others,6,38,1.0,0.6383
+41,L1,Aggressive,10,33,0.9636,0.8984
+41,L2,gendered aggression,10,33,1.0,0.7951
+42,L1,Aggressive,21,38,0.9286,0.4161
+42,L2,gendered aggression,21,38,0.8506,0.5763
+43,L1,Aggressive,12,34,0.5455,0.6388
+43,L2,religious aggression,12,34,0.5455,0.8558
+44,L1,Aggressive,21,29,0.5961,0.5473
+44,L2,religious aggression,21,29,0.4506,0.5074
+45,L1,Aggressive,10,36,0.8545,0.645
+45,L2,gendered aggression,10,36,0.9879,0.6677
+46,L1,Aggressive,13,31,0.967,0.694
+46,L2,gendered aggression,13,31,0.8571,0.5996
+47,L1,Non-Aggressive,15,31,0.7321,0.7661
+48,L1,Aggressive,36,35,0.5367,0.642
+48,L2,religious aggression,36,35,0.3318,0.5207
+49,L1,Aggressive,9,30,0.45,0.7624
+49,L2,gendered aggression,9,30,0.9333,0.6877
+50,L1,Non-Aggressive,2,39,,0.8277
+51,L1,Non-Aggressive,18,36,0.9443,0.8221
+52,L1,Aggressive,4,39,1.0,0.5085
+52,L2,religious aggression,4,39,1.0,0.8022
+53,L1,Aggressive,6,32,0.8286,0.6279
+53,L2,political aggression,6,32,0.9429,0.7229
+54,L1,Aggressive,7,28,0.5714,0.6201
+54,L2,political aggression,7,28,0.9643,0.6163
+55,L1,Non-Aggressive,6,34,0.6,0.6134
+56,L1,Non-Aggressive,4,32,0.8,0.7155
+57,L1,Non-Aggressive,19,31,0.8088,0.725
+58,L1,Aggressive,9,37,0.95,0.821
+58,L2,gendered aggression,9,37,1.0,0.7186
+59,L1,Aggressive,4,44,1.0,0.4885
+59,L2,political aggression,4,44,1.0,0.399
+60,L1,Aggressive,15,37,0.9679,0.702
+60,L2,political aggression,15,37,0.9679,0.7774
+61,L1,Non-Aggressive,17,38,0.8309,0.6361
+62,L1,Non-Aggressive,14,35,0.8022,0.6398
+63,L1,Non-Aggressive,27,32,0.8162,0.7804
+64,L1,Aggressive,16,29,0.9088,0.6581
+64,L2,others,16,29,0.7265,0.7158
+65,L1,Aggressive,8,34,0.9286,0.6211
+65,L2,gendered aggression,8,34,0.9762,0.8848
+66,L1,Aggressive,30,29,0.3846,0.7778
+66,L2,religious aggression,30,29,0.4901,0.7463
+67,L1,Aggressive,21,34,0.9026,0.7335
+67,L2,others,21,34,0.761,0.7843
+68,L1,Aggressive,21,35,0.7455,0.5854
+68,L2,religious aggression,21,35,0.7987,0.7252
+69,L1,Aggressive,12,30,0.7483,0.7268
+69,L2,others,12,30,0.8531,0.7566
+70,L1,Aggressive,22,29,0.8035,0.7291
+70,L2,political aggression,22,29,0.6228,0.9143
+71,L1,Aggressive,18,25,0.806,0.8262
+71,L2,religious aggression,18,25,0.6533,0.8938
+72,L1,Aggressive,7,35,0.8214,0.6062
+72,L2,others,7,35,0.9643,0.7232
+73,L1,Aggressive,10,29,0.8788,0.8241
+73,L2,political aggression,10,29,0.8909,0.5557
+74,L1,Aggressive,8,38,0.9286,0.4229
+74,L2,religious aggression,8,38,0.8333,0.6054
+75,L1,Aggressive,12,25,0.7972,0.8169
+75,L2,religious aggression,12,25,0.9301,0.8523
+76,L1,Non-Aggressive,23,26,0.9051,0.8591
+77,L1,Aggressive,12,39,0.8951,0.7152
+77,L2,political aggression,12,39,0.7552,0.4077
+78,L1,Aggressive,13,37,0.8077,0.8596
+78,L2,political aggression,13,37,0.4286,0.7843
+79,L1,Aggressive,11,38,0.9455,0.8033
+79,L2,gendered aggression,11,38,0.9091,0.779
+80,L1,Aggressive,13,28,0.7692,0.8714
+80,L2,others,13,28,0.7473,0.6475
+81,L1,Non-Aggressive,19,35,0.8737,0.851
+82,L1,Aggressive,5,37,1.0,0.6278
+82,L2,others,5,37,0.9,0.6008
+83,L1,Aggressive,7,32,0.9643,0.6298
+83,L2,gendered aggression,7,32,0.9286,0.4388
+84,L1,Aggressive,10,40,0.9394,0.734
+84,L2,others,10,40,0.5152,0.7116
+85,L1,Aggressive,8,34,0.9048,0.5688
+85,L2,others,8,34,0.9762,0.6125
+86,L1,Aggressive,6,39,0.9429,0.6692
+86,L2,political aggression,6,39,1.0,0.7014
+87,L1,Non-Aggressive,22,38,0.8024,0.7061
+88,L1,Aggressive,23,32,0.7401,0.8424
+88,L2,religious aggression,23,32,0.4091,0.7482
+89,L1,Non-Aggressive,18,31,0.8782,0.8597
+90,L1,Non-Aggressive,34,28,0.1536,0.746
+91,L1,Aggressive,32,36,0.8402,0.7344
+91,L2,gendered aggression,32,36,0.5444,0.6003
+92,L1,Aggressive,6,40,0.7714,0.6321
+92,L2,others,6,40,0.9429,0.837
+93,L1,Non-Aggressive,3,34,1.0,0.8555
+94,L1,Non-Aggressive,15,34,0.55,0.8414
+95,L1,Aggressive,14,34,0.9648,0.6559
+95,L2,others,14,34,0.8901,0.8029
+96,L1,Aggressive,7,30,0.8571,0.9034
+96,L2,religious aggression,7,30,0.7857,0.9488
+97,L1,Aggressive,10,36,0.7697,0.5681
+97,L2,political aggression,10,36,0.9273,0.8033
+98,L1,Aggressive,12,32,0.7133,0.8838
+98,L2,gendered aggression,12,32,0.986,0.7031
+99,L1,Aggressive,17,34,0.8505,0.556
+99,L2,political aggression,17,34,0.9265,0.446
+100,L1,Non-Aggressive,11,34,0.8182,0.6202
+101,L1,Aggressive,25,33,0.7662,0.742
+101,L2,gendered aggression,25,33,0.9385,0.8897
+102,L1,Non-Aggressive,15,33,0.9607,0.7149
+103,L1,Aggressive,11,35,0.9909,0.8487
+103,L2,gendered aggression,11,35,0.9818,0.7395
+104,L1,Non-Aggressive,10,38,0.9879,0.5739
+105,L1,Non-Aggressive,8,32,0.9286,0.8937
+106,L1,Aggressive,9,31,0.6833,0.5379
+106,L2,religious aggression,9,31,0.9,0.8923
+107,L1,Aggressive,38,32,0.3971,0.5729
+107,L2,religious aggression,38,32,0.5671,0.5715
+108,L1,Aggressive,27,33,0.5354,0.6303
+108,L2,gendered aggression,27,33,0.4249,0.501
+109,L1,Non-Aggressive,10,33,0.9758,0.7701
+110,L1,Aggressive,6,29,0.9429,0.7897
+110,L2,political aggression,6,29,0.9429,0.53
+111,L1,Aggressive,9,30,0.8833,0.879
+111,L2,others,9,30,1.0,0.863
+112,L1,Aggressive,23,26,0.497,0.7716
+112,L2,religious aggression,23,26,0.4575,0.9255
+113,L1,Aggressive,1,37,,0.6607
+113,L2,others,1,37,,0.739
+114,L1,Aggressive,23,30,0.501,0.7143
+114,L2,religious aggression,23,30,0.3429,0.8167
+115,L1,Non-Aggressive,15,39,0.9357,0.8514
+116,L1,Aggressive,37,29,0.5967,0.6867
+116,L2,religious aggression,37,29,0.8065,0.8517
+117,L1,Aggressive,22,36,0.9345,0.3449
+117,L2,others,22,36,0.9255,0.7779
+118,L1,Aggressive,12,26,0.958,0.8373
+118,L2,others,12,26,0.6783,0.9009
+119,L1,Aggressive,8,19,0.6429,0.4825
+119,L2,others,8,19,1.0,0.8772
+120,L1,Aggressive,14,26,0.9121,0.8366
+120,L2,religious aggression,14,26,0.7231,0.933
+121,L1,Aggressive,4,34,0.8,0.7763
+121,L2,political aggression,4,34,0.8,0.6031
+122,L1,Aggressive,10,35,0.9394,0.7359
+122,L2,others,10,35,0.7697,0.8143
+123,L1,Aggressive,5,41,1.0,0.1516
+123,L2,political aggression,5,41,1.0,0.3834
+124,L1,Non-Aggressive,9,41,0.9833,0.7139
+125,L1,Aggressive,18,33,0.8555,0.7447
+125,L2,political aggression,18,33,0.5831,0.6992
+126,L1,Aggressive,11,26,0.9455,0.8694
+126,L2,others,11,26,0.9909,0.5494
+127,L1,Aggressive,9,35,1.0,0.7804
+127,L2,gendered aggression,9,35,0.9667,0.8134
+128,L1,Aggressive,30,36,0.4336,0.6036
+128,L2,religious aggression,30,36,0.3713,0.8468
+129,L1,Aggressive,7,35,0.8571,0.6824
+129,L2,others,7,35,0.8214,0.2434
+130,L1,Aggressive,34,22,0.7757,0.8103
+130,L2,others,34,22,0.4154,0.6533
+131,L1,Aggressive,54,38,0.1804,0.5706
+131,L2,religious aggression,54,38,0.2748,0.4662
+132,L1,Aggressive,9,35,0.6667,0.558
+132,L2,religious aggression,9,35,0.7833,0.57
+133,L1,Aggressive,5,39,0.9,0.8308
+133,L2,gendered aggression,5,39,0.9,0.7769
+134,L1,Aggressive,6,35,1.0,0.5003
+134,L2,others,6,35,0.9429,0.5555
+135,L1,Aggressive,16,38,0.9324,0.626
+135,L2,others,16,38,0.8559,0.7472
+136,L1,Aggressive,14,35,0.9692,0.8059
+136,L2,others,14,35,0.7231,0.6812
+137,L1,Aggressive,28,38,0.8144,0.5844
+137,L2,gendered aggression,28,38,0.6486,0.8945
+138,L1,Aggressive,7,38,0.8214,0.7597
+138,L2,gendered aggression,7,38,1.0,0.5054
+139,L1,Aggressive,7,39,0.8929,0.7868
+139,L2,political aggression,7,39,0.9286,0.8488
+140,L1,Non-Aggressive,15,34,0.8821,0.7733
+141,L1,Non-Aggressive,21,37,0.8779,0.4611
+142,L1,Non-Aggressive,24,19,0.6983,0.6105
+143,L1,Aggressive,7,28,0.9643,0.8144
+143,L2,others,7,28,0.6786,0.7783
+144,L1,Aggressive,21,31,0.8909,0.6573
+144,L2,political aggression,21,31,0.9247,0.8774
+145,L1,Aggressive,24,30,0.8,0.5524
+145,L2,religious aggression,24,30,0.8478,0.3117
+146,L1,Aggressive,3,37,1.0,0.6761
+146,L2,others,3,37,1.0,0.8914
+147,L1,Aggressive,26,33,0.4721,0.6106
+147,L2,political aggression,26,33,0.425,0.6501
+148,L1,Non-Aggressive,8,33,0.8571,0.8957
+149,L1,Non-Aggressive,13,41,0.9121,0.8681
+150,L1,Aggressive,5,33,0.9,0.7898
+150,L2,gendered aggression,5,33,1.0,0.8583
+151,L1,Aggressive,6,29,0.9429,0.6872
+151,L2,others,6,29,1.0,0.5926
+152,L1,Aggressive,29,34,0.6813,0.8747
+152,L2,gendered aggression,29,34,0.8828,0.7323
+153,L1,Non-Aggressive,19,28,0.8211,0.7214
+154,L1,Aggressive,12,37,0.8322,0.3516
+154,L2,political aggression,12,37,0.8392,0.6494
+155,L1,Aggressive,20,34,0.8211,0.8616
+155,L2,others,20,34,0.797,0.7335
+156,L1,Non-Aggressive,16,34,0.9265,0.8316
+157,L1,Non-Aggressive,12,25,0.8741,0.8146
+158,L1,Aggressive,14,35,0.8198,0.7493
+158,L2,gendered aggression,14,35,0.8725,0.5213
+159,L1,Aggressive,13,27,0.8462,0.8742
+159,L2,others,13,27,0.8407,0.5946
+160,L1,Aggressive,13,40,0.9505,0.7362
+160,L2,gendered aggression,13,40,0.9451,0.7523
+161,L1,Non-Aggressive,7,34,0.9286,0.7036
+162,L1,Non-Aggressive,7,37,0.9643,0.8274
+163,L1,Aggressive,11,30,0.9545,0.5546
+163,L2,gendered aggression,11,30,0.9727,0.5737
+164,L1,Aggressive,11,34,0.8636,0.8921
+164,L2,gendered aggression,11,34,0.9909,0.864
+165,L1,Aggressive,30,37,0.6894,0.5315
+165,L2,religious aggression,30,37,0.6,0.6581
+166,L1,Aggressive,11,37,0.8364,0.7233
+166,L2,political aggression,11,37,0.7091,0.6328
+167,L1,Aggressive,17,32,0.8407,0.724
+167,L2,gendered aggression,17,32,0.9755,0.7903
+168,L1,Aggressive,24,37,0.6435,0.5503
+168,L2,political aggression,24,37,0.3296,0.4751
+169,L1,Aggressive,19,31,0.8684,0.8044
+169,L2,others,19,31,0.8421,0.8347
+170,L1,Non-Aggressive,8,38,0.8571,0.5728
+171,L1,Aggressive,8,29,0.9048,0.4966
+171,L2,political aggression,8,29,0.9048,0.5458
+172,L1,Aggressive,7,31,0.8214,0.4262
+172,L2,others,7,31,0.9643,0.8185
+173,L1,Non-Aggressive,7,35,0.9643,0.6882
+174,L1,Aggressive,9,34,0.6667,0.7607
+174,L2,others,9,34,0.7167,0.9178
+175,L1,Aggressive,16,34,0.7912,0.8118
+175,L2,others,16,34,0.9706,0.8393
+176,L1,Non-Aggressive,15,37,0.7714,0.9028
+177,L1,Aggressive,26,40,0.5747,0.746
+177,L2,political aggression,26,40,0.812,0.9047
+178,L1,Aggressive,13,34,0.7637,0.82
+178,L2,gendered aggression,13,34,0.6484,0.8307
+179,L1,Non-Aggressive,4,33,1.0,0.6414
+180,L1,Non-Aggressive,15,28,0.875,0.8889
+181,L1,Aggressive,18,27,0.9628,0.7155
+181,L2,gendered aggression,18,27,0.8844,0.6038
+182,L1,Aggressive,10,35,0.8424,0.509
+182,L2,others,10,35,0.8061,0.9112
+183,L1,Aggressive,13,29,0.7912,0.6
+183,L2,religious aggression,13,29,0.9396,0.6158
+184,L1,Aggressive,29,27,0.5921,0.6709
+184,L2,religious aggression,29,27,0.767,0.851
+185,L1,Non-Aggressive,11,32,0.8273,0.9142
+186,L1,Aggressive,13,32,0.9451,0.772
+186,L2,others,13,32,0.9396,0.8988
+187,L1,Non-Aggressive,19,33,0.8614,0.736
+188,L1,Aggressive,5,33,1.0,0.7894
+188,L2,gendered aggression,5,33,0.9,0.7924
+189,L1,Aggressive,5,30,1.0,0.7846
+189,L2,others,5,30,1.0,0.7041
+190,L1,Aggressive,4,35,1.0,0.5658
+190,L2,gendered aggression,4,35,1.0,0.791
+191,L1,Aggressive,6,31,1.0,0.7327
+191,L2,political aggression,6,31,0.9429,0.7831
+192,L1,Aggressive,12,39,0.5944,0.669
+192,L2,others,12,39,0.965,0.6087
+193,L1,Aggressive,19,35,0.7561,0.5538
+193,L2,political aggression,19,35,0.7351,0.7664
+194,L1,Aggressive,5,34,0.9,0.5581
+194,L2,gendered aggression,5,34,0.9,0.6464
+195,L1,Aggressive,4,35,1.0,0.6078
+195,L2,political aggression,4,35,1.0,0.8417
+196,L1,Aggressive,52,29,0.3732,0.5621
+196,L2,religious aggression,52,29,0.3629,0.5522
+197,L1,Aggressive,17,34,0.8873,0.6529
+197,L2,gendered aggression,17,34,0.9608,0.7864
+198,L1,Aggressive,5,42,0.8,0.7663
+198,L2,others,5,42,0.7,0.7122
+199,L1,Aggressive,15,35,0.7536,0.7695
+199,L2,political aggression,15,35,0.5357,0.3661
+200,L1,Aggressive,15,27,0.6571,-0.0147
+200,L2,religious aggression,15,27,0.675,0.3217
+201,L1,Aggressive,10,33,0.6364,0.6374
+201,L2,political aggression,10,33,0.9758,0.9138
+202,L1,Aggressive,13,28,0.978,0.7969
+202,L2,others,13,28,0.7637,0.595
+203,L1,Aggressive,16,33,0.8353,0.6186
+203,L2,political aggression,16,33,0.7206,0.6885
+204,L1,Aggressive,13,39,0.8132,0.8247
+204,L2,others,13,39,0.9231,0.7362
+205,L1,Aggressive,17,35,0.9167,0.6571
+205,L2,others,17,35,0.7721,0.7476
+206,L1,Non-Aggressive,14,31,0.9692,0.9117
+207,L1,Aggressive,6,41,0.9429,0.473
+207,L2,gendered aggression,6,41,0.9429,0.5134
+208,L1,Non-Aggressive,12,28,0.965,0.7307
+209,L1,Aggressive,14,29,0.6659,0.635
+209,L2,religious aggression,14,29,0.8242,0.5887
+210,L1,Non-Aggressive,12,31,0.9441,0.8004
+211,L1,Aggressive,13,37,0.9231,0.7494
+211,L2,religious aggression,13,37,0.9396,0.7027
+212,L1,Aggressive,16,37,0.5794,0.5481
+212,L2,religious aggression,16,37,0.9412,0.4033
+213,L1,Aggressive,5,33,0.9,0.5849
+213,L2,gendered aggression,5,33,0.9,0.7978
+214,L1,Non-Aggressive,11,39,0.9545,0.6409
+215,L1,Aggressive,12,26,0.8951,0.3402
+215,L2,others,12,26,0.951,0.7436
+216,L1,Non-Aggressive,9,35,0.9833,0.8563
+217,L1,Aggressive,17,31,0.6814,0.8903
+217,L2,gendered aggression,17,31,0.7672,0.7988
+218,L1,Aggressive,7,36,0.5714,0.8175
+218,L2,others,7,36,0.8571,0.8028
+219,L1,Aggressive,13,33,0.9396,0.4228
+219,L2,religious aggression,13,33,0.989,0.5481
+220,L1,Aggressive,10,44,0.8061,0.4858
+220,L2,religious aggression,10,44,0.8909,0.7807
+221,L1,Aggressive,16,35,0.7941,0.7751
+221,L2,political aggression,16,35,0.9412,0.7081
+222,L1,Aggressive,6,29,0.9429,0.6571
+222,L2,religious aggression,6,29,0.8857,0.6355
+223,L1,Aggressive,18,32,0.6471,0.8512
+223,L2,religious aggression,18,32,0.9319,0.9117
+224,L1,Aggressive,4,32,0.6,0.6899
+224,L2,gendered aggression,4,32,0.8,0.7075
+225,L1,Non-Aggressive,13,35,0.7418,0.8773
+226,L1,Aggressive,16,41,0.9176,0.6709
+226,L2,political aggression,16,41,0.5206,0.4261
+227,L1,Non-Aggressive,13,31,0.967,0.9125
+228,L1,Aggressive,14,32,0.833,0.599
+228,L2,gendered aggression,14,32,0.9209,0.3636
+229,L1,Non-Aggressive,19,28,0.7439,0.9485
+230,L1,Aggressive,11,40,0.8909,0.5456
+230,L2,political aggression,11,40,0.8545,0.6919
+231,L1,Aggressive,11,35,0.9545,0.6812
+231,L2,gendered aggression,11,35,0.9818,0.8737
+232,L1,Aggressive,10,41,0.9515,0.6983
+232,L2,political aggression,10,41,0.8061,0.7077
+233,L1,Non-Aggressive,6,34,1.0,0.6553
+234,L1,Aggressive,4,31,1.0,0.2831
+234,L2,religious aggression,4,31,0.8,0.5677
+235,L1,Aggressive,6,36,0.9429,0.6291
+235,L2,gendered aggression,6,36,0.6571,0.5933
+236,L1,Aggressive,12,39,0.7622,0.3105
+236,L2,religious aggression,12,39,0.1538,0.6526
+237,L1,Non-Aggressive,14,34,0.8462,0.5823
+238,L1,Non-Aggressive,7,38,0.8929,0.8037
+239,L1,Non-Aggressive,19,27,0.7298,0.7161
+240,L1,Aggressive,17,33,0.8505,0.8499
+240,L2,others,17,33,0.9387,0.6939
+241,L1,Aggressive,15,35,0.7893,0.6364
+241,L2,others,15,35,0.6929,0.8106
+242,L1,Non-Aggressive,17,34,0.5319,0.7583
+243,L1,Aggressive,17,32,0.7917,0.6279
+243,L2,others,17,32,0.7108,0.6785
+244,L1,Aggressive,29,34,0.7118,0.6938
+244,L2,religious aggression,29,34,0.2916,0.9187
+245,L1,Aggressive,9,30,0.85,0.8607
+245,L2,others,9,30,0.8833,0.2868
+246,L1,Aggressive,9,33,0.95,0.8005
+246,L2,gendered aggression,9,33,0.8833,0.8001
+247,L1,Aggressive,17,34,0.8824,0.5285
+247,L2,others,17,34,0.8382,0.8112
+248,L1,Aggressive,9,41,0.8,0.5897
+248,L2,others,9,41,0.6833,0.7791
+249,L1,Non-Aggressive,13,32,0.9396,0.9241
+250,L1,Aggressive,6,42,1.0,0.391
+250,L2,others,6,42,0.8286,0.9105
+251,L1,Aggressive,17,34,0.951,0.5056
+251,L2,gendered aggression,17,34,0.7917,0.4891
+252,L1,Aggressive,7,33,0.8571,0.5551
+252,L2,political aggression,7,33,0.9643,0.5324
+253,L1,Aggressive,10,39,0.903,0.4358
+253,L2,religious aggression,10,39,0.9879,0.7943
+254,L1,Aggressive,13,34,0.8516,0.7895
+254,L2,religious aggression,13,34,0.8242,0.8173
+255,L1,Aggressive,12,35,0.7413,0.6941
+255,L2,religious aggression,12,35,0.8322,0.7098
+256,L1,Non-Aggressive,9,25,0.8,0.8069
+257,L1,Aggressive,27,24,0.649,0.8887
+257,L2,others,27,24,0.7167,0.3435
+258,L1,Aggressive,18,38,0.808,0.8853
+258,L2,gendered aggression,18,38,0.8762,0.8394
+259,L1,Aggressive,6,34,0.7143,0.8179
+259,L2,political aggression,6,34,0.8286,0.699
+260,L1,Aggressive,61,29,0.3697,0.5833
+260,L2,religious aggression,61,29,0.1546,0.8089
+261,L1,Non-Aggressive,17,33,0.8971,0.8001
+262,L1,Aggressive,27,35,0.6429,0.5527
+262,L2,political aggression,27,35,0.3394,0.3639
+263,L1,Aggressive,10,32,0.9758,0.8156
+263,L2,religious aggression,10,32,0.903,0.9007
+264,L1,Aggressive,15,30,0.425,0.5911
+264,L2,religious aggression,15,30,0.3571,0.7557
+265,L1,Non-Aggressive,32,28,0.4857,0.9108
+266,L1,Aggressive,10,35,0.7455,0.4591
+266,L2,others,10,35,0.8667,0.8986
+267,L1,Non-Aggressive,11,34,0.9909,0.8533
+268,L1,Non-Aggressive,5,36,1.0,0.8898
+269,L1,Non-Aggressive,9,41,0.85,0.6817
+270,L1,Aggressive,24,30,0.947,0.7308
+270,L2,others,24,30,0.9009,0.7606
+271,L1,Non-Aggressive,6,40,0.9429,0.7386
+272,L1,Aggressive,22,28,0.9503,0.8555
+272,L2,others,22,28,0.5302,0.9004
+273,L1,Non-Aggressive,4,34,1.0,0.7491
+274,L1,Aggressive,12,37,0.6154,0.4644
+274,L2,political aggression,12,37,0.5594,0.394
+275,L1,Aggressive,2,36,,0.7042
+275,L2,others,2,36,,0.5979
+276,L1,Aggressive,14,34,0.7451,0.688
+276,L2,religious aggression,14,34,0.7451,0.787
+277,L1,Aggressive,13,29,0.8956,0.736
+277,L2,others,13,29,0.8516,0.63
+278,L1,Aggressive,18,39,0.6801,0.2518
+278,L2,religious aggression,18,39,0.903,0.5409
+279,L1,Aggressive,37,31,0.5171,0.8411
+279,L2,religious aggression,37,31,0.1769,0.9617
+280,L1,Aggressive,6,40,0.6,0.3914
+280,L2,others,6,40,0.9429,0.6827
+281,L1,Aggressive,10,27,0.9515,0.605
+281,L2,gendered aggression,10,27,0.903,0.5574
+282,L1,Aggressive,7,38,0.8214,0.5304
+282,L2,religious aggression,7,38,0.9643,0.37
+283,L1,Non-Aggressive,7,35,0.8929,0.5487
+284,L1,Aggressive,6,29,0.9429,0.7995
+284,L2,others,6,29,0.8857,0.6384
+285,L1,Aggressive,15,36,0.9429,0.7511
+285,L2,others,15,36,0.8107,0.5598
+286,L1,Aggressive,15,38,0.8643,0.7118
+286,L2,others,15,38,0.8179,0.819
+287,L1,Aggressive,28,30,0.5287,0.9123
+287,L2,gendered aggression,28,30,0.6645,0.8616
+288,L1,Aggressive,37,38,0.5773,0.793
+288,L2,religious aggression,37,38,0.4194,0.8022
+289,L1,Aggressive,9,41,0.8667,0.4552
+289,L2,others,9,41,0.4333,0.7544
+290,L1,Aggressive,14,26,0.8154,0.9255
+290,L2,religious aggression,14,26,0.8945,0.8708
+291,L1,Aggressive,26,34,0.7764,0.6339
+291,L2,others,26,34,0.92,0.9251
+292,L1,Aggressive,12,37,0.9021,0.5951
+292,L2,gendered aggression,12,37,0.965,0.353
+293,L1,Aggressive,11,34,0.9909,0.6675
+293,L2,others,11,34,0.5455,0.7323
+294,L1,Aggressive,24,29,0.7583,0.868
+294,L2,gendered aggression,24,29,0.8774,0.7665
+295,L1,Aggressive,8,28,0.9286,0.775
+295,L2,gendered aggression,8,28,0.881,0.8774
+296,L1,Aggressive,8,36,0.881,0.5946
+296,L2,others,8,36,0.8095,0.8777
+297,L1,Aggressive,8,32,0.8571,0.4824
+297,L2,others,8,32,1.0,0.8823
+298,L1,Aggressive,16,40,0.6059,0.6447
+298,L2,religious aggression,16,40,0.5971,0.6822
+299,L1,Aggressive,10,41,0.9394,0.6763
+299,L2,gendered aggression,10,41,0.9152,0.601
+300,L1,Aggressive,21,31,0.5156,0.7379
+300,L2,religious aggression,21,31,0.4558,0.7944
+301,L1,Non-Aggressive,20,31,0.7805,0.802
+302,L1,Aggressive,16,31,0.7794,0.7117
+302,L2,political aggression,16,31,0.6147,0.7637
+303,L1,Non-Aggressive,4,27,1.0,0.8132
+304,L1,Aggressive,13,32,0.6978,0.8138
+304,L2,others,13,32,0.8352,0.5271
+305,L1,Non-Aggressive,5,31,1.0,0.8476
+306,L1,Aggressive,4,37,1.0,0.7048
+306,L2,gendered aggression,4,37,1.0,0.6972
+307,L1,Aggressive,21,30,0.6519,0.7677
+307,L2,gendered aggression,21,30,0.7662,0.4594
+308,L1,Aggressive,18,26,0.7441,0.8933
+308,L2,others,18,26,0.3911,0.7135
+309,L1,Non-Aggressive,13,35,0.8956,0.7541
+310,L1,Aggressive,15,29,0.9536,0.934
+310,L2,religious aggression,15,29,0.9679,0.8345
+311,L1,Aggressive,7,34,0.8929,0.7672
+311,L2,political aggression,7,34,0.8214,0.7534
+312,L1,Aggressive,20,32,0.7805,0.8691
+312,L2,religious aggression,20,32,0.7895,0.9249
+313,L1,Non-Aggressive,17,31,0.875,0.6718
+314,L1,Non-Aggressive,10,33,0.7939,0.9141
+315,L1,Aggressive,13,34,0.8187,0.5902
+315,L2,religious aggression,13,34,0.7802,0.7565
+316,L1,Aggressive,6,35,0.9429,0.7655
+316,L2,religious aggression,6,35,1.0,0.7891
+317,L1,Non-Aggressive,15,32,0.8571,0.7632
+318,L1,Non-Aggressive,8,35,0.9048,0.5241
+319,L1,Aggressive,16,37,0.8471,0.5607
+319,L2,political aggression,16,37,0.9206,0.4531
+320,L1,Aggressive,29,31,0.7837,0.9202
+320,L2,religious aggression,29,31,0.7852,0.8794
+321,L1,Aggressive,8,42,0.9524,0.4738
+321,L2,others,8,42,0.9762,0.5641
+322,L1,Aggressive,28,30,0.6853,0.7224
+322,L2,others,28,30,0.769,0.4981
+323,L1,Aggressive,17,29,0.8064,0.865
+323,L2,religious aggression,17,29,0.6422,0.9522
+324,L1,Aggressive,13,28,0.9505,0.4565
+324,L2,others,13,28,0.6264,0.7105
+325,L1,Aggressive,3,28,1.0,0.7854
+325,L2,gendered aggression,3,28,0.5,0.8396
+326,L1,Aggressive,9,33,0.8333,0.6955
+326,L2,others,9,33,0.8,0.8102
+327,L1,Aggressive,25,36,0.5008,0.5779
+327,L2,religious aggression,25,36,0.27,0.7287
+328,L1,Aggressive,18,36,0.8576,0.8721
+328,L2,religious aggression,18,36,0.517,0.8404
+329,L1,Aggressive,11,24,0.9182,0.8835
+329,L2,others,11,24,0.9909,0.6443
+330,L1,Non-Aggressive,12,36,0.8042,0.8386
+331,L1,Aggressive,10,32,0.9394,0.4974
+331,L2,others,10,32,0.9273,0.7086
+332,L1,Aggressive,23,35,0.4397,0.6563
+332,L2,religious aggression,23,35,0.3123,0.828
+333,L1,Aggressive,20,38,0.8902,0.772
+333,L2,religious aggression,20,38,0.2195,0.9501
+334,L1,Aggressive,24,36,0.5748,0.5771
+334,L2,religious aggression,24,36,0.4217,0.748
+335,L1,Aggressive,7,35,0.7857,0.2499
+335,L2,others,7,35,0.75,0.5711
+336,L1,Non-Aggressive,9,36,0.8833,0.721
+337,L1,Aggressive,10,27,0.903,0.881
+337,L2,political aggression,10,27,0.6606,0.862
+338,L1,Non-Aggressive,8,32,0.9524,0.8614
+339,L1,Aggressive,29,37,0.767,0.6119
+339,L2,political aggression,29,37,0.8281,0.7788
+340,L1,Aggressive,24,34,0.5722,0.464
+340,L2,religious aggression,24,34,0.3643,0.6131
+341,L1,Aggressive,15,29,0.7536,0.6537
+341,L2,religious aggression,15,29,0.9107,0.8956
+342,L1,Aggressive,8,42,0.8333,0.2441
+342,L2,gendered aggression,8,42,0.9762,0.5605
+343,L1,Aggressive,5,37,0.7,0.7302
+343,L2,religious aggression,5,37,1.0,0.6908
+344,L1,Aggressive,15,29,0.9321,0.799
+344,L2,others,15,29,0.9321,0.5502
+345,L1,Aggressive,14,43,0.9385,0.687
+345,L2,others,14,43,0.9824,0.6403
+346,L1,Aggressive,7,38,0.8571,0.8895
+346,L2,gendered aggression,7,38,1.0,0.9252
+347,L1,Aggressive,7,40,0.3571,0.6698
+347,L2,religious aggression,7,40,0.9643,0.7649
+348,L1,Aggressive,16,37,0.8324,0.3276
+348,L2,gendered aggression,16,37,0.9265,0.7779
+349,L1,Non-Aggressive,10,43,0.6364,0.7791
+350,L1,Aggressive,11,36,0.8818,0.6445
+350,L2,gendered aggression,11,36,0.9727,0.5138
+351,L1,Aggressive,13,34,0.7802,0.4228
+351,L2,gendered aggression,13,34,0.6429,0.5523
+352,L1,Non-Aggressive,8,29,0.9048,0.8453
+353,L1,Aggressive,5,29,1.0,0.8256
+353,L2,others,5,29,0.7,0.8961
+354,L1,Aggressive,9,33,0.9333,0.7747
+354,L2,political aggression,9,33,0.95,0.3947
+355,L1,Non-Aggressive,14,36,0.978,0.9413
+356,L1,Non-Aggressive,29,26,0.7443,0.8926
+357,L1,Aggressive,23,31,0.8211,0.8121
+357,L2,others,23,31,0.5879,0.654
+358,L1,Aggressive,24,38,0.5183,0.7166
+358,L2,religious aggression,24,38,0.0435,0.8427
+359,L1,Aggressive,23,31,0.6324,0.7601
+359,L2,political aggression,23,31,0.5287,0.5823
+360,L1,Non-Aggressive,19,37,0.8421,0.7809
+361,L1,Non-Aggressive,4,21,0.8,0.7805
+362,L1,Non-Aggressive,5,29,1.0,0.868
+363,L1,Aggressive,15,33,0.8893,0.8168
+363,L2,religious aggression,15,33,0.8536,0.8991
+364,L1,Aggressive,25,37,0.68,0.7674
+364,L2,political aggression,25,37,0.6,0.3433
+365,L1,Non-Aggressive,32,30,0.6943,0.9079
+366,L1,Non-Aggressive,12,34,0.9441,0.7665
+367,L1,Aggressive,8,37,0.9048,0.7174
+367,L2,political aggression,8,37,0.8333,0.8046
+368,L1,Aggressive,5,35,1.0,0.6134
+368,L2,religious aggression,5,35,1.0,0.8289
+369,L1,Non-Aggressive,14,27,0.833,0.8877
+370,L1,Non-Aggressive,12,33,0.8741,0.8322
+371,L1,Aggressive,5,29,0.9,0.6581
+371,L2,religious aggression,5,29,1.0,0.9414
+372,L1,Non-Aggressive,21,36,0.8792,0.6391
+373,L1,Aggressive,29,37,0.7433,0.4445
+373,L2,religious aggression,29,37,0.6813,0.6408
+374,L1,Aggressive,37,28,0.4751,0.6015
+374,L2,political aggression,37,28,0.1446,0.7652
+375,L1,Aggressive,16,32,0.9029,0.8339
+375,L2,others,16,32,0.9529,0.8504
+376,L1,Aggressive,25,30,0.9169,0.7059
+376,L2,political aggression,25,30,0.9008,0.6307
+377,L1,Aggressive,19,32,0.7737,0.8174
+377,L2,others,19,32,0.8561,0.846
+378,L1,Aggressive,9,33,0.7167,0.7139
+378,L2,political aggression,9,33,0.5333,0.6153
+379,L1,Aggressive,12,39,0.9161,0.568
+379,L2,political aggression,12,39,0.9371,0.8227
+380,L1,Aggressive,6,35,1.0,0.6832
+380,L2,others,6,35,1.0,0.8221
+381,L1,Aggressive,5,38,0.8,0.6411
+381,L2,political aggression,5,38,0.9,0.1139
+382,L1,Aggressive,6,36,0.9429,0.7133
+382,L2,gendered aggression,6,36,1.0,0.5987
+383,L1,Aggressive,16,39,0.9412,0.6502
+383,L2,others,16,39,0.9735,0.7449
+384,L1,Non-Aggressive,4,34,1.0,0.8759
+385,L1,Non-Aggressive,14,27,0.9121,0.9042
+386,L1,Aggressive,15,28,0.8857,0.7991
+386,L2,others,15,28,0.9464,0.6732
+387,L1,Aggressive,15,32,0.8357,0.7771
+387,L2,political aggression,15,32,0.9,0.8262
+388,L1,Non-Aggressive,14,42,0.9209,0.6666
+389,L1,Aggressive,23,32,0.9792,0.574
+389,L2,religious aggression,23,32,0.9545,0.7529
+390,L1,Aggressive,23,41,0.7806,0.1833
+390,L2,political aggression,23,41,0.5227,0.4146
+391,L1,Non-Aggressive,20,27,0.8707,0.8602
+392,L1,Non-Aggressive,24,37,0.8974,0.8739
+393,L1,Aggressive,16,34,0.8088,0.8927
+393,L2,others,16,34,0.75,0.8759
+394,L1,Aggressive,22,36,0.8125,0.7897
+394,L2,gendered aggression,22,36,0.6431,0.8438
+395,L1,Aggressive,10,32,0.8303,0.596
+395,L2,religious aggression,10,32,0.9152,0.6679
+396,L1,Aggressive,22,32,0.8001,0.8394
+396,L2,political aggression,22,32,0.9221,0.8057
+397,L1,Aggressive,11,37,0.9182,0.5813
+397,L2,political aggression,11,37,0.9727,0.5235
+398,L1,Aggressive,18,33,0.9236,0.758
+398,L2,others,18,33,0.9257,0.8446
+399,L1,Aggressive,23,31,0.6492,0.8468
+399,L2,political aggression,23,31,0.7717,0.6052
+400,L1,Aggressive,6,33,0.8286,0.76
+400,L2,gendered aggression,6,33,0.7714,0.7697
+401,L1,Non-Aggressive,26,33,0.8892,0.8412
+402,L1,Aggressive,15,30,0.8607,0.7522
+402,L2,others,15,30,0.475,0.6347
+403,L1,Non-Aggressive,19,40,0.8561,0.857
+404,L1,Non-Aggressive,17,28,0.7157,0.9332
+405,L1,Aggressive,10,39,0.8788,0.5856
+405,L2,others,10,39,0.9273,0.8267
+406,L1,Non-Aggressive,25,35,0.9354,0.7653
+407,L1,Non-Aggressive,20,29,0.9038,0.8271
+408,L1,Non-Aggressive,13,30,0.9615,0.8136
+409,L1,Aggressive,15,33,0.8214,0.7801
+409,L2,religious aggression,15,33,0.5607,0.7383
+410,L1,Aggressive,29,38,0.833,0.8582
+410,L2,gendered aggression,29,38,0.7956,0.7343
+411,L1,Aggressive,19,30,0.8439,0.8456
+411,L2,political aggression,19,30,0.3667,0.5982
+412,L1,Aggressive,17,28,0.8407,0.6732
+412,L2,religious aggression,17,28,0.8971,0.8872
+413,L1,Aggressive,9,38,0.9667,0.5905
+413,L2,others,9,38,0.9,0.6529
+414,L1,Aggressive,16,31,0.8559,0.7395
+414,L2,political aggression,16,31,0.8294,0.5887
+415,L1,Aggressive,29,34,0.6241,0.6691
+415,L2,others,29,34,0.701,0.424
+416,L1,Non-Aggressive,20,36,0.815,0.8335
+417,L1,Aggressive,9,37,0.9167,0.72
+417,L2,gendered aggression,9,37,0.8833,0.4953
+418,L1,Non-Aggressive,24,26,0.7713,0.7046
+419,L1,Aggressive,15,38,0.875,0.4365
+419,L2,religious aggression,15,38,0.8893,0.5838
+420,L1,Aggressive,18,30,0.7214,0.8105
+420,L2,gendered aggression,18,30,0.7915,0.5813
+421,L1,Aggressive,4,31,1.0,0.6177
+421,L2,others,4,31,1.0,0.7625
+422,L1,Non-Aggressive,14,26,0.9604,0.7634
+423,L1,Aggressive,10,30,0.7091,0.9034
+423,L2,gendered aggression,10,30,0.9273,0.7046
+424,L1,Aggressive,20,30,0.9579,0.7824
+424,L2,others,20,30,0.9353,0.891
+425,L1,Aggressive,9,35,0.95,0.5006
+425,L2,political aggression,9,35,0.9833,0.8613
+426,L1,Aggressive,18,35,0.4427,0.6717
+426,L2,political aggression,18,35,0.839,0.6692
+427,L1,Aggressive,7,39,0.9643,0.4022
+427,L2,gendered aggression,7,39,0.9643,0.6595
+428,L1,Non-Aggressive,21,40,0.8026,0.6895
+429,L1,Non-Aggressive,20,29,0.8872,0.8177
+430,L1,Aggressive,8,34,0.9048,0.8194
+430,L2,others,8,34,1.0,0.7687
+431,L1,Aggressive,19,33,0.5684,0.6561
+431,L2,political aggression,19,33,0.9404,0.8048
+432,L1,Aggressive,30,33,0.5083,0.7928
+432,L2,political aggression,30,33,0.2254,0.621
+433,L1,Aggressive,34,31,0.5597,0.8149
+433,L2,political aggression,34,31,0.2437,0.7815
+434,L1,Aggressive,21,36,0.813,0.722
+434,L2,religious aggression,21,36,0.6195,0.8708
+435,L1,Aggressive,14,32,0.8593,0.7361
+435,L2,others,14,32,0.8198,0.949
+436,L1,Non-Aggressive,18,37,0.9381,0.6351
+437,L1,Non-Aggressive,13,32,0.9231,0.7056
+438,L1,Aggressive,4,38,1.0,0.591
+438,L2,religious aggression,4,38,1.0,0.6656
+439,L1,Aggressive,8,33,0.9762,0.7951
+439,L2,religious aggression,8,33,0.9286,0.9345
+440,L1,Aggressive,10,30,0.9394,0.8861
+440,L2,gendered aggression,10,30,0.7818,0.8176
+441,L1,Aggressive,7,34,0.9643,0.7259
+441,L2,gendered aggression,7,34,1.0,0.6553
+442,L1,Aggressive,14,35,0.4945,0.6902
+442,L2,others,14,35,0.6308,0.898
+443,L1,Aggressive,4,29,0.8,0.7837
+443,L2,political aggression,4,29,1.0,0.5946
+444,L1,Aggressive,6,30,1.0,0.7464
+444,L2,religious aggression,6,30,1.0,0.8576
+445,L1,Non-Aggressive,21,36,0.6909,0.8404
+446,L1,Aggressive,11,38,0.8,0.7477
+446,L2,gendered aggression,11,38,0.9182,0.8291
+447,L1,Aggressive,21,38,0.8299,0.5505
+447,L2,political aggression,21,38,0.6117,0.4032
+448,L1,Aggressive,14,32,0.8066,0.6173
+448,L2,gendered aggression,14,32,0.9253,0.7401
+449,L1,Aggressive,9,14,0.95,0.8286
+449,L2,others,9,14,0.8667,0.389
+450,L1,Aggressive,3,30,1.0,0.8162
+450,L2,others,3,30,1.0,0.6231
+451,L1,Aggressive,11,33,0.8091,0.7146
+451,L2,gendered aggression,11,33,0.9,0.6347
+452,L1,Non-Aggressive,20,32,0.8782,0.8952
+453,L1,Aggressive,5,41,1.0,0.6172
+453,L2,others,5,41,0.7,0.4037
+454,L1,Aggressive,6,38,1.0,0.7647
+454,L2,others,6,38,1.0,0.8157
+455,L1,Aggressive,8,43,0.9048,0.7764
+455,L2,gendered aggression,8,43,0.9762,0.7487
+456,L1,Aggressive,14,36,0.8462,0.8386
+456,L2,religious aggression,14,36,0.8462,0.7717
+457,L1,Aggressive,2,35,,0.6395
+457,L2,others,2,35,,0.3994
+458,L1,Non-Aggressive,6,34,0.9429,0.8665
+459,L1,Aggressive,26,31,0.535,0.5948
+459,L2,political aggression,26,31,0.5145,0.5669
+460,L1,Aggressive,21,37,0.4779,0.4739
+460,L2,religious aggression,21,37,0.6857,0.7523
+461,L1,Aggressive,11,37,0.6818,0.8139
+461,L2,gendered aggression,11,37,0.8273,0.7506
+462,L1,Aggressive,34,26,0.7705,0.8968
+462,L2,gendered aggression,34,26,0.886,0.9166
+463,L1,Aggressive,17,30,0.8211,0.685
+463,L2,religious aggression,17,30,0.7108,0.6214
+464,L1,Aggressive,3,32,0.5,0.7482
+464,L2,others,3,32,0.5,0.6631
+465,L1,Aggressive,14,28,0.8681,0.8232
+465,L2,gendered aggression,14,28,0.9429,0.9414
+466,L1,Non-Aggressive,10,31,0.8061,0.6391
+467,L1,Aggressive,19,28,0.8333,0.6311
+467,L2,gendered aggression,19,28,0.9333,0.5643
+468,L1,Aggressive,24,31,0.7243,0.9242
+468,L2,others,24,31,0.3357,0.7931
+469,L1,Non-Aggressive,11,31,0.9545,0.8629
+470,L1,Aggressive,7,31,0.8929,0.8915
+470,L2,political aggression,7,31,1.0,0.7972
+471,L1,Aggressive,30,27,0.7682,0.8816
+471,L2,gendered aggression,30,27,0.4167,0.8889
+472,L1,Aggressive,9,36,0.9167,0.8057
+472,L2,gendered aggression,9,36,0.9833,0.7189
+473,L1,Aggressive,7,33,0.9286,0.392
+473,L2,religious aggression,7,33,0.9643,0.5201
+474,L1,Aggressive,28,37,0.497,0.6358
+474,L2,religious aggression,28,37,0.5309,0.7172
+475,L1,Aggressive,12,31,0.6294,0.8085
+475,L2,religious aggression,12,31,0.7762,0.8657
+476,L1,Non-Aggressive,22,36,0.8577,0.7115
+477,L1,Aggressive,12,37,0.986,0.5339
+477,L2,gendered aggression,12,37,0.979,0.7857
+478,L1,Aggressive,4,29,1.0,0.8975
+478,L2,religious aggression,4,29,1.0,0.9182
+479,L1,Aggressive,10,33,0.8424,0.8045
+479,L2,religious aggression,10,33,0.5879,0.7828
+480,L1,Aggressive,44,29,0.2529,0.8414
+480,L2,others,44,29,0.5952,0.934
+481,L1,Non-Aggressive,10,32,0.9636,0.8999
+482,L1,Aggressive,10,33,0.7333,0.6741
+482,L2,political aggression,10,33,0.9758,0.8586
+483,L1,Aggressive,15,33,0.8393,0.8152
+483,L2,gendered aggression,15,33,0.85,0.7296
+484,L1,Aggressive,5,29,1.0,0.5931
+484,L2,others,5,29,1.0,0.8749

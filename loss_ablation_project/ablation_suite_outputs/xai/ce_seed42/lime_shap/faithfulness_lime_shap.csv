@@ -1,0 +1,9 @@
+level,modality,method,n,removed_frac,drop_top,drop_random,top_beats_random
+L1,image,lime,485,0.2,0.0577,0.0042,0.9835
+L1,image,shap,485,0.2,0.0501,0.0042,0.9629
+L1,text,lime,484,0.2,0.2314,0.0226,0.9215
+L1,text,shap,484,0.2,0.2157,0.0226,0.905
+L2,image,lime,363,0.2,0.0754,0.0022,0.9945
+L2,image,shap,363,0.2,0.0672,0.0022,0.9752
+L2,text,lime,362,0.2,0.4284,0.0727,0.9365
+L2,text,shap,362,0.2,0.422,0.0727,0.9061

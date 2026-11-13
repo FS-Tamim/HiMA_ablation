@@ -9,7 +9,9 @@
 # Both methods explain the probability of the class the model predicted.
 #
 # Output (next to the checkpoint, in lime_shap/):
-#   lime_shap_report.html, figures/sample_XXXX.png, word_attributions.csv, agreement.csv
+#   lime_shap_report.html, figures/sample_XXXX.png, word_attributions.csv, agreement.csv,
+#   region_attributions.csv (LIME/SHAP value, area and centre of every superpixel), segments.npz (SLIC maps),
+#   faithfulness_lime_shap.csv (+ _per_meme): deletion test of the top-ranked words / regions vs random
 #
 # Usage:
 #   python xai_lime_shap.py --data-root <folder with hierarchical_aggression.csv>
@@ -30,6 +32,7 @@ def parse_args():
     ap.add_argument("--segments", type=int, default=50)
     ap.add_argument("--batch", type=int, default=16)
     ap.add_argument("--all", action="store_true", help="explain every test meme")
+    ap.add_argument("--delete-frac", type=float, default=0.2, help="fraction removed in the deletion test")
     ap.add_argument("--shard", default="", help="k/n: only every n-th meme starting at k (parallel GPUs)")
     ap.add_argument("--no-report", action="store_true", help="only compute and cache (used with --shard)")
     return ap.parse_args()
@@ -122,11 +125,10 @@ def main():
     ds = S.AggressionDataset(test_df, tok, cfg["max_len"], S.get_transforms(False))
     print(f"Device: {device} | {len(idxs)} memes | {a.n_samples} model evaluations per explanation\n")
 
-    lime_text = LimeTextExplainer(split_expression=r"\s+", bow=False, mask_string=tok.mask_token, random_state=ck["seed"])
-    lime_img = LimeImageExplainer(random_state=ck["seed"])
     seg_fn = SegmentationAlgorithm("slic", n_segments=a.segments, compactness=10, sigma=1, start_label=0)
 
     rows, agree, cards = [], [], []
+    region_rows, faith_rows, seg_store = [], [], {}
     for n, i in enumerate(idxs, 1):
         it = ds[i]
         ids, mask = it["input_ids"][None].to(device), it["attention_mask"][None].to(device)
@@ -139,6 +141,9 @@ def main():
         cf = os.path.join(cache, f"sample_{i:04d}.pkl")
 
         def compute():
+            rs = ck["seed"] + i                                   # per-meme seed: reproducible, shard-independent
+            lime_text = LimeTextExplainer(split_expression=r"\s+", bow=False, mask_string=tok.mask_token, random_state=rs)
+            lime_img = LimeImageExplainer(random_state=rs)
             @torch.no_grad()
             def f_text(texts):                                    # list of captions -> (n, 2 + n_l2) probabilities
                 res = []
@@ -184,6 +189,7 @@ def main():
                 def f_words(z):
                     return f_text([" ".join(wd if on else tok.mask_token for wd, on in zip(words, r)) for r in z])
                 ke = shap.KernelExplainer(f_words, np.zeros((1, len(words))))
+                np.random.seed(rs)
                 sv = shap_matrix(ke.shap_values(np.ones((1, len(words))), nsamples=a.n_samples, l1_reg=False,
                                                 silent=True), len(words), n_out)
                 for _, lab, _ in targets:
@@ -197,6 +203,7 @@ def main():
             def f_seg(z):
                 return f_img(np.stack([np.where((r[seg] > 0)[..., None], img, grey) for r in z]))
             ke = shap.KernelExplainer(f_seg, np.zeros((1, n_seg)))
+            np.random.seed(rs)
             sv = shap_matrix(ke.shap_values(np.ones((1, n_seg)), nsamples=a.n_samples, l1_reg=False, silent=True),
                              n_seg, n_out)
             I = {}
@@ -205,7 +212,22 @@ def main():
                 for j, v in e.local_exp[lab]:
                     w[j] = v
                 I[("lime", lab)], I[("shap", lab)] = w, sv[:, lab]
-            return dict(p=p, T=T, I=I, seg=seg.astype(np.int16), n_samples=a.n_samples)
+
+            # ---- deletion test: remove the top-ranked words / regions vs the same number at random ----
+            rng = np.random.default_rng(rs)
+            D = {}
+            for _, lab, _ in targets:
+                base = float(p[lab])
+                parts = [("image", n_seg, f_seg, I)] + ([("text", len(words), f_words, T)] if T else [])
+                for mod, nf, fn_, A_ in parts:
+                    k = max(1, int(round(a.delete_frac * nf)))
+                    rnd = rng.choice(nf, k, replace=False)
+                    for m in ["lime", "shap"]:
+                        top = np.argsort(-A_[(m, lab)])[:k]
+                        z = np.ones((2, nf)); z[0, top] = 0; z[1, rnd] = 0
+                        q = fn_(z)[:, lab]
+                        D[(mod, m, lab)] = (base - float(q[0]), base - float(q[1]))
+            return dict(p=p, T=T, I=I, D=D, seg=seg.astype(np.int16), n_samples=a.n_samples)
 
         if os.path.isfile(cf):
             with open(cf, "rb") as fh:
@@ -224,6 +246,22 @@ def main():
         n_seg = int(seg.max()) + 1
         pred1, pred2 = int(p[:2].argmax()), int(p[2:].argmax())
         targets = [(1, pred1, X.L1_NAMES[pred1])] + ([(2, 2 + pred2, l2_names[pred2])] if pred1 == 1 else [])
+
+        # ---- image-region values, segment maps and deletion results ----
+        seg_store[f"sample_{i:04d}"] = d["seg"]
+        cnt = np.bincount(seg.ravel(), minlength=n_seg).astype(float)
+        yy, xx = np.indices(seg.shape)
+        cy = np.bincount(seg.ravel(), weights=yy.ravel(), minlength=n_seg) / np.maximum(cnt, 1) / seg.shape[0]
+        cx = np.bincount(seg.ravel(), weights=xx.ravel(), minlength=n_seg) / np.maximum(cnt, 1) / seg.shape[1]
+        for lvl, lab, name in targets:
+            for sg in range(n_seg):
+                region_rows.append(dict(idx=i, level=f"L{lvl}", predicted_class=name, segment=sg,
+                                        area_frac=cnt[sg] / seg.size, cx=cx[sg], cy=cy[sg],
+                                        lime=I[("lime", lab)][sg], shap=I[("shap", lab)][sg]))
+            for (mod, m, lb), (dt, dr) in d.get("D", {}).items():
+                if lb == lab:
+                    faith_rows.append(dict(idx=i, level=f"L{lvl}", predicted_class=name, modality=mod, method=m,
+                                           drop_top=dt, drop_random=dr))
 
         # ---- figure ----
         fig, axes = plt.subplots(len(targets), 3, figsize=(9.6, 3.5 * len(targets)), facecolor=X.C_SURF, squeeze=False)
@@ -262,6 +300,18 @@ def main():
     if a.no_report:
         print(f"\nShard done: {len(idxs)} memes cached in {cache}"); return
     pd.DataFrame(rows).round(5).to_csv(os.path.join(out, "word_attributions.csv"), index=False, encoding="utf-8-sig")
+    pd.DataFrame(region_rows).round(5).to_csv(os.path.join(out, "region_attributions.csv"), index=False)
+    np.savez_compressed(os.path.join(out, "segments.npz"), **seg_store)     # SLIC map per meme (224 x 224)
+    Fm = pd.DataFrame(faith_rows)
+    if len(Fm):
+        Fm.round(5).to_csv(os.path.join(out, "faithfulness_lime_shap_per_meme.csv"), index=False)
+        Fs = Fm.groupby(["level", "modality", "method"]).apply(lambda g: pd.Series(dict(
+            n=len(g), removed_frac=a.delete_frac, drop_top=g["drop_top"].mean(), drop_random=g["drop_random"].mean(),
+            top_beats_random=(g["drop_top"] > g["drop_random"]).mean()))).reset_index()
+        Fs["n"] = Fs["n"].astype(int)
+        Fs.round(4).to_csv(os.path.join(out, "faithfulness_lime_shap.csv"), index=False)
+        print("\nDeletion test for LIME / SHAP (mean drop in predicted-class probability):")
+        print(Fs.round(4).to_string(index=False))
     W = pd.DataFrame(rows)
     top_html = ""
     if len(W):                                        # words that matter most per predicted class
@@ -305,7 +355,7 @@ the probability of the class the model predicted.</p>
     with open(os.path.join(out, "lime_shap_report.html"), "w", encoding="utf-8") as fh:
         fh.write(page)
     print(f"\nSaved to {out}:\n  lime_shap_report.html, figures/*.png, word_attributions.csv, agreement.csv, "
-          f"top_words_lime_shap.csv")
+          f"top_words_lime_shap.csv,\n  region_attributions.csv, segments.npz, faithfulness_lime_shap(.csv, _per_meme.csv)")
 
 if __name__ == "__main__":
     main()

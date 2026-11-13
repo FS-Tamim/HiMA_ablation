@@ -1,0 +1,3389 @@
+idx,level,predicted_class,modality,method,drop_top,drop_random
+0,L1,Aggressive,image,lime,0.05416,0.00254
+0,L1,Aggressive,image,shap,0.05697,0.00254
+0,L1,Aggressive,text,lime,0.00841,-0.02523
+0,L1,Aggressive,text,shap,0.00841,-0.02523
+0,L2,others,image,lime,0.23966,-0.00666
+0,L2,others,image,shap,0.14827,-0.00666
+0,L2,others,text,lime,-0.03324,-0.04289
+0,L2,others,text,shap,-0.03324,-0.04289
+1,L1,Aggressive,image,lime,0.15027,0.05545
+1,L1,Aggressive,image,shap,0.11687,0.05545
+1,L1,Aggressive,text,lime,0.45151,-0.18795
+1,L1,Aggressive,text,shap,0.45155,-0.18795
+1,L2,others,image,lime,0.02581,0.00437
+1,L2,others,image,shap,0.01774,0.00437
+1,L2,others,text,lime,0.22848,-0.00809
+1,L2,others,text,shap,0.24881,-0.00809
+2,L1,Aggressive,image,lime,0.04935,-0.01767
+2,L1,Aggressive,image,shap,0.04245,-0.01767
+2,L1,Aggressive,text,lime,0.72044,-0.02151
+2,L1,Aggressive,text,shap,0.67925,-0.02151
+2,L2,religious aggression,image,lime,0.00549,-0.00072
+2,L2,religious aggression,image,shap,0.00736,-0.00072
+2,L2,religious aggression,text,lime,0.03359,0.0039
+2,L2,religious aggression,text,shap,0.02813,0.0039
+3,L1,Non-Aggressive,image,lime,0.14462,-0.01079
+3,L1,Non-Aggressive,image,shap,0.1086,-0.01079
+3,L1,Non-Aggressive,text,lime,0.44924,0.00782
+3,L1,Non-Aggressive,text,shap,0.44924,0.00782
+4,L1,Aggressive,image,lime,0.0072,0.00234
+4,L1,Aggressive,image,shap,0.00701,0.00234
+4,L1,Aggressive,text,lime,0.04537,-0.00192
+4,L1,Aggressive,text,shap,0.04537,-0.00192
+4,L2,political aggression,image,lime,0.04216,0.00043
+4,L2,political aggression,image,shap,0.04771,0.00043
+4,L2,political aggression,text,lime,0.81642,-0.02266
+4,L2,political aggression,text,shap,0.81642,-0.02266
+5,L1,Non-Aggressive,image,lime,0.0382,0.00719
+5,L1,Non-Aggressive,image,shap,0.04952,0.00719
+5,L1,Non-Aggressive,text,lime,0.16527,0.04468
+5,L1,Non-Aggressive,text,shap,0.104,0.04468
+6,L1,Aggressive,image,lime,0.02385,-0.00204
+6,L1,Aggressive,image,shap,0.02127,-0.00204
+6,L1,Aggressive,text,lime,0.12957,0.12957
+6,L1,Aggressive,text,shap,0.12957,0.12957
+6,L2,religious aggression,image,lime,0.00172,-0.00027
+6,L2,religious aggression,image,shap,0.0007,-0.00027
+6,L2,religious aggression,text,lime,0.85648,-0.00025
+6,L2,religious aggression,text,shap,0.85648,-0.00025
+7,L1,Aggressive,image,lime,0.01497,0.01938
+7,L1,Aggressive,image,shap,-0.00039,0.01938
+7,L1,Aggressive,text,lime,-0.04605,-0.01696
+7,L1,Aggressive,text,shap,-0.06191,-0.01696
+7,L2,others,image,lime,0.2855,0.03629
+7,L2,others,image,shap,0.26172,0.03629
+7,L2,others,text,lime,0.30956,0.04068
+7,L2,others,text,shap,0.30956,0.04068
+8,L1,Non-Aggressive,image,lime,0.08339,-0.00665
+8,L1,Non-Aggressive,image,shap,0.08095,-0.00665
+8,L1,Non-Aggressive,text,lime,0.11846,0.06483
+8,L1,Non-Aggressive,text,shap,0.18347,0.06483
+9,L1,Aggressive,image,lime,0.03902,0.00191
+9,L1,Aggressive,image,shap,0.03914,0.00191
+9,L1,Aggressive,text,lime,0.08172,-0.01731
+9,L1,Aggressive,text,shap,0.04498,-0.01731
+9,L2,religious aggression,image,lime,0.00481,-0.0006
+9,L2,religious aggression,image,shap,0.00481,-0.0006
+9,L2,religious aggression,text,lime,0.00939,-0.00014
+9,L2,religious aggression,text,shap,0.00832,-0.00014
+10,L1,Aggressive,image,lime,0.00682,-0.0014
+10,L1,Aggressive,image,shap,0.00564,-0.0014
+10,L1,Aggressive,text,lime,0.19435,-8e-05
+10,L1,Aggressive,text,shap,0.19435,-8e-05
+10,L2,political aggression,image,lime,0.00945,-0.00274
+10,L2,political aggression,image,shap,0.00651,-0.00274
+10,L2,political aggression,text,lime,0.70851,0.01238
+10,L2,political aggression,text,shap,0.74185,0.01238
+11,L1,Aggressive,image,lime,0.11351,0.01404
+11,L1,Aggressive,image,shap,0.12527,0.01404
+11,L1,Aggressive,text,lime,0.19217,0.03301
+11,L1,Aggressive,text,shap,0.15151,0.03301
+11,L2,others,image,lime,0.01969,-0.00151
+11,L2,others,image,shap,0.01523,-0.00151
+11,L2,others,text,lime,0.12916,-0.00039
+11,L2,others,text,shap,0.00465,-0.00039
+12,L1,Aggressive,image,lime,0.02019,0.00665
+12,L1,Aggressive,image,shap,0.01121,0.00665
+12,L1,Aggressive,text,lime,0.04041,0.00734
+12,L1,Aggressive,text,shap,0.04041,0.00734
+12,L2,gendered aggression,image,lime,0.05443,0.04072
+12,L2,gendered aggression,image,shap,0.05521,0.04072
+12,L2,gendered aggression,text,lime,0.15999,0.10589
+12,L2,gendered aggression,text,shap,0.15999,0.10589
+13,L1,Aggressive,image,lime,0.01984,-0.00038
+13,L1,Aggressive,image,shap,0.01988,-0.00038
+13,L1,Aggressive,text,lime,0.10666,-0.00048
+13,L1,Aggressive,text,shap,0.10666,-0.00048
+13,L2,religious aggression,image,lime,0.00233,-0.00043
+13,L2,religious aggression,image,shap,0.00191,-0.00043
+13,L2,religious aggression,text,lime,0.68213,3e-05
+13,L2,religious aggression,text,shap,0.68213,3e-05
+14,L1,Aggressive,image,lime,0.00884,0.00119
+14,L1,Aggressive,image,shap,0.00727,0.00119
+14,L1,Aggressive,text,lime,0.55593,-0.0029
+14,L1,Aggressive,text,shap,0.27167,-0.0029
+14,L2,religious aggression,image,lime,0.00149,9e-05
+14,L2,religious aggression,image,shap,0.00044,9e-05
+14,L2,religious aggression,text,lime,0.82562,-2e-05
+14,L2,religious aggression,text,shap,0.75476,-2e-05
+15,L1,Aggressive,image,lime,0.00607,0.0017
+15,L1,Aggressive,image,shap,0.00396,0.0017
+15,L1,Aggressive,text,lime,0.00782,-9e-05
+15,L1,Aggressive,text,shap,-0.00077,-9e-05
+15,L2,religious aggression,image,lime,0.00067,4e-05
+15,L2,religious aggression,image,shap,0.00035,4e-05
+15,L2,religious aggression,text,lime,0.98465,6e-05
+15,L2,religious aggression,text,shap,0.98583,6e-05
+16,L1,Aggressive,image,lime,0.10188,-0.00045
+16,L1,Aggressive,image,shap,0.09848,-0.00045
+16,L1,Aggressive,text,lime,0.25804,-0.09224
+16,L1,Aggressive,text,shap,0.25804,-0.09224
+16,L2,others,image,lime,0.01893,-0.00179
+16,L2,others,image,shap,0.01416,-0.00179
+16,L2,others,text,lime,0.0573,0.01056
+16,L2,others,text,shap,0.03822,0.01056
+17,L1,Non-Aggressive,image,lime,0.04653,0.04421
+17,L1,Non-Aggressive,image,shap,0.04397,0.04421
+17,L1,Non-Aggressive,text,lime,0.18544,0.0472
+17,L1,Non-Aggressive,text,shap,0.18544,0.0472
+18,L1,Aggressive,image,lime,0.00855,0.00033
+18,L1,Aggressive,image,shap,0.00301,0.00033
+18,L1,Aggressive,text,lime,0.00915,0.00134
+18,L1,Aggressive,text,shap,0.00915,0.00134
+18,L2,others,image,lime,0.15687,0.03799
+18,L2,others,image,shap,0.15573,0.03799
+18,L2,others,text,lime,0.27929,0.07956
+18,L2,others,text,shap,0.07956,0.07956
+19,L1,Non-Aggressive,image,lime,0.10038,-0.00464
+19,L1,Non-Aggressive,image,shap,0.0932,-0.00464
+19,L1,Non-Aggressive,text,lime,0.62174,-0.07703
+19,L1,Non-Aggressive,text,shap,0.62174,-0.07703
+20,L1,Aggressive,image,lime,0.00454,4e-05
+20,L1,Aggressive,image,shap,0.00403,4e-05
+20,L1,Aggressive,text,lime,0.01109,0.00108
+20,L1,Aggressive,text,shap,0.00399,0.00108
+20,L2,political aggression,image,lime,0.02603,0.00396
+20,L2,political aggression,image,shap,0.01917,0.00396
+20,L2,political aggression,text,lime,0.26947,0.02898
+20,L2,political aggression,text,shap,0.014,0.02898
+21,L1,Aggressive,image,lime,0.0062,-0.00668
+21,L1,Aggressive,image,shap,0.00733,-0.00668
+21,L1,Aggressive,text,lime,0.15665,-0.02803
+21,L1,Aggressive,text,shap,0.02394,-0.02803
+21,L2,others,image,lime,0.00304,-0.00017
+21,L2,others,image,shap,0.00228,-0.00017
+21,L2,others,text,lime,0.02379,0.00497
+21,L2,others,text,shap,0.00597,0.00497
+22,L1,Non-Aggressive,image,lime,0.07559,0.06299
+22,L1,Non-Aggressive,image,shap,0.06312,0.06299
+22,L1,Non-Aggressive,text,lime,0.17552,0.00972
+22,L1,Non-Aggressive,text,shap,0.17552,0.00972
+23,L1,Aggressive,image,lime,0.0537,0.01953
+23,L1,Aggressive,image,shap,0.03898,0.01953
+23,L1,Aggressive,text,lime,0.33231,-0.00192
+23,L1,Aggressive,text,shap,0.33231,-0.00192
+23,L2,others,image,lime,0.02225,0.00217
+23,L2,others,image,shap,0.02309,0.00217
+23,L2,others,text,lime,0.29782,-0.00036
+23,L2,others,text,shap,0.07188,-0.00036
+24,L1,Aggressive,image,lime,0.00806,-4e-05
+24,L1,Aggressive,image,shap,0.01401,-4e-05
+24,L1,Aggressive,text,lime,0.00194,0.0013
+24,L1,Aggressive,text,shap,0.00194,0.0013
+24,L2,political aggression,image,lime,0.00673,0.0026
+24,L2,political aggression,image,shap,0.00483,0.0026
+24,L2,political aggression,text,lime,0.01438,0.00129
+24,L2,political aggression,text,shap,0.01438,0.00129
+25,L1,Aggressive,image,lime,0.12168,0.00781
+25,L1,Aggressive,image,shap,0.10684,0.00781
+25,L1,Aggressive,text,lime,0.49571,-0.00905
+25,L1,Aggressive,text,shap,0.49571,-0.00905
+25,L2,religious aggression,image,lime,0.06487,0.00762
+25,L2,religious aggression,image,shap,0.04671,0.00762
+25,L2,religious aggression,text,lime,0.88942,0.52274
+25,L2,religious aggression,text,shap,0.88942,0.52274
+26,L1,Aggressive,image,lime,0.02736,0.00057
+26,L1,Aggressive,image,shap,0.03278,0.00057
+26,L1,Aggressive,text,lime,0.04746,-0.0157
+26,L1,Aggressive,text,shap,0.04746,-0.0157
+26,L2,others,image,lime,0.04473,-0.00606
+26,L2,others,image,shap,0.00454,-0.00606
+26,L2,others,text,lime,0.06963,0.00397
+26,L2,others,text,shap,0.06963,0.00397
+27,L1,Non-Aggressive,image,lime,0.12552,0.05266
+27,L1,Non-Aggressive,image,shap,0.1063,0.05266
+27,L1,Non-Aggressive,text,lime,0.35917,0.02476
+27,L1,Non-Aggressive,text,shap,0.30614,0.02476
+28,L1,Aggressive,image,lime,0.05493,-0.00058
+28,L1,Aggressive,image,shap,0.04708,-0.00058
+28,L1,Aggressive,text,lime,0.1838,-0.006
+28,L1,Aggressive,text,shap,0.1838,-0.006
+28,L2,others,image,lime,0.03422,0.00318
+28,L2,others,image,shap,0.01434,0.00318
+28,L2,others,text,lime,0.10761,0.00022
+28,L2,others,text,shap,0.10761,0.00022
+29,L1,Non-Aggressive,image,lime,0.1114,-0.01527
+29,L1,Non-Aggressive,image,shap,0.09963,-0.01527
+29,L1,Non-Aggressive,text,lime,0.22867,0.22867
+29,L1,Non-Aggressive,text,shap,0.22867,0.22867
+30,L1,Non-Aggressive,image,lime,0.16962,0.0124
+30,L1,Non-Aggressive,image,shap,0.17716,0.0124
+30,L1,Non-Aggressive,text,lime,0.40019,-0.09887
+30,L1,Non-Aggressive,text,shap,0.40019,-0.09887
+31,L1,Aggressive,image,lime,0.01748,0.00204
+31,L1,Aggressive,image,shap,0.02294,0.00204
+31,L1,Aggressive,text,lime,0.52456,0.01526
+31,L1,Aggressive,text,shap,0.54044,0.01526
+31,L2,others,image,lime,0.03853,-0.0205
+31,L2,others,image,shap,0.04603,-0.0205
+31,L2,others,text,lime,0.54384,0.15107
+31,L2,others,text,shap,0.51762,0.15107
+32,L1,Aggressive,image,lime,0.04274,-0.00772
+32,L1,Aggressive,image,shap,0.02992,-0.00772
+32,L1,Aggressive,text,lime,0.17664,0.0016
+32,L1,Aggressive,text,shap,0.15961,0.0016
+32,L2,religious aggression,image,lime,0.00692,0.00083
+32,L2,religious aggression,image,shap,0.0063,0.00083
+32,L2,religious aggression,text,lime,0.18272,0.00362
+32,L2,religious aggression,text,shap,0.18272,0.00362
+33,L1,Aggressive,image,lime,0.13452,0.00448
+33,L1,Aggressive,image,shap,0.08187,0.00448
+33,L1,Aggressive,text,lime,0.13915,0.06721
+33,L1,Aggressive,text,shap,0.13915,0.06721
+33,L2,gendered aggression,image,lime,0.30987,0.01191
+33,L2,gendered aggression,image,shap,0.26054,0.01191
+33,L2,gendered aggression,text,lime,0.54275,0.35875
+33,L2,gendered aggression,text,shap,0.30195,0.35875
+34,L1,Non-Aggressive,image,lime,0.10796,-0.00953
+34,L1,Non-Aggressive,image,shap,0.05496,-0.00953
+34,L1,Non-Aggressive,text,lime,0.58836,0.01307
+34,L1,Non-Aggressive,text,shap,0.55302,0.01307
+35,L1,Non-Aggressive,image,lime,0.0133,-0.00628
+35,L1,Non-Aggressive,image,shap,0.01469,-0.00628
+35,L1,Non-Aggressive,text,lime,0.4385,-0.02726
+35,L1,Non-Aggressive,text,shap,0.3405,-0.02726
+36,L1,Aggressive,image,lime,0.01562,0.00134
+36,L1,Aggressive,image,shap,0.00392,0.00134
+36,L1,Aggressive,text,lime,0.43287,-0.00878
+36,L1,Aggressive,text,shap,0.38901,-0.00878
+36,L2,gendered aggression,image,lime,0.11835,-0.00768
+36,L2,gendered aggression,image,shap,0.04737,-0.00768
+36,L2,gendered aggression,text,lime,0.41953,0.00238
+36,L2,gendered aggression,text,shap,0.41953,0.00238
+37,L1,Aggressive,image,lime,0.00598,-0.00016
+37,L1,Aggressive,image,shap,0.0023,-0.00016
+37,L1,Aggressive,text,lime,0.00043,0.00047
+37,L1,Aggressive,text,shap,0.00112,0.00047
+37,L2,political aggression,image,lime,0.00582,0.00291
+37,L2,political aggression,image,shap,0.00431,0.00291
+37,L2,political aggression,text,lime,0.00231,0.00196
+37,L2,political aggression,text,shap,0.00138,0.00196
+38,L1,Aggressive,image,lime,0.01324,0.00075
+38,L1,Aggressive,image,shap,0.00912,0.00075
+38,L1,Aggressive,text,lime,0.13685,0.00309
+38,L1,Aggressive,text,shap,0.13685,0.00309
+38,L2,political aggression,image,lime,0.00876,0.00131
+38,L2,political aggression,image,shap,0.00741,0.00131
+38,L2,political aggression,text,lime,0.90206,0.00813
+38,L2,political aggression,text,shap,0.90206,0.00813
+39,L1,Aggressive,image,lime,0.08838,-0.00344
+39,L1,Aggressive,image,shap,0.07915,-0.00344
+39,L1,Aggressive,text,lime,0.20181,-0.05572
+39,L1,Aggressive,text,shap,0.1828,-0.05572
+39,L2,others,image,lime,0.03356,-0.00168
+39,L2,others,image,shap,0.01212,-0.00168
+39,L2,others,text,lime,0.12688,0.04655
+39,L2,others,text,shap,0.11535,0.04655
+40,L1,Aggressive,image,lime,0.07625,-0.01115
+40,L1,Aggressive,image,shap,0.06944,-0.01115
+40,L1,Aggressive,text,lime,0.07129,0.01245
+40,L1,Aggressive,text,shap,0.07129,0.01245
+40,L2,others,image,lime,-0.00238,-0.01037
+40,L2,others,image,shap,-0.00468,-0.01037
+40,L2,others,text,lime,0.40076,0.01712
+40,L2,others,text,shap,0.40076,0.01712
+41,L1,Aggressive,image,lime,0.25266,0.10196
+41,L1,Aggressive,image,shap,0.16052,0.10196
+41,L1,Aggressive,text,lime,0.09137,0.01225
+41,L1,Aggressive,text,shap,0.09137,0.01225
+41,L2,gendered aggression,image,lime,0.33719,0.00856
+41,L2,gendered aggression,image,shap,0.17327,0.00856
+41,L2,gendered aggression,text,lime,0.09802,0.00408
+41,L2,gendered aggression,text,shap,0.09802,0.00408
+42,L1,Aggressive,image,lime,0.0069,0.00297
+42,L1,Aggressive,image,shap,0.00498,0.00297
+42,L1,Aggressive,text,lime,0.20779,0.02128
+42,L1,Aggressive,text,shap,0.16674,0.02128
+42,L2,gendered aggression,image,lime,0.21041,0.01674
+42,L2,gendered aggression,image,shap,0.17953,0.01674
+42,L2,gendered aggression,text,lime,0.48437,0.12469
+42,L2,gendered aggression,text,shap,0.51369,0.12469
+43,L1,Aggressive,image,lime,0.0105,-0.0106
+43,L1,Aggressive,image,shap,0.01301,-0.0106
+43,L1,Aggressive,text,lime,0.60915,0.0104
+43,L1,Aggressive,text,shap,0.60915,0.0104
+43,L2,religious aggression,image,lime,0.00311,-0.00682
+43,L2,religious aggression,image,shap,0.00477,-0.00682
+43,L2,religious aggression,text,lime,0.94944,-0.00194
+43,L2,religious aggression,text,shap,0.94776,-0.00194
+44,L1,Aggressive,image,lime,0.00644,0.00074
+44,L1,Aggressive,image,shap,0.00218,0.00074
+44,L1,Aggressive,text,lime,0.00265,-0.00034
+44,L1,Aggressive,text,shap,0.00121,-0.00034
+44,L2,religious aggression,image,lime,0.00063,0.00029
+44,L2,religious aggression,image,shap,0.00033,0.00029
+44,L2,religious aggression,text,lime,0.00017,4e-05
+44,L2,religious aggression,text,shap,0.0002,4e-05
+45,L1,Aggressive,image,lime,0.04297,0.04723
+45,L1,Aggressive,image,shap,0.04048,0.04723
+45,L1,Aggressive,text,lime,0.4234,0.41105
+45,L1,Aggressive,text,shap,0.3203,0.41105
+45,L2,gendered aggression,image,lime,0.07936,0.01303
+45,L2,gendered aggression,image,shap,0.07408,0.01303
+45,L2,gendered aggression,text,lime,0.63993,0.55748
+45,L2,gendered aggression,text,shap,0.63993,0.55748
+46,L1,Aggressive,image,lime,0.01285,0.04726
+46,L1,Aggressive,image,shap,0.01413,0.04726
+46,L1,Aggressive,text,lime,0.28553,-0.01311
+46,L1,Aggressive,text,shap,0.28553,-0.01311
+46,L2,gendered aggression,image,lime,0.06238,-0.00413
+46,L2,gendered aggression,image,shap,0.0218,-0.00413
+46,L2,gendered aggression,text,lime,0.52516,-0.05158
+46,L2,gendered aggression,text,shap,0.52235,-0.05158
+47,L1,Non-Aggressive,image,lime,0.05178,-0.00286
+47,L1,Non-Aggressive,image,shap,0.05275,-0.00286
+47,L1,Non-Aggressive,text,lime,0.09406,0.09406
+47,L1,Non-Aggressive,text,shap,0.01876,0.09406
+48,L1,Aggressive,image,lime,0.00553,0.00071
+48,L1,Aggressive,image,shap,0.00135,0.00071
+48,L1,Aggressive,text,lime,0.00262,-0.00049
+48,L1,Aggressive,text,shap,-0.00024,-0.00049
+48,L2,religious aggression,image,lime,0.00054,8e-05
+48,L2,religious aggression,image,shap,0.00018,8e-05
+48,L2,religious aggression,text,lime,0.00334,-4e-05
+48,L2,religious aggression,text,shap,0.43967,-4e-05
+49,L1,Aggressive,image,lime,0.12426,0.02003
+49,L1,Aggressive,image,shap,0.10568,0.02003
+49,L1,Aggressive,text,lime,0.3888,-0.00706
+49,L1,Aggressive,text,shap,0.41607,-0.00706
+49,L2,gendered aggression,image,lime,0.13397,0.00667
+49,L2,gendered aggression,image,shap,0.12724,0.00667
+49,L2,gendered aggression,text,lime,0.22,0.17788
+49,L2,gendered aggression,text,shap,0.22,0.17788
+50,L1,Non-Aggressive,image,lime,0.1624,-0.07652
+50,L1,Non-Aggressive,image,shap,0.14674,-0.07652
+50,L1,Non-Aggressive,text,lime,0.46479,0.46479
+50,L1,Non-Aggressive,text,shap,0.46479,0.46479
+51,L1,Non-Aggressive,image,lime,0.01442,0.00024
+51,L1,Non-Aggressive,image,shap,0.01209,0.00024
+51,L1,Non-Aggressive,text,lime,0.05267,0.01588
+51,L1,Non-Aggressive,text,shap,0.05267,0.01588
+52,L1,Aggressive,image,lime,0.01347,-0.00334
+52,L1,Aggressive,image,shap,0.00269,-0.00334
+52,L1,Aggressive,text,lime,0.00788,0.00314
+52,L1,Aggressive,text,shap,0.00788,0.00314
+52,L2,religious aggression,image,lime,0.00078,-0.00243
+52,L2,religious aggression,image,shap,0.00325,-0.00243
+52,L2,religious aggression,text,lime,0.97165,0.00171
+52,L2,religious aggression,text,shap,0.97165,0.00171
+53,L1,Aggressive,image,lime,0.0043,0.00163
+53,L1,Aggressive,image,shap,0.00386,0.00163
+53,L1,Aggressive,text,lime,0.0048,0.0048
+53,L1,Aggressive,text,shap,0.0048,0.0048
+53,L2,political aggression,image,lime,0.00778,0.00519
+53,L2,political aggression,image,shap,0.00942,0.00519
+53,L2,political aggression,text,lime,0.01359,0.01359
+53,L2,political aggression,text,shap,0.01359,0.01359
+54,L1,Aggressive,image,lime,0.0145,-0.00169
+54,L1,Aggressive,image,shap,0.01232,-0.00169
+54,L1,Aggressive,text,lime,0.00167,0.00167
+54,L1,Aggressive,text,shap,0.00167,0.00167
+54,L2,political aggression,image,lime,0.01637,0.01055
+54,L2,political aggression,image,shap,0.01736,0.01055
+54,L2,political aggression,text,lime,0.00414,0.00091
+54,L2,political aggression,text,shap,0.00414,0.00091
+55,L1,Non-Aggressive,image,lime,0.06308,0.00391
+55,L1,Non-Aggressive,image,shap,0.04628,0.00391
+55,L1,Non-Aggressive,text,lime,0.04775,0.0229
+55,L1,Non-Aggressive,text,shap,0.04654,0.0229
+56,L1,Non-Aggressive,image,lime,0.02572,-0.01281
+56,L1,Non-Aggressive,image,shap,0.01086,-0.01281
+56,L1,Non-Aggressive,text,lime,0.2571,0.2571
+56,L1,Non-Aggressive,text,shap,0.2571,0.2571
+57,L1,Non-Aggressive,image,lime,0.02571,-0.00886
+57,L1,Non-Aggressive,image,shap,0.03583,-0.00886
+57,L1,Non-Aggressive,text,lime,0.21855,0.04408
+57,L1,Non-Aggressive,text,shap,0.18781,0.04408
+58,L1,Aggressive,image,lime,0.17658,-0.10631
+58,L1,Aggressive,image,shap,0.14915,-0.10631
+58,L1,Aggressive,text,lime,0.4768,0.43286
+58,L1,Aggressive,text,shap,0.44813,0.43286
+58,L2,gendered aggression,image,lime,0.15766,0.02096
+58,L2,gendered aggression,image,shap,0.09987,0.02096
+58,L2,gendered aggression,text,lime,0.4792,0.07039
+58,L2,gendered aggression,text,shap,0.4792,0.07039
+59,L1,Aggressive,image,lime,0.0138,0.0083
+59,L1,Aggressive,image,shap,0.01552,0.0083
+59,L1,Aggressive,text,lime,0.00087,0.00014
+59,L1,Aggressive,text,shap,0.00087,0.00014
+59,L2,political aggression,image,lime,0.0182,-0.00164
+59,L2,political aggression,image,shap,0.01525,-0.00164
+59,L2,political aggression,text,lime,0.00281,-0.00046
+59,L2,political aggression,text,shap,0.00281,-0.00046
+60,L1,Aggressive,image,lime,0.04032,0.01043
+60,L1,Aggressive,image,shap,0.02723,0.01043
+60,L1,Aggressive,text,lime,0.673,-0.05071
+60,L1,Aggressive,text,shap,0.673,-0.05071
+60,L2,political aggression,image,lime,0.05024,-0.04233
+60,L2,political aggression,image,shap,0.02139,-0.04233
+60,L2,political aggression,text,lime,0.61199,0.62559
+60,L2,political aggression,text,shap,0.61459,0.62559
+61,L1,Non-Aggressive,image,lime,0.04958,-0.0386
+61,L1,Non-Aggressive,image,shap,0.0451,-0.0386
+61,L1,Non-Aggressive,text,lime,0.37296,0.03325
+61,L1,Non-Aggressive,text,shap,0.30144,0.03325
+62,L1,Non-Aggressive,image,lime,0.0228,0.00196
+62,L1,Non-Aggressive,image,shap,0.01923,0.00196
+62,L1,Non-Aggressive,text,lime,0.06821,0.00176
+62,L1,Non-Aggressive,text,shap,0.12486,0.00176
+63,L1,Non-Aggressive,image,lime,0.11442,0.04799
+63,L1,Non-Aggressive,image,shap,0.11701,0.04799
+63,L1,Non-Aggressive,text,lime,0.43175,0.08835
+63,L1,Non-Aggressive,text,shap,0.35971,0.08835
+64,L1,Aggressive,image,lime,0.09151,0.01726
+64,L1,Aggressive,image,shap,0.06244,0.01726
+64,L1,Aggressive,text,lime,0.32037,-0.00327
+64,L1,Aggressive,text,shap,0.11392,-0.00327
+64,L2,others,image,lime,0.10481,0.00404
+64,L2,others,image,shap,0.09725,0.00404
+64,L2,others,text,lime,0.67391,0.00245
+64,L2,others,text,shap,0.67391,0.00245
+65,L1,Aggressive,image,lime,0.14103,0.02482
+65,L1,Aggressive,image,shap,0.11123,0.02482
+65,L1,Aggressive,text,lime,0.11774,-0.00171
+65,L1,Aggressive,text,shap,0.1415,-0.00171
+65,L2,gendered aggression,image,lime,0.33567,0.06582
+65,L2,gendered aggression,image,shap,0.32661,0.06582
+65,L2,gendered aggression,text,lime,0.25888,0.11516
+65,L2,gendered aggression,text,shap,0.25888,0.11516
+66,L1,Aggressive,image,lime,0.01048,0.00194
+66,L1,Aggressive,image,shap,0.00433,0.00194
+66,L1,Aggressive,text,lime,0.00063,0.00323
+66,L1,Aggressive,text,shap,0.00724,0.00323
+66,L2,religious aggression,image,lime,0.00092,0.00018
+66,L2,religious aggression,image,shap,0.00072,0.00018
+66,L2,religious aggression,text,lime,0.03454,0.00029
+66,L2,religious aggression,text,shap,0.0848,0.00029
+67,L1,Aggressive,image,lime,0.0376,0.01657
+67,L1,Aggressive,image,shap,0.03544,0.01657
+67,L1,Aggressive,text,lime,0.16097,0.02364
+67,L1,Aggressive,text,shap,0.05987,0.02364
+67,L2,others,image,lime,0.25791,0.05817
+67,L2,others,image,shap,0.19746,0.05817
+67,L2,others,text,lime,0.43347,0.2428
+67,L2,others,text,shap,0.39675,0.2428
+68,L1,Aggressive,image,lime,0.00544,0.00427
+68,L1,Aggressive,image,shap,0.00443,0.00427
+68,L1,Aggressive,text,lime,0.08584,-0.00049
+68,L1,Aggressive,text,shap,0.09847,-0.00049
+68,L2,religious aggression,image,lime,0.00141,1e-05
+68,L2,religious aggression,image,shap,0.00105,1e-05
+68,L2,religious aggression,text,lime,0.87129,6e-05
+68,L2,religious aggression,text,shap,0.87129,6e-05
+69,L1,Aggressive,image,lime,0.09883,0.02979
+69,L1,Aggressive,image,shap,0.09659,0.02979
+69,L1,Aggressive,text,lime,0.4234,0.40182
+69,L1,Aggressive,text,shap,0.4234,0.40182
+69,L2,others,image,lime,0.31202,0.01047
+69,L2,others,image,shap,0.32494,0.01047
+69,L2,others,text,lime,0.21752,-0.01242
+69,L2,others,text,shap,0.22445,-0.01242
+70,L1,Aggressive,image,lime,0.00738,-7e-05
+70,L1,Aggressive,image,shap,0.00913,-7e-05
+70,L1,Aggressive,text,lime,0.05719,0.00096
+70,L1,Aggressive,text,shap,0.09187,0.00096
+70,L2,political aggression,image,lime,0.07958,0.0149
+70,L2,political aggression,image,shap,0.07089,0.0149
+70,L2,political aggression,text,lime,0.87319,0.02456
+70,L2,political aggression,text,shap,0.8697,0.02456
+71,L1,Aggressive,image,lime,0.05458,0.02924
+71,L1,Aggressive,image,shap,0.03501,0.02924
+71,L1,Aggressive,text,lime,0.57643,-0.05324
+71,L1,Aggressive,text,shap,0.54302,-0.05324
+71,L2,religious aggression,image,lime,0.01411,-0.00158
+71,L2,religious aggression,image,shap,0.01032,-0.00158
+71,L2,religious aggression,text,lime,0.90122,-0.01586
+71,L2,religious aggression,text,shap,0.92899,-0.01586
+72,L1,Aggressive,image,lime,0.00946,0.00067
+72,L1,Aggressive,image,shap,0.02127,0.00067
+72,L1,Aggressive,text,lime,0.02378,-0.01671
+72,L1,Aggressive,text,shap,-0.01806,-0.01671
+72,L2,others,image,lime,0.03191,0.0029
+72,L2,others,image,shap,0.03251,0.0029
+72,L2,others,text,lime,0.0043,-0.00054
+72,L2,others,text,shap,0.0043,-0.00054
+73,L1,Aggressive,image,lime,0.00899,-0.00089
+73,L1,Aggressive,image,shap,0.00761,-0.00089
+73,L1,Aggressive,text,lime,0.00048,0.00029
+73,L1,Aggressive,text,shap,0.00048,0.00029
+73,L2,political aggression,image,lime,0.0165,0.0014
+73,L2,political aggression,image,shap,0.01265,0.0014
+73,L2,political aggression,text,lime,0.00215,0.00215
+73,L2,political aggression,text,shap,0.00215,0.00215
+74,L1,Aggressive,image,lime,0.00461,-0.00275
+74,L1,Aggressive,image,shap,0.00387,-0.00275
+74,L1,Aggressive,text,lime,0.63397,0.00557
+74,L1,Aggressive,text,shap,0.63397,0.00557
+74,L2,religious aggression,image,lime,0.00041,-0.00035
+74,L2,religious aggression,image,shap,-0.0001,-0.00035
+74,L2,religious aggression,text,lime,0.67442,7e-05
+74,L2,religious aggression,text,shap,0.67442,7e-05
+75,L1,Aggressive,image,lime,0.00901,-0.0019
+75,L1,Aggressive,image,shap,0.00749,-0.0019
+75,L1,Aggressive,text,lime,0.14726,0.11156
+75,L1,Aggressive,text,shap,0.14726,0.11156
+75,L2,religious aggression,image,lime,0.00066,0.00029
+75,L2,religious aggression,image,shap,0.00051,0.00029
+75,L2,religious aggression,text,lime,0.97154,-0.00214
+75,L2,religious aggression,text,shap,0.97154,-0.00214
+76,L1,Non-Aggressive,image,lime,0.0548,-0.00788
+76,L1,Non-Aggressive,image,shap,0.02425,-0.00788
+76,L1,Non-Aggressive,text,lime,0.408,0.05025
+76,L1,Non-Aggressive,text,shap,0.26896,0.05025
+77,L1,Aggressive,image,lime,0.00665,-0.00324
+77,L1,Aggressive,image,shap,0.00563,-0.00324
+77,L1,Aggressive,text,lime,0.00101,3e-05
+77,L1,Aggressive,text,shap,0.0008,3e-05
+77,L2,political aggression,image,lime,0.00595,0.00086
+77,L2,political aggression,image,shap,0.00178,0.00086
+77,L2,political aggression,text,lime,0.00138,0.00074
+77,L2,political aggression,text,shap,0.00096,0.00074
+78,L1,Aggressive,image,lime,0.01046,0.0008
+78,L1,Aggressive,image,shap,0.00756,0.0008
+78,L1,Aggressive,text,lime,0.06829,-9e-05
+78,L1,Aggressive,text,shap,0.06829,-9e-05
+78,L2,political aggression,image,lime,0.01282,0.00168
+78,L2,political aggression,image,shap,0.01109,0.00168
+78,L2,political aggression,text,lime,0.94574,-0.00017
+78,L2,political aggression,text,shap,0.94574,-0.00017
+79,L1,Aggressive,image,lime,0.11336,0.03848
+79,L1,Aggressive,image,shap,0.10213,0.03848
+79,L1,Aggressive,text,lime,0.28512,0.01135
+79,L1,Aggressive,text,shap,0.28512,0.01135
+79,L2,gendered aggression,image,lime,0.28753,0.06484
+79,L2,gendered aggression,image,shap,0.25675,0.06484
+79,L2,gendered aggression,text,lime,0.76937,0.73072
+79,L2,gendered aggression,text,shap,0.76937,0.73072
+80,L1,Aggressive,image,lime,0.05516,0.04071
+80,L1,Aggressive,image,shap,0.05516,0.04071
+80,L1,Aggressive,text,lime,0.16263,-0.00319
+80,L1,Aggressive,text,shap,0.16263,-0.00319
+80,L2,others,image,lime,0.02087,0.00293
+80,L2,others,image,shap,0.01884,0.00293
+80,L2,others,text,lime,0.00776,0.00141
+80,L2,others,text,shap,0.00074,0.00141
+81,L1,Non-Aggressive,image,lime,0.01547,0.0017
+81,L1,Non-Aggressive,image,shap,0.02059,0.0017
+81,L1,Non-Aggressive,text,lime,0.13293,0.00673
+81,L1,Non-Aggressive,text,shap,0.35883,0.00673
+82,L1,Aggressive,image,lime,0.28155,0.09659
+82,L1,Aggressive,image,shap,0.20473,0.09659
+82,L1,Aggressive,text,lime,-0.0756,-0.09807
+82,L1,Aggressive,text,shap,-0.0756,-0.09807
+82,L2,others,image,lime,-0.05603,-0.06117
+82,L2,others,image,shap,0.08785,-0.06117
+82,L2,others,text,lime,0.13104,0.03498
+82,L2,others,text,shap,0.13104,0.03498
+83,L1,Aggressive,image,lime,0.10202,0.10818
+83,L1,Aggressive,image,shap,0.09409,0.10818
+83,L1,Aggressive,text,lime,0.24691,-0.01013
+83,L1,Aggressive,text,shap,0.24691,-0.01013
+83,L2,gendered aggression,image,lime,0.22818,0.03155
+83,L2,gendered aggression,image,shap,0.14186,0.03155
+83,L2,gendered aggression,text,lime,0.38604,0.02085
+83,L2,gendered aggression,text,shap,0.38604,0.02085
+84,L1,Aggressive,image,lime,0.02256,0.0024
+84,L1,Aggressive,image,shap,0.02481,0.0024
+84,L1,Aggressive,text,lime,0.00696,0.00052
+84,L1,Aggressive,text,shap,0.00651,0.00052
+84,L2,others,image,lime,0.0433,0.00588
+84,L2,others,image,shap,0.01947,0.00588
+84,L2,others,text,lime,0.48473,0.00557
+84,L2,others,text,shap,0.48473,0.00557
+85,L1,Aggressive,image,lime,0.11782,0.00206
+85,L1,Aggressive,image,shap,0.10519,0.00206
+85,L1,Aggressive,text,lime,0.02878,-0.00287
+85,L1,Aggressive,text,shap,0.02878,-0.00287
+85,L2,others,image,lime,0.07615,-0.04761
+85,L2,others,image,shap,0.05583,-0.04761
+85,L2,others,text,lime,0.29287,-0.01432
+85,L2,others,text,shap,0.29287,-0.01432
+86,L1,Aggressive,image,lime,0.0128,-0.00154
+86,L1,Aggressive,image,shap,0.01311,-0.00154
+86,L1,Aggressive,text,lime,0.39318,-0.00195
+86,L1,Aggressive,text,shap,0.39318,-0.00195
+86,L2,political aggression,image,lime,0.0215,0.02082
+86,L2,political aggression,image,shap,0.02996,0.02082
+86,L2,political aggression,text,lime,0.92583,0.01252
+86,L2,political aggression,text,shap,0.92583,0.01252
+87,L1,Non-Aggressive,image,lime,0.05851,0.01896
+87,L1,Non-Aggressive,image,shap,0.01987,0.01896
+87,L1,Non-Aggressive,text,lime,0.0895,0.02618
+87,L1,Non-Aggressive,text,shap,0.03384,0.02618
+88,L1,Aggressive,image,lime,0.03577,0.01173
+88,L1,Aggressive,image,shap,0.03205,0.01173
+88,L1,Aggressive,text,lime,0.04407,0.07909
+88,L1,Aggressive,text,shap,0.09541,0.07909
+88,L2,religious aggression,image,lime,0.00505,1e-05
+88,L2,religious aggression,image,shap,0.00412,1e-05
+88,L2,religious aggression,text,lime,0.79893,0.00011
+88,L2,religious aggression,text,shap,0.79893,0.00011
+89,L1,Non-Aggressive,image,lime,0.05347,0.03785
+89,L1,Non-Aggressive,image,shap,0.04475,0.03785
+89,L1,Non-Aggressive,text,lime,0.16202,0.00328
+89,L1,Non-Aggressive,text,shap,0.13219,0.00328
+90,L1,Non-Aggressive,image,lime,0.0496,0.0036
+90,L1,Non-Aggressive,image,shap,0.0496,0.0036
+90,L1,Non-Aggressive,text,lime,0.09684,0.01858
+90,L1,Non-Aggressive,text,shap,0.05221,0.01858
+91,L1,Aggressive,image,lime,0.3022,0.02669
+91,L1,Aggressive,image,shap,0.29415,0.02669
+91,L1,Aggressive,text,lime,0.57482,0.05515
+91,L1,Aggressive,text,shap,0.55372,0.05515
+91,L2,gendered aggression,image,lime,0.2863,0.00737
+91,L2,gendered aggression,image,shap,0.32338,0.00737
+91,L2,gendered aggression,text,lime,0.21777,0.0223
+91,L2,gendered aggression,text,shap,0.06837,0.0223
+92,L1,Aggressive,image,lime,0.04354,-0.049
+92,L1,Aggressive,image,shap,0.03284,-0.049
+92,L1,Aggressive,text,lime,-0.0299,-0.08169
+92,L1,Aggressive,text,shap,-0.0299,-0.08169
+92,L2,others,image,lime,0.08337,0.00764
+92,L2,others,image,shap,0.04826,0.00764
+92,L2,others,text,lime,0.02565,-0.00029
+92,L2,others,text,shap,0.02565,-0.00029
+93,L1,Non-Aggressive,image,lime,0.16728,-0.00793
+93,L1,Non-Aggressive,image,shap,0.15122,-0.00793
+93,L1,Non-Aggressive,text,lime,0.45501,-0.01784
+93,L1,Non-Aggressive,text,shap,0.45501,-0.01784
+94,L1,Non-Aggressive,image,lime,0.0314,-0.00084
+94,L1,Non-Aggressive,image,shap,0.02196,-0.00084
+94,L1,Non-Aggressive,text,lime,0.20069,0.02742
+94,L1,Non-Aggressive,text,shap,0.20069,0.02742
+95,L1,Aggressive,image,lime,0.06992,0.00878
+95,L1,Aggressive,image,shap,0.04874,0.00878
+95,L1,Aggressive,text,lime,0.48629,0.12894
+95,L1,Aggressive,text,shap,0.48629,0.12894
+95,L2,others,image,lime,0.02793,-0.00229
+95,L2,others,image,shap,0.01455,-0.00229
+95,L2,others,text,lime,0.73623,-0.14316
+95,L2,others,text,shap,0.73623,-0.14316
+96,L1,Aggressive,image,lime,0.05171,0.00169
+96,L1,Aggressive,image,shap,0.04641,0.00169
+96,L1,Aggressive,text,lime,0.09654,0.09654
+96,L1,Aggressive,text,shap,0.09654,0.09654
+96,L2,religious aggression,image,lime,0.0016,-0.00107
+96,L2,religious aggression,image,shap,0.0016,-0.00107
+96,L2,religious aggression,text,lime,0.95398,-0.00448
+96,L2,religious aggression,text,shap,0.95398,-0.00448
+97,L1,Aggressive,image,lime,0.01376,0.00352
+97,L1,Aggressive,image,shap,0.01064,0.00352
+97,L1,Aggressive,text,lime,0.63283,0.00175
+97,L1,Aggressive,text,shap,0.46139,0.00175
+97,L2,political aggression,image,lime,0.01361,0.0036
+97,L2,political aggression,image,shap,0.01132,0.0036
+97,L2,political aggression,text,lime,0.92269,0.82411
+97,L2,political aggression,text,shap,0.92269,0.82411
+98,L1,Aggressive,image,lime,0.07784,0.00983
+98,L1,Aggressive,image,shap,0.08803,0.00983
+98,L1,Aggressive,text,lime,0.00916,-0.03761
+98,L1,Aggressive,text,shap,0.00916,-0.03761
+98,L2,gendered aggression,image,lime,0.11308,0.065
+98,L2,gendered aggression,image,shap,0.11584,0.065
+98,L2,gendered aggression,text,lime,0.24015,0.06587
+98,L2,gendered aggression,text,shap,0.24015,0.06587
+99,L1,Aggressive,image,lime,0.01038,-0.00225
+99,L1,Aggressive,image,shap,0.01647,-0.00225
+99,L1,Aggressive,text,lime,0.66222,0.00073
+99,L1,Aggressive,text,shap,0.7476,0.00073
+99,L2,political aggression,image,lime,0.01066,-0.00391
+99,L2,political aggression,image,shap,0.01376,-0.00391
+99,L2,political aggression,text,lime,0.91934,-0.0073
+99,L2,political aggression,text,shap,0.91782,-0.0073
+100,L1,Non-Aggressive,image,lime,0.02481,0.00282
+100,L1,Non-Aggressive,image,shap,0.00677,0.00282
+100,L1,Non-Aggressive,text,lime,0.23761,0.1161
+100,L1,Non-Aggressive,text,shap,0.23761,0.1161
+101,L1,Aggressive,image,lime,0.10809,0.03226
+101,L1,Aggressive,image,shap,0.07144,0.03226
+101,L1,Aggressive,text,lime,0.27884,0.07368
+101,L1,Aggressive,text,shap,0.32618,0.07368
+101,L2,gendered aggression,image,lime,0.37739,-0.03421
+101,L2,gendered aggression,image,shap,0.37739,-0.03421
+101,L2,gendered aggression,text,lime,0.4634,-0.18943
+101,L2,gendered aggression,text,shap,0.46366,-0.18943
+102,L1,Non-Aggressive,image,lime,-0.00881,-0.05421
+102,L1,Non-Aggressive,image,shap,-0.00614,-0.05421
+102,L1,Non-Aggressive,text,lime,0.37578,0.0464
+102,L1,Non-Aggressive,text,shap,0.37578,0.0464
+103,L1,Aggressive,image,lime,0.18587,0.04418
+103,L1,Aggressive,image,shap,0.10721,0.04418
+103,L1,Aggressive,text,lime,0.13453,-0.09192
+103,L1,Aggressive,text,shap,0.13453,-0.09192
+103,L2,gendered aggression,image,lime,0.07602,0.01035
+103,L2,gendered aggression,image,shap,0.06266,0.01035
+103,L2,gendered aggression,text,lime,0.17943,-0.03343
+103,L2,gendered aggression,text,shap,0.17943,-0.03343
+104,L1,Non-Aggressive,image,lime,0.11843,0.03738
+104,L1,Non-Aggressive,image,shap,0.08635,0.03738
+104,L1,Non-Aggressive,text,lime,0.22462,-0.21473
+104,L1,Non-Aggressive,text,shap,0.22462,-0.21473
+105,L1,Non-Aggressive,image,lime,0.0773,-0.00084
+105,L1,Non-Aggressive,image,shap,0.08255,-0.00084
+105,L1,Non-Aggressive,text,lime,0.47073,0.02562
+105,L1,Non-Aggressive,text,shap,0.47073,0.02562
+106,L1,Aggressive,image,lime,0.01344,0.00236
+106,L1,Aggressive,image,shap,0.00896,0.00236
+106,L1,Aggressive,text,lime,0.04344,0.04104
+106,L1,Aggressive,text,shap,0.04344,0.04104
+106,L2,religious aggression,image,lime,0.0273,0.01764
+106,L2,religious aggression,image,shap,0.02996,0.01764
+106,L2,religious aggression,text,lime,0.83933,0.38465
+106,L2,religious aggression,text,shap,0.86544,0.38465
+107,L1,Aggressive,image,lime,0.06487,0.01161
+107,L1,Aggressive,image,shap,0.06072,0.01161
+107,L1,Aggressive,text,lime,0.51964,0.03157
+107,L1,Aggressive,text,shap,0.33193,0.03157
+107,L2,religious aggression,image,lime,0.00778,0.00054
+107,L2,religious aggression,image,shap,0.00711,0.00054
+107,L2,religious aggression,text,lime,0.7625,-0.0012
+107,L2,religious aggression,text,shap,0.72417,-0.0012
+108,L1,Aggressive,image,lime,0.02209,0.00113
+108,L1,Aggressive,image,shap,0.0127,0.00113
+108,L1,Aggressive,text,lime,0.05569,0.00338
+108,L1,Aggressive,text,shap,0.13091,0.00338
+108,L2,gendered aggression,image,lime,0.0592,0.00356
+108,L2,gendered aggression,image,shap,0.02975,0.00356
+108,L2,gendered aggression,text,lime,0.15458,0.00034
+108,L2,gendered aggression,text,shap,0.00382,0.00034
+109,L1,Non-Aggressive,image,lime,0.02032,-0.01202
+109,L1,Non-Aggressive,image,shap,0.01336,-0.01202
+109,L1,Non-Aggressive,text,lime,0.39448,0.02991
+109,L1,Non-Aggressive,text,shap,0.39448,0.02991
+110,L1,Aggressive,image,lime,0.00524,0.00417
+110,L1,Aggressive,image,shap,0.00579,0.00417
+110,L1,Aggressive,text,lime,0.02927,-0.00032
+110,L1,Aggressive,text,shap,0.02927,-0.00032
+110,L2,political aggression,image,lime,0.009,0.00189
+110,L2,political aggression,image,shap,0.0059,0.00189
+110,L2,political aggression,text,lime,0.92502,-3e-05
+110,L2,political aggression,text,shap,0.92502,-3e-05
+111,L1,Aggressive,image,lime,0.03286,-0.00138
+111,L1,Aggressive,image,shap,0.03286,-0.00138
+111,L1,Aggressive,text,lime,0.15119,-0.00878
+111,L1,Aggressive,text,shap,0.15119,-0.00878
+111,L2,others,image,lime,0.08003,-0.02443
+111,L2,others,image,shap,0.08874,-0.02443
+111,L2,others,text,lime,0.40135,0.37176
+111,L2,others,text,shap,0.40135,0.37176
+112,L1,Aggressive,image,lime,0.01911,-0.0004
+112,L1,Aggressive,image,shap,0.01911,-0.0004
+112,L1,Aggressive,text,lime,0.07072,0.00262
+112,L1,Aggressive,text,shap,0.0254,0.00262
+112,L2,religious aggression,image,lime,0.00091,0.00028
+112,L2,religious aggression,image,shap,0.00065,0.00028
+112,L2,religious aggression,text,lime,0.72009,0.00017
+112,L2,religious aggression,text,shap,0.72009,0.00017
+113,L1,Aggressive,image,lime,0.04467,-0.01835
+113,L1,Aggressive,image,shap,0.02351,-0.01835
+113,L2,others,image,lime,0.15239,-0.00399
+113,L2,others,image,shap,0.15239,-0.00399
+114,L1,Aggressive,image,lime,0.01597,0.00642
+114,L1,Aggressive,image,shap,0.01136,0.00642
+114,L1,Aggressive,text,lime,0.00692,0.00024
+114,L1,Aggressive,text,shap,0.00692,0.00024
+114,L2,religious aggression,image,lime,0.00229,0.00034
+114,L2,religious aggression,image,shap,0.00096,0.00034
+114,L2,religious aggression,text,lime,0.0006,0.00011
+114,L2,religious aggression,text,shap,0.03831,0.00011
+115,L1,Non-Aggressive,image,lime,0.01216,0.00071
+115,L1,Non-Aggressive,image,shap,0.01498,0.00071
+115,L1,Non-Aggressive,text,lime,0.47268,-0.00316
+115,L1,Non-Aggressive,text,shap,0.34478,-0.00316
+116,L1,Aggressive,image,lime,0.02182,0.00205
+116,L1,Aggressive,image,shap,0.01109,0.00205
+116,L1,Aggressive,text,lime,0.13141,-0.00742
+116,L1,Aggressive,text,shap,0.07338,-0.00742
+116,L2,religious aggression,image,lime,0.01431,-0.0053
+116,L2,religious aggression,image,shap,0.01081,-0.0053
+116,L2,religious aggression,text,lime,0.82698,0.21147
+116,L2,religious aggression,text,shap,0.78372,0.21147
+117,L1,Aggressive,image,lime,0.0454,0.01007
+117,L1,Aggressive,image,shap,0.0003,0.01007
+117,L1,Aggressive,text,lime,0.5214,0.0076
+117,L1,Aggressive,text,shap,0.48485,0.0076
+117,L2,others,image,lime,0.17324,-0.00711
+117,L2,others,image,shap,0.08031,-0.00711
+117,L2,others,text,lime,0.76152,-0.04839
+117,L2,others,text,shap,0.70929,-0.04839
+118,L1,Aggressive,image,lime,0.03698,0.00473
+118,L1,Aggressive,image,shap,0.02107,0.00473
+118,L1,Aggressive,text,lime,0.18912,0.02852
+118,L1,Aggressive,text,shap,0.18912,0.02852
+118,L2,others,image,lime,0.01414,0.00398
+118,L2,others,image,shap,0.01395,0.00398
+118,L2,others,text,lime,0.03435,0.00108
+118,L2,others,text,shap,0.03435,0.00108
+119,L1,Aggressive,image,lime,0.00135,0.00775
+119,L1,Aggressive,image,shap,0.00633,0.00775
+119,L1,Aggressive,text,lime,0.11133,-0.00565
+119,L1,Aggressive,text,shap,0.05328,-0.00565
+119,L2,others,image,lime,0.00737,0.00188
+119,L2,others,image,shap,0.00593,0.00188
+119,L2,others,text,lime,0.04017,0.03712
+119,L2,others,text,shap,0.04017,0.03712
+120,L1,Aggressive,image,lime,0.03376,-0.00633
+120,L1,Aggressive,image,shap,0.03376,-0.00633
+120,L1,Aggressive,text,lime,0.02233,-0.00327
+120,L1,Aggressive,text,shap,0.01199,-0.00327
+120,L2,religious aggression,image,lime,0.00667,-0.00095
+120,L2,religious aggression,image,shap,0.00436,-0.00095
+120,L2,religious aggression,text,lime,0.98733,0.00056
+120,L2,religious aggression,text,shap,0.98733,0.00056
+121,L1,Aggressive,image,lime,0.00569,0.00033
+121,L1,Aggressive,image,shap,0.0046,0.00033
+121,L1,Aggressive,text,lime,0.00062,0.00083
+121,L1,Aggressive,text,shap,0.00062,0.00083
+121,L2,political aggression,image,lime,0.00302,0.00203
+121,L2,political aggression,image,shap,0.00225,0.00203
+121,L2,political aggression,text,lime,0.00159,0.00072
+121,L2,political aggression,text,shap,0.00126,0.00072
+122,L1,Aggressive,image,lime,0.05612,0.00702
+122,L1,Aggressive,image,shap,0.05246,0.00702
+122,L1,Aggressive,text,lime,0.13984,0.07895
+122,L1,Aggressive,text,shap,0.13984,0.07895
+122,L2,others,image,lime,0.02965,-0.00987
+122,L2,others,image,shap,0.02189,-0.00987
+122,L2,others,text,lime,0.00946,0.00758
+122,L2,others,text,shap,0.00613,0.00758
+123,L1,Aggressive,image,lime,0.02469,0.00072
+123,L1,Aggressive,image,shap,0.01616,0.00072
+123,L1,Aggressive,text,lime,0.04732,0.01236
+123,L1,Aggressive,text,shap,0.04732,0.01236
+123,L2,political aggression,image,lime,0.01447,-0.00063
+123,L2,political aggression,image,shap,0.00369,-0.00063
+123,L2,political aggression,text,lime,0.79845,0.21995
+123,L2,political aggression,text,shap,0.79845,0.21995
+124,L1,Non-Aggressive,image,lime,0.04238,0.00088
+124,L1,Non-Aggressive,image,shap,0.02747,0.00088
+124,L1,Non-Aggressive,text,lime,0.09285,-0.01243
+124,L1,Non-Aggressive,text,shap,0.09285,-0.01243
+125,L1,Aggressive,image,lime,0.00666,0.00201
+125,L1,Aggressive,image,shap,0.00829,0.00201
+125,L1,Aggressive,text,lime,0.27999,0.00011
+125,L1,Aggressive,text,shap,0.27999,0.00011
+125,L2,political aggression,image,lime,0.01418,0.00398
+125,L2,political aggression,image,shap,0.01089,0.00398
+125,L2,political aggression,text,lime,0.89904,0.00164
+125,L2,political aggression,text,shap,0.87285,0.00164
+126,L1,Aggressive,image,lime,0.02925,0.01012
+126,L1,Aggressive,image,shap,0.03583,0.01012
+126,L1,Aggressive,text,lime,0.35762,0.19062
+126,L1,Aggressive,text,shap,0.35631,0.19062
+126,L2,others,image,lime,0.01131,0.00205
+126,L2,others,image,shap,0.00944,0.00205
+126,L2,others,text,lime,0.16953,0.00862
+126,L2,others,text,shap,0.16953,0.00862
+127,L1,Aggressive,image,lime,0.26312,0.08482
+127,L1,Aggressive,image,shap,0.31794,0.08482
+127,L1,Aggressive,text,lime,0.15348,-0.13316
+127,L1,Aggressive,text,shap,0.15348,-0.13316
+127,L2,gendered aggression,image,lime,0.49222,0.00995
+127,L2,gendered aggression,image,shap,0.49222,0.00995
+127,L2,gendered aggression,text,lime,0.42409,0.33188
+127,L2,gendered aggression,text,shap,0.42409,0.33188
+128,L1,Aggressive,image,lime,0.03272,0.00052
+128,L1,Aggressive,image,shap,0.01959,0.00052
+128,L1,Aggressive,text,lime,0.01802,-0.0061
+128,L1,Aggressive,text,shap,0.00105,-0.0061
+128,L2,religious aggression,image,lime,0.00235,-0.00059
+128,L2,religious aggression,image,shap,0.00242,-0.00059
+128,L2,religious aggression,text,lime,0.00055,4e-05
+128,L2,religious aggression,text,shap,0.00374,4e-05
+129,L1,Aggressive,image,lime,0.15575,-0.00161
+129,L1,Aggressive,image,shap,0.16653,-0.00161
+129,L1,Aggressive,text,lime,0.21013,0.21245
+129,L1,Aggressive,text,shap,0.12296,0.21245
+129,L2,others,image,lime,0.0584,0.0148
+129,L2,others,image,shap,0.04502,0.0148
+129,L2,others,text,lime,0.0526,0.03083
+129,L2,others,text,shap,0.03114,0.03083
+130,L1,Aggressive,image,lime,0.07247,-0.0166
+130,L1,Aggressive,image,shap,0.0638,-0.0166
+130,L1,Aggressive,text,lime,0.40334,-0.0065
+130,L1,Aggressive,text,shap,0.31541,-0.0065
+130,L2,others,image,lime,0.02093,-0.00823
+130,L2,others,image,shap,0.01204,-0.00823
+130,L2,others,text,lime,0.81395,0.00699
+130,L2,others,text,shap,0.78422,0.00699
+131,L1,Aggressive,image,lime,0.00974,0.00024
+131,L1,Aggressive,image,shap,0.00832,0.00024
+131,L1,Aggressive,text,lime,0.03868,7e-05
+131,L1,Aggressive,text,shap,0.00345,7e-05
+131,L2,religious aggression,image,lime,0.00054,3e-05
+131,L2,religious aggression,image,shap,8e-05,3e-05
+131,L2,religious aggression,text,lime,0.00249,9e-05
+131,L2,religious aggression,text,shap,0.48165,9e-05
+132,L1,Aggressive,image,lime,0.01221,0.00192
+132,L1,Aggressive,image,shap,0.00867,0.00192
+132,L1,Aggressive,text,lime,0.08483,0.12328
+132,L1,Aggressive,text,shap,0.01263,0.12328
+132,L2,religious aggression,image,lime,0.0016,0.00023
+132,L2,religious aggression,image,shap,0.00087,0.00023
+132,L2,religious aggression,text,lime,0.06209,0.00055
+132,L2,religious aggression,text,shap,0.00627,0.00055
+133,L1,Aggressive,image,lime,0.1093,0.02428
+133,L1,Aggressive,image,shap,0.12166,0.02428
+133,L1,Aggressive,text,lime,0.37239,-0.03644
+133,L1,Aggressive,text,shap,0.37239,-0.03644
+133,L2,gendered aggression,image,lime,0.0842,0.06393
+133,L2,gendered aggression,image,shap,0.12665,0.06393
+133,L2,gendered aggression,text,lime,0.60867,0.00504
+133,L2,gendered aggression,text,shap,0.60867,0.00504
+134,L1,Aggressive,image,lime,0.12376,0.00305
+134,L1,Aggressive,image,shap,0.09871,0.00305
+134,L1,Aggressive,text,lime,0.20054,0.0072
+134,L1,Aggressive,text,shap,0.20054,0.0072
+134,L2,others,image,lime,0.00913,-0.0183
+134,L2,others,image,shap,0.00288,-0.0183
+134,L2,others,text,lime,0.04289,-0.12692
+134,L2,others,text,shap,0.04289,-0.12692
+135,L1,Aggressive,image,lime,0.06569,-0.01791
+135,L1,Aggressive,image,shap,0.02138,-0.01791
+135,L1,Aggressive,text,lime,0.39,0.04782
+135,L1,Aggressive,text,shap,0.12761,0.04782
+135,L2,others,image,lime,0.05262,-0.02354
+135,L2,others,image,shap,0.03296,-0.02354
+135,L2,others,text,lime,0.09655,-0.02967
+135,L2,others,text,shap,0.09655,-0.02967
+136,L1,Aggressive,image,lime,0.04107,-0.00358
+136,L1,Aggressive,image,shap,0.04107,-0.00358
+136,L1,Aggressive,text,lime,0.31935,0.0157
+136,L1,Aggressive,text,shap,0.31935,0.0157
+136,L2,others,image,lime,0.08863,0.06139
+136,L2,others,image,shap,0.03735,0.06139
+136,L2,others,text,lime,0.47938,-0.12742
+136,L2,others,text,shap,0.47213,-0.12742
+137,L1,Aggressive,image,lime,0.09406,0.0105
+137,L1,Aggressive,image,shap,0.03314,0.0105
+137,L1,Aggressive,text,lime,0.70126,0.27566
+137,L1,Aggressive,text,shap,0.61734,0.27566
+137,L2,gendered aggression,image,lime,0.19224,0.153
+137,L2,gendered aggression,image,shap,0.19821,0.153
+137,L2,gendered aggression,text,lime,0.65577,-0.06563
+137,L2,gendered aggression,text,shap,0.62053,-0.06563
+138,L1,Aggressive,image,lime,0.34664,0.03888
+138,L1,Aggressive,image,shap,0.34664,0.03888
+138,L1,Aggressive,text,lime,0.10624,-0.0292
+138,L1,Aggressive,text,shap,0.10624,-0.0292
+138,L2,gendered aggression,image,lime,0.20667,0.04477
+138,L2,gendered aggression,image,shap,0.05744,0.04477
+138,L2,gendered aggression,text,lime,0.03589,-0.00342
+138,L2,gendered aggression,text,shap,0.03589,-0.00342
+139,L1,Aggressive,image,lime,0.01202,0.00204
+139,L1,Aggressive,image,shap,0.0101,0.00204
+139,L1,Aggressive,text,lime,0.03407,-0.00029
+139,L1,Aggressive,text,shap,0.03407,-0.00029
+139,L2,political aggression,image,lime,0.02081,-0.00067
+139,L2,political aggression,image,shap,0.01364,-0.00067
+139,L2,political aggression,text,lime,0.92295,0.92295
+139,L2,political aggression,text,shap,0.92295,0.92295
+140,L1,Non-Aggressive,image,lime,0.0492,-0.01487
+140,L1,Non-Aggressive,image,shap,0.06612,-0.01487
+140,L1,Non-Aggressive,text,lime,0.36517,0.16391
+140,L1,Non-Aggressive,text,shap,0.37896,0.16391
+141,L1,Non-Aggressive,image,lime,0.01158,-0.03096
+141,L1,Non-Aggressive,image,shap,-0.01588,-0.03096
+141,L1,Non-Aggressive,text,lime,0.33612,0.03916
+141,L1,Non-Aggressive,text,shap,0.35473,0.03916
+142,L1,Non-Aggressive,image,lime,0.05489,0.02545
+142,L1,Non-Aggressive,image,shap,0.05489,0.02545
+142,L1,Non-Aggressive,text,lime,0.57296,-0.02623
+142,L1,Non-Aggressive,text,shap,0.56219,-0.02623
+143,L1,Aggressive,image,lime,0.03836,0.00288
+143,L1,Aggressive,image,shap,0.03616,0.00288
+143,L1,Aggressive,text,lime,0.60741,-0.03717
+143,L1,Aggressive,text,shap,0.60741,-0.03717
+143,L2,others,image,lime,0.01862,-0.00316
+143,L2,others,image,shap,0.01507,-0.00316
+143,L2,others,text,lime,0.29226,0.00333
+143,L2,others,text,shap,0.29226,0.00333
+144,L1,Aggressive,image,lime,0.01809,0.00289
+144,L1,Aggressive,image,shap,0.01072,0.00289
+144,L1,Aggressive,text,lime,0.62733,0.20268
+144,L1,Aggressive,text,shap,0.56292,0.20268
+144,L2,political aggression,image,lime,0.12701,-0.08606
+144,L2,political aggression,image,shap,0.13426,-0.08606
+144,L2,political aggression,text,lime,0.57752,0.33142
+144,L2,political aggression,text,shap,0.57735,0.33142
+145,L1,Aggressive,image,lime,0.05002,0.00746
+145,L1,Aggressive,image,shap,0.02995,0.00746
+145,L1,Aggressive,text,lime,0.40451,0.0446
+145,L1,Aggressive,text,shap,0.28113,0.0446
+145,L2,religious aggression,image,lime,0.00398,0.00089
+145,L2,religious aggression,image,shap,0.00136,0.00089
+145,L2,religious aggression,text,lime,0.75041,0.08041
+145,L2,religious aggression,text,shap,0.78919,0.08041
+146,L1,Aggressive,image,lime,0.01808,-0.01659
+146,L1,Aggressive,image,shap,0.01197,-0.01659
+146,L1,Aggressive,text,lime,0.12986,-0.01068
+146,L1,Aggressive,text,shap,0.12986,-0.01068
+146,L2,others,image,lime,0.06991,0.0021
+146,L2,others,image,shap,0.07165,0.0021
+146,L2,others,text,lime,0.16519,0.02932
+146,L2,others,text,shap,0.16519,0.02932
+147,L1,Aggressive,image,lime,0.00808,0.00202
+147,L1,Aggressive,image,shap,0.00598,0.00202
+147,L1,Aggressive,text,lime,0.03854,0.01487
+147,L1,Aggressive,text,shap,0.08605,0.01487
+147,L2,political aggression,image,lime,0.01285,0.00111
+147,L2,political aggression,image,shap,0.00632,0.00111
+147,L2,political aggression,text,lime,0.91337,0.0234
+147,L2,political aggression,text,shap,0.91997,0.0234
+148,L1,Non-Aggressive,image,lime,0.03277,-0.02267
+148,L1,Non-Aggressive,image,shap,0.0214,-0.02267
+148,L1,Non-Aggressive,text,lime,0.1211,0.05261
+148,L1,Non-Aggressive,text,shap,0.1211,0.05261
+149,L1,Non-Aggressive,image,lime,0.0095,-0.0375
+149,L1,Non-Aggressive,image,shap,0.03862,-0.0375
+149,L1,Non-Aggressive,text,lime,0.64537,0.06022
+149,L1,Non-Aggressive,text,shap,0.64537,0.06022
+150,L1,Aggressive,image,lime,0.03968,0.00391
+150,L1,Aggressive,image,shap,0.0221,0.00391
+150,L1,Aggressive,text,lime,0.25774,0.25774
+150,L1,Aggressive,text,shap,0.25774,0.25774
+150,L2,gendered aggression,image,lime,0.08669,-0.00943
+150,L2,gendered aggression,image,shap,0.07944,-0.00943
+150,L2,gendered aggression,text,lime,0.42746,0.02614
+150,L2,gendered aggression,text,shap,0.42746,0.02614
+151,L1,Aggressive,image,lime,0.08164,0.06968
+151,L1,Aggressive,image,shap,0.0731,0.06968
+151,L1,Aggressive,text,lime,0.08569,-0.03801
+151,L1,Aggressive,text,shap,0.08569,-0.03801
+151,L2,others,image,lime,0.1281,0.01746
+151,L2,others,image,shap,0.07235,0.01746
+151,L2,others,text,lime,0.00294,0.03138
+151,L2,others,text,shap,0.00294,0.03138
+152,L1,Aggressive,image,lime,0.0673,0.00555
+152,L1,Aggressive,image,shap,0.05435,0.00555
+152,L1,Aggressive,text,lime,0.61453,0.17704
+152,L1,Aggressive,text,shap,0.56088,0.17704
+152,L2,gendered aggression,image,lime,0.04577,-0.00413
+152,L2,gendered aggression,image,shap,0.01599,-0.00413
+152,L2,gendered aggression,text,lime,0.48539,0.33665
+152,L2,gendered aggression,text,shap,0.47896,0.33665
+153,L1,Non-Aggressive,image,lime,0.04035,-0.00944
+153,L1,Non-Aggressive,image,shap,0.04053,-0.00944
+153,L1,Non-Aggressive,text,lime,0.2799,0.01639
+153,L1,Non-Aggressive,text,shap,0.20812,0.01639
+154,L1,Aggressive,image,lime,0.00896,0.00138
+154,L1,Aggressive,image,shap,0.00855,0.00138
+154,L1,Aggressive,text,lime,0.01827,-0.00251
+154,L1,Aggressive,text,shap,0.01827,-0.00251
+154,L2,political aggression,image,lime,0.01509,-0.00023
+154,L2,political aggression,image,shap,0.01724,-0.00023
+154,L2,political aggression,text,lime,0.39764,0.02125
+154,L2,political aggression,text,shap,0.39764,0.02125
+155,L1,Aggressive,image,lime,0.0905,0.0429
+155,L1,Aggressive,image,shap,0.0905,0.0429
+155,L1,Aggressive,text,lime,0.13839,-0.02352
+155,L1,Aggressive,text,shap,0.09488,-0.02352
+155,L2,others,image,lime,0.09148,-0.00202
+155,L2,others,image,shap,0.03128,-0.00202
+155,L2,others,text,lime,0.05195,-0.00476
+155,L2,others,text,shap,0.03988,-0.00476
+156,L1,Non-Aggressive,image,lime,0.06604,0.00055
+156,L1,Non-Aggressive,image,shap,0.06538,0.00055
+156,L1,Non-Aggressive,text,lime,0.30229,0.02442
+156,L1,Non-Aggressive,text,shap,0.30229,0.02442
+157,L1,Non-Aggressive,image,lime,0.02423,-0.02091
+157,L1,Non-Aggressive,image,shap,0.01362,-0.02091
+157,L1,Non-Aggressive,text,lime,0.11126,0.08121
+157,L1,Non-Aggressive,text,shap,0.10739,0.08121
+158,L1,Aggressive,image,lime,0.04896,0.02716
+158,L1,Aggressive,image,shap,0.08008,0.02716
+158,L1,Aggressive,text,lime,0.18514,0.10516
+158,L1,Aggressive,text,shap,0.12447,0.10516
+158,L2,gendered aggression,image,lime,0.13905,0.01342
+158,L2,gendered aggression,image,shap,0.18407,0.01342
+158,L2,gendered aggression,text,lime,0.57689,0.46548
+158,L2,gendered aggression,text,shap,0.56638,0.46548
+159,L1,Aggressive,image,lime,0.02553,-0.00517
+159,L1,Aggressive,image,shap,0.02843,-0.00517
+159,L1,Aggressive,text,lime,0.07645,0.03045
+159,L1,Aggressive,text,shap,0.07645,0.03045
+159,L2,others,image,lime,0.02983,0.00475
+159,L2,others,image,shap,0.03554,0.00475
+159,L2,others,text,lime,0.03857,-0.00189
+159,L2,others,text,shap,-0.01378,-0.00189
+160,L1,Aggressive,image,lime,0.07661,0.03213
+160,L1,Aggressive,image,shap,0.08353,0.03213
+160,L1,Aggressive,text,lime,0.00923,0.00121
+160,L1,Aggressive,text,shap,0.29723,0.00121
+160,L2,gendered aggression,image,lime,0.12029,-0.03805
+160,L2,gendered aggression,image,shap,0.15377,-0.03805
+160,L2,gendered aggression,text,lime,0.56255,-0.01252
+160,L2,gendered aggression,text,shap,0.56255,-0.01252
+161,L1,Non-Aggressive,image,lime,0.06428,-0.01039
+161,L1,Non-Aggressive,image,shap,0.0545,-0.01039
+161,L1,Non-Aggressive,text,lime,0.04655,0.11482
+161,L1,Non-Aggressive,text,shap,0.11482,0.11482
+162,L1,Non-Aggressive,image,lime,0.10025,0.00152
+162,L1,Non-Aggressive,image,shap,0.05011,0.00152
+162,L1,Non-Aggressive,text,lime,0.24427,0.01482
+162,L1,Non-Aggressive,text,shap,0.24427,0.01482
+163,L1,Aggressive,image,lime,0.15088,0.00023
+163,L1,Aggressive,image,shap,0.07528,0.00023
+163,L1,Aggressive,text,lime,0.12211,-0.03074
+163,L1,Aggressive,text,shap,0.12211,-0.03074
+163,L2,gendered aggression,image,lime,0.44314,0.02057
+163,L2,gendered aggression,image,shap,0.3436,0.02057
+163,L2,gendered aggression,text,lime,0.1688,0.1688
+163,L2,gendered aggression,text,shap,0.09401,0.1688
+164,L1,Aggressive,image,lime,0.30228,0.04741
+164,L1,Aggressive,image,shap,0.28644,0.04741
+164,L1,Aggressive,text,lime,0.00929,-0.10699
+164,L1,Aggressive,text,shap,0.04454,-0.10699
+164,L2,gendered aggression,image,lime,0.46177,-0.07076
+164,L2,gendered aggression,image,shap,0.44338,-0.07076
+164,L2,gendered aggression,text,lime,0.67275,-0.11236
+164,L2,gendered aggression,text,shap,0.67275,-0.11236
+165,L1,Aggressive,image,lime,0.01489,-0.0004
+165,L1,Aggressive,image,shap,0.01206,-0.0004
+165,L1,Aggressive,text,lime,0.22535,0.03137
+165,L1,Aggressive,text,shap,0.07823,0.03137
+165,L2,religious aggression,image,lime,0.00193,0.00016
+165,L2,religious aggression,image,shap,0.00112,0.00016
+165,L2,religious aggression,text,lime,0.20244,0.00085
+165,L2,religious aggression,text,shap,0.22012,0.00085
+166,L1,Aggressive,image,lime,0.00486,-0.00021
+166,L1,Aggressive,image,shap,0.00364,-0.00021
+166,L1,Aggressive,text,lime,-0.0002,0.00012
+166,L1,Aggressive,text,shap,-0.00036,0.00012
+166,L2,political aggression,image,lime,0.00898,0.00093
+166,L2,political aggression,image,shap,0.00343,0.00093
+166,L2,political aggression,text,lime,0.0006,0.00015
+166,L2,political aggression,text,shap,0.00055,0.00015
+167,L1,Aggressive,image,lime,0.04796,0.0062
+167,L1,Aggressive,image,shap,0.05102,0.0062
+167,L1,Aggressive,text,lime,0.08782,0.02588
+167,L1,Aggressive,text,shap,0.08898,0.02588
+167,L2,gendered aggression,image,lime,0.04053,0.01163
+167,L2,gendered aggression,image,shap,0.03415,0.01163
+167,L2,gendered aggression,text,lime,0.19209,0.07703
+167,L2,gendered aggression,text,shap,0.13328,0.07703
+168,L1,Aggressive,image,lime,0.0078,0.00122
+168,L1,Aggressive,image,shap,0.00306,0.00122
+168,L1,Aggressive,text,lime,0.20226,0.00013
+168,L1,Aggressive,text,shap,0.00934,0.00013
+168,L2,political aggression,image,lime,0.00814,0.00114
+168,L2,political aggression,image,shap,0.00365,0.00114
+168,L2,political aggression,text,lime,0.94219,0.00155
+168,L2,political aggression,text,shap,0.10885,0.00155
+169,L1,Aggressive,image,lime,0.08991,0.02661
+169,L1,Aggressive,image,shap,0.06693,0.02661
+169,L1,Aggressive,text,lime,0.1522,0.0433
+169,L1,Aggressive,text,shap,0.16964,0.0433
+169,L2,others,image,lime,0.22696,0.06798
+169,L2,others,image,shap,0.22696,0.06798
+169,L2,others,text,lime,0.08593,0.00059
+169,L2,others,text,shap,0.06381,0.00059
+170,L1,Non-Aggressive,image,lime,0.06544,-0.00716
+170,L1,Non-Aggressive,image,shap,0.08945,-0.00716
+170,L1,Non-Aggressive,text,lime,0.28869,0.15616
+170,L1,Non-Aggressive,text,shap,0.1506,0.15616
+171,L1,Aggressive,image,lime,0.0047,0.00093
+171,L1,Aggressive,image,shap,0.00233,0.00093
+171,L1,Aggressive,text,lime,0.00582,-0.00014
+171,L1,Aggressive,text,shap,0.00214,-0.00014
+171,L2,political aggression,image,lime,0.00545,0.00059
+171,L2,political aggression,image,shap,0.00519,0.00059
+171,L2,political aggression,text,lime,0.02282,0.0174
+171,L2,political aggression,text,shap,0.02282,0.0174
+172,L1,Aggressive,image,lime,0.09343,-0.00663
+172,L1,Aggressive,image,shap,0.03453,-0.00663
+172,L1,Aggressive,text,lime,0.02462,-0.00789
+172,L1,Aggressive,text,shap,0.02462,-0.00789
+172,L2,others,image,lime,0.24166,0.05076
+172,L2,others,image,shap,0.2388,0.05076
+172,L2,others,text,lime,0.50747,0.50747
+172,L2,others,text,shap,0.50747,0.50747
+173,L1,Non-Aggressive,image,lime,0.03994,0.00713
+173,L1,Non-Aggressive,image,shap,0.01577,0.00713
+173,L1,Non-Aggressive,text,lime,0.4184,0.08066
+173,L1,Non-Aggressive,text,shap,0.4184,0.08066
+174,L1,Aggressive,image,lime,0.0452,0.03037
+174,L1,Aggressive,image,shap,0.0407,0.03037
+174,L1,Aggressive,text,lime,0.00759,-0.01414
+174,L1,Aggressive,text,shap,-0.00076,-0.01414
+174,L2,others,image,lime,0.28661,-0.03481
+174,L2,others,image,shap,0.28661,-0.03481
+174,L2,others,text,lime,0.07539,0.02562
+174,L2,others,text,shap,0.07539,0.02562
+175,L1,Aggressive,image,lime,0.05153,-0.02915
+175,L1,Aggressive,image,shap,0.04018,-0.02915
+175,L1,Aggressive,text,lime,0.22664,-0.05917
+175,L1,Aggressive,text,shap,0.25244,-0.05917
+175,L2,others,image,lime,0.32594,0.0196
+175,L2,others,image,shap,0.32253,0.0196
+175,L2,others,text,lime,0.45847,0.2022
+175,L2,others,text,shap,0.45847,0.2022
+176,L1,Non-Aggressive,image,lime,0.2209,0.00467
+176,L1,Non-Aggressive,image,shap,0.19363,0.00467
+176,L1,Non-Aggressive,text,lime,0.06309,-0.04507
+176,L1,Non-Aggressive,text,shap,-0.01515,-0.04507
+177,L1,Aggressive,image,lime,0.00956,-0.00329
+177,L1,Aggressive,image,shap,0.01014,-0.00329
+177,L1,Aggressive,text,lime,0.08476,0.0046
+177,L1,Aggressive,text,shap,0.21952,0.0046
+177,L2,political aggression,image,lime,0.10539,0.06019
+177,L2,political aggression,image,shap,0.12072,0.06019
+177,L2,political aggression,text,lime,0.51792,0.00481
+177,L2,political aggression,text,shap,0.49843,0.00481
+178,L1,Aggressive,image,lime,0.07071,0.03275
+178,L1,Aggressive,image,shap,0.06437,0.03275
+178,L1,Aggressive,text,lime,0.1304,0.07805
+178,L1,Aggressive,text,shap,0.27157,0.07805
+178,L2,gendered aggression,image,lime,0.07551,-0.00919
+178,L2,gendered aggression,image,shap,0.04795,-0.00919
+178,L2,gendered aggression,text,lime,0.03278,0.0074
+178,L2,gendered aggression,text,shap,0.05929,0.0074
+179,L1,Non-Aggressive,image,lime,0.16176,0.01221
+179,L1,Non-Aggressive,image,shap,0.10708,0.01221
+179,L1,Non-Aggressive,text,lime,0.26918,-0.32283
+179,L1,Non-Aggressive,text,shap,0.26918,-0.32283
+180,L1,Non-Aggressive,image,lime,0.10807,0.01122
+180,L1,Non-Aggressive,image,shap,0.08794,0.01122
+180,L1,Non-Aggressive,text,lime,0.39498,0.18004
+180,L1,Non-Aggressive,text,shap,0.39498,0.18004
+181,L1,Aggressive,image,lime,0.02202,-0.0185
+181,L1,Aggressive,image,shap,0.02438,-0.0185
+181,L1,Aggressive,text,lime,0.39144,0.06917
+181,L1,Aggressive,text,shap,0.3971,0.06917
+181,L2,gendered aggression,image,lime,0.13106,-0.03132
+181,L2,gendered aggression,image,shap,0.14437,-0.03132
+181,L2,gendered aggression,text,lime,0.56777,-0.00994
+181,L2,gendered aggression,text,shap,0.60106,-0.00994
+182,L1,Aggressive,image,lime,0.1613,-0.00107
+182,L1,Aggressive,image,shap,0.08113,-0.00107
+182,L1,Aggressive,text,lime,0.08888,0.03895
+182,L1,Aggressive,text,shap,0.05777,0.03895
+182,L2,others,image,lime,-0.00588,-0.13369
+182,L2,others,image,shap,0.05522,-0.13369
+182,L2,others,text,lime,0.27653,0.10162
+182,L2,others,text,shap,0.27653,0.10162
+183,L1,Aggressive,image,lime,0.02885,0.00231
+183,L1,Aggressive,image,shap,0.01953,0.00231
+183,L1,Aggressive,text,lime,0.12347,-0.00011
+183,L1,Aggressive,text,shap,0.14555,-0.00011
+183,L2,religious aggression,image,lime,0.01194,0.00158
+183,L2,religious aggression,image,shap,0.00912,0.00158
+183,L2,religious aggression,text,lime,0.48189,0.01489
+183,L2,religious aggression,text,shap,0.48189,0.01489
+184,L1,Aggressive,image,lime,0.01118,0.0014
+184,L1,Aggressive,image,shap,0.00253,0.0014
+184,L1,Aggressive,text,lime,0.6242,0.01227
+184,L1,Aggressive,text,shap,0.54519,0.01227
+184,L2,religious aggression,image,lime,0.00228,-2e-05
+184,L2,religious aggression,image,shap,0.0012,-2e-05
+184,L2,religious aggression,text,lime,0.66546,0.00024
+184,L2,religious aggression,text,shap,0.59836,0.00024
+185,L1,Non-Aggressive,image,lime,0.04928,0.02875
+185,L1,Non-Aggressive,image,shap,0.05294,0.02875
+185,L1,Non-Aggressive,text,lime,0.2627,-0.00144
+185,L1,Non-Aggressive,text,shap,0.2627,-0.00144
+186,L1,Aggressive,image,lime,0.2403,0.00637
+186,L1,Aggressive,image,shap,0.2403,0.00637
+186,L1,Aggressive,text,lime,0.24018,-0.09075
+186,L1,Aggressive,text,shap,0.24018,-0.09075
+186,L2,others,image,lime,0.03242,0.01643
+186,L2,others,image,shap,-0.02104,0.01643
+186,L2,others,text,lime,0.37035,0.18036
+186,L2,others,text,shap,0.26219,0.18036
+187,L1,Non-Aggressive,image,lime,0.01643,0.0052
+187,L1,Non-Aggressive,image,shap,0.01393,0.0052
+187,L1,Non-Aggressive,text,lime,0.04724,0.00524
+187,L1,Non-Aggressive,text,shap,0.05752,0.00524
+188,L1,Aggressive,image,lime,0.02043,0.00015
+188,L1,Aggressive,image,shap,0.02043,0.00015
+188,L1,Aggressive,text,lime,0.17333,0.00162
+188,L1,Aggressive,text,shap,0.17333,0.00162
+188,L2,gendered aggression,image,lime,0.0878,0.013
+188,L2,gendered aggression,image,shap,0.0878,0.013
+188,L2,gendered aggression,text,lime,0.17735,0.00138
+188,L2,gendered aggression,text,shap,0.17735,0.00138
+189,L1,Aggressive,image,lime,0.04259,-0.04236
+189,L1,Aggressive,image,shap,0.04254,-0.04236
+189,L1,Aggressive,text,lime,0.16958,0.15751
+189,L1,Aggressive,text,shap,0.16958,0.15751
+189,L2,others,image,lime,0.03204,-0.00281
+189,L2,others,image,shap,0.02571,-0.00281
+189,L2,others,text,lime,0.02521,-0.00336
+189,L2,others,text,shap,0.02521,-0.00336
+190,L1,Aggressive,image,lime,0.25832,0.00314
+190,L1,Aggressive,image,shap,0.24067,0.00314
+190,L1,Aggressive,text,lime,0.03663,-0.04983
+190,L1,Aggressive,text,shap,0.03663,-0.04983
+190,L2,gendered aggression,image,lime,0.48979,0.06471
+190,L2,gendered aggression,image,shap,0.44044,0.06471
+190,L2,gendered aggression,text,lime,0.0631,-0.14993
+190,L2,gendered aggression,text,shap,0.0631,-0.14993
+191,L1,Aggressive,image,lime,0.0117,0.00042
+191,L1,Aggressive,image,shap,0.00991,0.00042
+191,L1,Aggressive,text,lime,0.07775,0.01272
+191,L1,Aggressive,text,shap,0.07775,0.01272
+191,L2,political aggression,image,lime,0.02092,0.00863
+191,L2,political aggression,image,shap,0.01787,0.00863
+191,L2,political aggression,text,lime,0.75255,0.12376
+191,L2,political aggression,text,shap,0.75255,0.12376
+192,L1,Aggressive,image,lime,0.01953,0.02591
+192,L1,Aggressive,image,shap,0.03097,0.02591
+192,L1,Aggressive,text,lime,0.41323,0.01467
+192,L1,Aggressive,text,shap,0.41323,0.01467
+192,L2,others,image,lime,0.05607,0.01906
+192,L2,others,image,shap,0.04143,0.01906
+192,L2,others,text,lime,0.11283,-0.00228
+192,L2,others,text,shap,0.11283,-0.00228
+193,L1,Aggressive,image,lime,0.00884,0.00303
+193,L1,Aggressive,image,shap,0.0092,0.00303
+193,L1,Aggressive,text,lime,0.72921,0.16325
+193,L1,Aggressive,text,shap,0.64575,0.16325
+193,L2,political aggression,image,lime,0.00952,-0.00187
+193,L2,political aggression,image,shap,0.00724,-0.00187
+193,L2,political aggression,text,lime,0.95072,0.00294
+193,L2,political aggression,text,shap,0.94636,0.00294
+194,L1,Aggressive,image,lime,0.0536,0.00525
+194,L1,Aggressive,image,shap,0.03559,0.00525
+194,L1,Aggressive,text,lime,0.02563,0.02563
+194,L1,Aggressive,text,shap,0.02563,0.02563
+194,L2,gendered aggression,image,lime,0.27726,0.0579
+194,L2,gendered aggression,image,shap,0.25759,0.0579
+194,L2,gendered aggression,text,lime,0.34448,0.09498
+194,L2,gendered aggression,text,shap,0.34448,0.09498
+195,L1,Aggressive,image,lime,0.03756,0.00827
+195,L1,Aggressive,image,shap,0.03696,0.00827
+195,L1,Aggressive,text,lime,0.00012,-0.03716
+195,L1,Aggressive,text,shap,0.00012,-0.03716
+195,L2,political aggression,image,lime,0.0305,-0.01474
+195,L2,political aggression,image,shap,0.02179,-0.01474
+195,L2,political aggression,text,lime,0.64638,-0.00014
+195,L2,political aggression,text,shap,0.64638,-0.00014
+196,L1,Aggressive,image,lime,0.00375,0.00015
+196,L1,Aggressive,image,shap,0.00156,0.00015
+196,L1,Aggressive,text,lime,0.01325,-0.00028
+196,L1,Aggressive,text,shap,0.00799,-0.00028
+196,L2,religious aggression,image,lime,0.00028,3e-05
+196,L2,religious aggression,image,shap,0.00036,3e-05
+196,L2,religious aggression,text,lime,0.01174,0.00018
+196,L2,religious aggression,text,shap,0.04256,0.00018
+197,L1,Aggressive,image,lime,0.11639,0.00315
+197,L1,Aggressive,image,shap,0.10648,0.00315
+197,L1,Aggressive,text,lime,0.6695,-0.00477
+197,L1,Aggressive,text,shap,0.67472,-0.00477
+197,L2,gendered aggression,image,lime,0.18244,0.03627
+197,L2,gendered aggression,image,shap,0.21924,0.03627
+197,L2,gendered aggression,text,lime,0.3734,0.01051
+197,L2,gendered aggression,text,shap,0.4245,0.01051
+198,L1,Aggressive,image,lime,0.08995,0.00702
+198,L1,Aggressive,image,shap,0.11309,0.00702
+198,L1,Aggressive,text,lime,0.09992,-0.18483
+198,L1,Aggressive,text,shap,0.09992,-0.18483
+198,L2,others,image,lime,0.24262,-0.05444
+198,L2,others,image,shap,0.25756,-0.05444
+198,L2,others,text,lime,0.1764,0.2608
+198,L2,others,text,shap,0.14532,0.2608
+199,L1,Aggressive,image,lime,0.0041,6e-05
+199,L1,Aggressive,image,shap,0.0033,6e-05
+199,L1,Aggressive,text,lime,-0.00025,0.00017
+199,L1,Aggressive,text,shap,-6e-05,0.00017
+199,L2,political aggression,image,lime,0.00363,-9e-05
+199,L2,political aggression,image,shap,0.0011,-9e-05
+199,L2,political aggression,text,lime,0.00062,0.00047
+199,L2,political aggression,text,shap,0.00037,0.00047
+200,L1,Aggressive,image,lime,0.00771,0.00064
+200,L1,Aggressive,image,shap,0.00177,0.00064
+200,L1,Aggressive,text,lime,0.57247,0.00062
+200,L1,Aggressive,text,shap,0.57247,0.00062
+200,L2,religious aggression,image,lime,0.00038,-0.00011
+200,L2,religious aggression,image,shap,4e-05,-0.00011
+200,L2,religious aggression,text,lime,0.66032,4e-05
+200,L2,religious aggression,text,shap,0.64448,4e-05
+201,L1,Aggressive,image,lime,0.00575,0.00107
+201,L1,Aggressive,image,shap,0.00265,0.00107
+201,L1,Aggressive,text,lime,0.00886,0.001
+201,L1,Aggressive,text,shap,0.00886,0.001
+201,L2,political aggression,image,lime,-0.00208,-0.02861
+201,L2,political aggression,image,shap,-0.01126,-0.02861
+201,L2,political aggression,text,lime,0.84438,0.77487
+201,L2,political aggression,text,shap,0.84438,0.77487
+202,L1,Aggressive,image,lime,0.07943,0.00929
+202,L1,Aggressive,image,shap,0.06481,0.00929
+202,L1,Aggressive,text,lime,0.3452,0.04608
+202,L1,Aggressive,text,shap,0.3452,0.04608
+202,L2,others,image,lime,0.09669,-0.00251
+202,L2,others,image,shap,0.05777,-0.00251
+202,L2,others,text,lime,0.05609,0.0014
+202,L2,others,text,shap,0.05609,0.0014
+203,L1,Aggressive,image,lime,0.01194,0.0054
+203,L1,Aggressive,image,shap,0.01035,0.0054
+203,L1,Aggressive,text,lime,0.81898,-0.00309
+203,L1,Aggressive,text,shap,0.83684,-0.00309
+203,L2,political aggression,image,lime,0.01296,-0.00677
+203,L2,political aggression,image,shap,0.0098,-0.00677
+203,L2,political aggression,text,lime,0.87029,0.90334
+203,L2,political aggression,text,shap,0.86682,0.90334
+204,L1,Aggressive,image,lime,0.10121,-0.0012
+204,L1,Aggressive,image,shap,0.09933,-0.0012
+204,L1,Aggressive,text,lime,0.15045,-0.03595
+204,L1,Aggressive,text,shap,0.04795,-0.03595
+204,L2,others,image,lime,0.11691,0.00299
+204,L2,others,image,shap,0.06723,0.00299
+204,L2,others,text,lime,0.31298,-0.10469
+204,L2,others,text,shap,0.31298,-0.10469
+205,L1,Aggressive,image,lime,0.17558,-0.00124
+205,L1,Aggressive,image,shap,0.17457,-0.00124
+205,L1,Aggressive,text,lime,0.294,-0.00794
+205,L1,Aggressive,text,shap,0.294,-0.00794
+205,L2,others,image,lime,0.24702,0.02066
+205,L2,others,image,shap,0.2156,0.02066
+205,L2,others,text,lime,0.23439,-0.07818
+205,L2,others,text,shap,0.22882,-0.07818
+206,L1,Non-Aggressive,image,lime,0.0902,-0.00348
+206,L1,Non-Aggressive,image,shap,0.10228,-0.00348
+206,L1,Non-Aggressive,text,lime,0.33646,-0.24272
+206,L1,Non-Aggressive,text,shap,0.33646,-0.24272
+207,L1,Aggressive,image,lime,0.02559,0.00616
+207,L1,Aggressive,image,shap,0.01437,0.00616
+207,L1,Aggressive,text,lime,0.11916,0.02041
+207,L1,Aggressive,text,shap,0.11916,0.02041
+207,L2,gendered aggression,image,lime,0.01732,0.0015
+207,L2,gendered aggression,image,shap,0.00491,0.0015
+207,L2,gendered aggression,text,lime,0.09351,0.00456
+207,L2,gendered aggression,text,shap,0.09351,0.00456
+208,L1,Non-Aggressive,image,lime,0.13981,0.00307
+208,L1,Non-Aggressive,image,shap,0.0738,0.00307
+208,L1,Non-Aggressive,text,lime,0.33754,-0.06923
+208,L1,Non-Aggressive,text,shap,0.33754,-0.06923
+209,L1,Aggressive,image,lime,0.00469,0.00115
+209,L1,Aggressive,image,shap,0.0035,0.00115
+209,L1,Aggressive,text,lime,0.0341,2e-05
+209,L1,Aggressive,text,shap,0.02101,2e-05
+209,L2,religious aggression,image,lime,0.00099,-0.00028
+209,L2,religious aggression,image,shap,-0.00038,-0.00028
+209,L2,religious aggression,text,lime,0.10457,0.0058
+209,L2,religious aggression,text,shap,0.1097,0.0058
+210,L1,Non-Aggressive,image,lime,0.06492,0.00964
+210,L1,Non-Aggressive,image,shap,0.06615,0.00964
+210,L1,Non-Aggressive,text,lime,0.66282,0.2412
+210,L1,Non-Aggressive,text,shap,0.66282,0.2412
+211,L1,Aggressive,image,lime,0.01181,0.00509
+211,L1,Aggressive,image,shap,0.01322,0.00509
+211,L1,Aggressive,text,lime,0.29248,0.00533
+211,L1,Aggressive,text,shap,0.29248,0.00533
+211,L2,religious aggression,image,lime,0.00424,-5e-05
+211,L2,religious aggression,image,shap,0.00314,-5e-05
+211,L2,religious aggression,text,lime,0.9145,0.77485
+211,L2,religious aggression,text,shap,0.9533,0.77485
+212,L1,Aggressive,image,lime,0.00658,0.00083
+212,L1,Aggressive,image,shap,0.00431,0.00083
+212,L1,Aggressive,text,lime,0.03687,0.00043
+212,L1,Aggressive,text,shap,0.03687,0.00043
+212,L2,religious aggression,image,lime,0.00114,5e-05
+212,L2,religious aggression,image,shap,0.00085,5e-05
+212,L2,religious aggression,text,lime,0.75284,0.51048
+212,L2,religious aggression,text,shap,0.75284,0.51048
+213,L1,Aggressive,image,lime,0.19304,0.04035
+213,L1,Aggressive,image,shap,0.19736,0.04035
+213,L1,Aggressive,text,lime,0.06367,0.06367
+213,L1,Aggressive,text,shap,0.06367,0.06367
+213,L2,gendered aggression,image,lime,0.39066,0.05388
+213,L2,gendered aggression,image,shap,0.3797,0.05388
+213,L2,gendered aggression,text,lime,0.67052,0.59923
+213,L2,gendered aggression,text,shap,0.67052,0.59923
+214,L1,Non-Aggressive,image,lime,0.04163,0.01365
+214,L1,Non-Aggressive,image,shap,0.02844,0.01365
+214,L1,Non-Aggressive,text,lime,0.30157,0.22485
+214,L1,Non-Aggressive,text,shap,0.30157,0.22485
+215,L1,Aggressive,image,lime,0.05452,-0.03612
+215,L1,Aggressive,image,shap,0.04432,-0.03612
+215,L1,Aggressive,text,lime,0.59749,-0.05854
+215,L1,Aggressive,text,shap,0.59749,-0.05854
+215,L2,others,image,lime,0.0791,-0.00062
+215,L2,others,image,shap,0.08109,-0.00062
+215,L2,others,text,lime,0.17741,0.07253
+215,L2,others,text,shap,0.17741,0.07253
+216,L1,Non-Aggressive,image,lime,0.08515,-0.08243
+216,L1,Non-Aggressive,image,shap,0.07895,-0.08243
+216,L1,Non-Aggressive,text,lime,0.15563,0.05377
+216,L1,Non-Aggressive,text,shap,0.15563,0.05377
+217,L1,Aggressive,image,lime,0.06263,0.02377
+217,L1,Aggressive,image,shap,0.05753,0.02377
+217,L1,Aggressive,text,lime,0.62895,0.01004
+217,L1,Aggressive,text,shap,0.64022,0.01004
+217,L2,gendered aggression,image,lime,0.09284,-0.004
+217,L2,gendered aggression,image,shap,0.05502,-0.004
+217,L2,gendered aggression,text,lime,0.57789,-0.00025
+217,L2,gendered aggression,text,shap,0.58097,-0.00025
+218,L1,Aggressive,image,lime,0.14697,0.0267
+218,L1,Aggressive,image,shap,0.16241,0.0267
+218,L1,Aggressive,text,lime,0.1357,-0.15593
+218,L1,Aggressive,text,shap,0.1357,-0.15593
+218,L2,others,image,lime,0.19605,0.00065
+218,L2,others,image,shap,0.19774,0.00065
+218,L2,others,text,lime,0.11851,-0.15502
+218,L2,others,text,shap,0.01268,-0.15502
+219,L1,Aggressive,image,lime,0.03254,0.00774
+219,L1,Aggressive,image,shap,0.0256,0.00774
+219,L1,Aggressive,text,lime,0.20183,0.06728
+219,L1,Aggressive,text,shap,0.12575,0.06728
+219,L2,religious aggression,image,lime,0.00382,0.00027
+219,L2,religious aggression,image,shap,0.00187,0.00027
+219,L2,religious aggression,text,lime,0.9235,0.50329
+219,L2,religious aggression,text,shap,0.9235,0.50329
+220,L1,Aggressive,image,lime,0.03352,0.00797
+220,L1,Aggressive,image,shap,0.03421,0.00797
+220,L1,Aggressive,text,lime,0.42968,0.00216
+220,L1,Aggressive,text,shap,0.25068,0.00216
+220,L2,religious aggression,image,lime,0.00696,0.00096
+220,L2,religious aggression,image,shap,0.0067,0.00096
+220,L2,religious aggression,text,lime,0.7426,0.27635
+220,L2,religious aggression,text,shap,0.7426,0.27635
+221,L1,Aggressive,image,lime,0.0096,0.00189
+221,L1,Aggressive,image,shap,0.00586,0.00189
+221,L1,Aggressive,text,lime,0.00515,-0.00022
+221,L1,Aggressive,text,shap,0.00354,-0.00022
+221,L2,political aggression,image,lime,0.01067,0.00208
+221,L2,political aggression,image,shap,0.00474,0.00208
+221,L2,political aggression,text,lime,0.05888,0.00605
+221,L2,political aggression,text,shap,0.05888,0.00605
+222,L1,Aggressive,image,lime,0.01133,0.00148
+222,L1,Aggressive,image,shap,0.00531,0.00148
+222,L1,Aggressive,text,lime,0.0313,-0.00159
+222,L1,Aggressive,text,shap,0.0313,-0.00159
+222,L2,religious aggression,image,lime,0.00367,0.00121
+222,L2,religious aggression,image,shap,0.00255,0.00121
+222,L2,religious aggression,text,lime,0.49255,0.00013
+222,L2,religious aggression,text,shap,0.49255,0.00013
+223,L1,Aggressive,image,lime,0.00888,-0.00061
+223,L1,Aggressive,image,shap,0.01091,-0.00061
+223,L1,Aggressive,text,lime,0.03037,-0.0125
+223,L1,Aggressive,text,shap,0.03037,-0.0125
+223,L2,religious aggression,image,lime,0.00093,-0.00435
+223,L2,religious aggression,image,shap,0.00227,-0.00435
+223,L2,religious aggression,text,lime,0.96562,0.00658
+223,L2,religious aggression,text,shap,0.96562,0.00658
+224,L1,Aggressive,image,lime,0.02657,0.00595
+224,L1,Aggressive,image,shap,0.03046,0.00595
+224,L1,Aggressive,text,lime,-0.00018,-0.00047
+224,L1,Aggressive,text,shap,0.00188,-0.00047
+224,L2,gendered aggression,image,lime,0.17087,0.01975
+224,L2,gendered aggression,image,shap,0.1509,0.01975
+224,L2,gendered aggression,text,lime,0.00507,0.00507
+224,L2,gendered aggression,text,shap,-0.00052,0.00507
+225,L1,Non-Aggressive,image,lime,0.03238,-0.00493
+225,L1,Non-Aggressive,image,shap,0.03087,-0.00493
+225,L1,Non-Aggressive,text,lime,0.06549,0.00989
+225,L1,Non-Aggressive,text,shap,0.0163,0.00989
+226,L1,Aggressive,image,lime,0.00512,-0.00057
+226,L1,Aggressive,image,shap,0.00419,-0.00057
+226,L1,Aggressive,text,lime,0.00297,0.00095
+226,L1,Aggressive,text,shap,0.00183,0.00095
+226,L2,political aggression,image,lime,0.00891,0.00054
+226,L2,political aggression,image,shap,0.00581,0.00054
+226,L2,political aggression,text,lime,0.07821,0.00077
+226,L2,political aggression,text,shap,0.07821,0.00077
+227,L1,Non-Aggressive,image,lime,0.04719,-0.01613
+227,L1,Non-Aggressive,image,shap,0.04939,-0.01613
+227,L1,Non-Aggressive,text,lime,0.20165,0.00981
+227,L1,Non-Aggressive,text,shap,0.19798,0.00981
+228,L1,Aggressive,image,lime,0.04571,0.00333
+228,L1,Aggressive,image,shap,0.00333,0.00333
+228,L1,Aggressive,text,lime,0.38106,-0.00784
+228,L1,Aggressive,text,shap,0.38106,-0.00784
+228,L2,gendered aggression,image,lime,0.02029,-0.02906
+228,L2,gendered aggression,image,shap,-0.0056,-0.02906
+228,L2,gendered aggression,text,lime,0.53678,-0.03584
+228,L2,gendered aggression,text,shap,0.53678,-0.03584
+229,L1,Non-Aggressive,image,lime,0.01054,-0.00458
+229,L1,Non-Aggressive,image,shap,0.01516,-0.00458
+229,L1,Non-Aggressive,text,lime,0.38726,0.00207
+229,L1,Non-Aggressive,text,shap,0.48322,0.00207
+230,L1,Aggressive,image,lime,0.00971,-0.0018
+230,L1,Aggressive,image,shap,0.00649,-0.0018
+230,L1,Aggressive,text,lime,0.00093,0.00025
+230,L1,Aggressive,text,shap,0.00093,0.00025
+230,L2,political aggression,image,lime,0.02869,-0.00194
+230,L2,political aggression,image,shap,0.01756,-0.00194
+230,L2,political aggression,text,lime,0.01173,0.00725
+230,L2,political aggression,text,shap,0.00331,0.00725
+231,L1,Aggressive,image,lime,0.10838,0.02725
+231,L1,Aggressive,image,shap,0.08294,0.02725
+231,L1,Aggressive,text,lime,0.25,-0.0126
+231,L1,Aggressive,text,shap,0.25,-0.0126
+231,L2,gendered aggression,image,lime,0.20407,0.12013
+231,L2,gendered aggression,image,shap,0.23498,0.12013
+231,L2,gendered aggression,text,lime,0.4033,0.032
+231,L2,gendered aggression,text,shap,0.4033,0.032
+232,L1,Aggressive,image,lime,0.00811,0.0014
+232,L1,Aggressive,image,shap,0.00716,0.0014
+232,L1,Aggressive,text,lime,0.53851,0.25315
+232,L1,Aggressive,text,shap,0.53851,0.25315
+232,L2,political aggression,image,lime,0.03126,0.0024
+232,L2,political aggression,image,shap,0.02676,0.0024
+232,L2,political aggression,text,lime,0.92595,-0.01956
+232,L2,political aggression,text,shap,0.92595,-0.01956
+233,L1,Non-Aggressive,image,lime,0.12611,-0.02537
+233,L1,Non-Aggressive,image,shap,0.08187,-0.02537
+233,L1,Non-Aggressive,text,lime,0.23822,0.04374
+233,L1,Non-Aggressive,text,shap,0.23822,0.04374
+234,L1,Aggressive,image,lime,0.0018,-0.00019
+234,L1,Aggressive,image,shap,0.00154,-0.00019
+234,L1,Aggressive,text,lime,0.18731,-0.0022
+234,L1,Aggressive,text,shap,0.18731,-0.0022
+234,L2,religious aggression,image,lime,0.00019,3e-05
+234,L2,religious aggression,image,shap,0.00025,3e-05
+234,L2,religious aggression,text,lime,0.38847,-3e-05
+234,L2,religious aggression,text,shap,0.38847,-3e-05
+235,L1,Aggressive,image,lime,0.02824,0.00462
+235,L1,Aggressive,image,shap,0.01933,0.00462
+235,L1,Aggressive,text,lime,0.00859,0.0052
+235,L1,Aggressive,text,shap,0.00859,0.0052
+235,L2,gendered aggression,image,lime,0.0152,0.00203
+235,L2,gendered aggression,image,shap,0.00849,0.00203
+235,L2,gendered aggression,text,lime,0.00478,0.00424
+235,L2,gendered aggression,text,shap,0.00478,0.00424
+236,L1,Aggressive,image,lime,0.00864,0.00378
+236,L1,Aggressive,image,shap,0.0053,0.00378
+236,L1,Aggressive,text,lime,0.56497,0.00042
+236,L1,Aggressive,text,shap,0.56497,0.00042
+236,L2,religious aggression,image,lime,0.0011,-4e-05
+236,L2,religious aggression,image,shap,0.00067,-4e-05
+236,L2,religious aggression,text,lime,0.91141,0.0003
+236,L2,religious aggression,text,shap,0.91141,0.0003
+237,L1,Non-Aggressive,image,lime,0.04354,0.01762
+237,L1,Non-Aggressive,image,shap,0.04542,0.01762
+237,L1,Non-Aggressive,text,lime,0.17209,0.07862
+237,L1,Non-Aggressive,text,shap,0.16362,0.07862
+238,L1,Non-Aggressive,image,lime,0.03385,0.02822
+238,L1,Non-Aggressive,image,shap,0.04127,0.02822
+238,L1,Non-Aggressive,text,lime,0.06221,0.03984
+238,L1,Non-Aggressive,text,shap,0.06221,0.03984
+239,L1,Non-Aggressive,image,lime,0.0609,-0.01536
+239,L1,Non-Aggressive,image,shap,0.02235,-0.01536
+239,L1,Non-Aggressive,text,lime,0.37123,0.15454
+239,L1,Non-Aggressive,text,shap,0.27553,0.15454
+240,L1,Aggressive,image,lime,0.07908,-0.02583
+240,L1,Aggressive,image,shap,0.09343,-0.02583
+240,L1,Aggressive,text,lime,0.20916,-0.0261
+240,L1,Aggressive,text,shap,0.20916,-0.0261
+240,L2,others,image,lime,0.01074,-0.00013
+240,L2,others,image,shap,0.00342,-0.00013
+240,L2,others,text,lime,0.02167,0.01632
+240,L2,others,text,shap,0.01832,0.01632
+241,L1,Aggressive,image,lime,0.06229,-0.00168
+241,L1,Aggressive,image,shap,0.05964,-0.00168
+241,L1,Aggressive,text,lime,0.19813,0.00754
+241,L1,Aggressive,text,shap,-0.00647,0.00754
+241,L2,others,image,lime,0.04983,-0.00215
+241,L2,others,image,shap,0.05472,-0.00215
+241,L2,others,text,lime,0.07321,0.00118
+241,L2,others,text,shap,0.15838,0.00118
+242,L1,Non-Aggressive,image,lime,0.02064,0.00199
+242,L1,Non-Aggressive,image,shap,0.0226,0.00199
+242,L1,Non-Aggressive,text,lime,0.0226,0.00218
+242,L1,Non-Aggressive,text,shap,0.00632,0.00218
+243,L1,Aggressive,image,lime,0.13593,0.08248
+243,L1,Aggressive,image,shap,0.10372,0.08248
+243,L1,Aggressive,text,lime,0.25716,0.00386
+243,L1,Aggressive,text,shap,0.30888,0.00386
+243,L2,others,image,lime,0.0254,0.00794
+243,L2,others,image,shap,0.01587,0.00794
+243,L2,others,text,lime,0.20594,0.03323
+243,L2,others,text,shap,0.3287,0.03323
+244,L1,Aggressive,image,lime,0.00707,0.00198
+244,L1,Aggressive,image,shap,0.00935,0.00198
+244,L1,Aggressive,text,lime,0.03211,0.00274
+244,L1,Aggressive,text,shap,0.00794,0.00274
+244,L2,religious aggression,image,lime,0.00076,-0.00041
+244,L2,religious aggression,image,shap,0.00169,-0.00041
+244,L2,religious aggression,text,lime,0.97659,0.00087
+244,L2,religious aggression,text,shap,0.9779,0.00087
+245,L1,Aggressive,image,lime,0.06201,0.0309
+245,L1,Aggressive,image,shap,0.06359,0.0309
+245,L1,Aggressive,text,lime,0.31567,-0.00814
+245,L1,Aggressive,text,shap,0.08079,-0.00814
+245,L2,others,image,lime,0.01617,-0.00187
+245,L2,others,image,shap,0.00637,-0.00187
+245,L2,others,text,lime,0.02601,0.00246
+245,L2,others,text,shap,0.02601,0.00246
+246,L1,Aggressive,image,lime,0.08,0.0143
+246,L1,Aggressive,image,shap,0.06739,0.0143
+246,L1,Aggressive,text,lime,0.47642,0.00271
+246,L1,Aggressive,text,shap,0.47642,0.00271
+246,L2,gendered aggression,image,lime,0.11269,0.00274
+246,L2,gendered aggression,image,shap,0.10611,0.00274
+246,L2,gendered aggression,text,lime,0.24753,0.24753
+246,L2,gendered aggression,text,shap,0.24753,0.24753
+247,L1,Aggressive,image,lime,0.03415,-0.00266
+247,L1,Aggressive,image,shap,0.01776,-0.00266
+247,L1,Aggressive,text,lime,0.10453,-0.00094
+247,L1,Aggressive,text,shap,0.10453,-0.00094
+247,L2,others,image,lime,0.07617,0.00574
+247,L2,others,image,shap,0.09273,0.00574
+247,L2,others,text,lime,0.06877,0.00224
+247,L2,others,text,shap,0.06877,0.00224
+248,L1,Aggressive,image,lime,0.03818,-0.00449
+248,L1,Aggressive,image,shap,0.03093,-0.00449
+248,L1,Aggressive,text,lime,0.13541,0.02927
+248,L1,Aggressive,text,shap,0.10936,0.02927
+248,L2,others,image,lime,0.13329,-0.0056
+248,L2,others,image,shap,0.10472,-0.0056
+248,L2,others,text,lime,0.17227,0.02872
+248,L2,others,text,shap,0.17227,0.02872
+249,L1,Non-Aggressive,image,lime,0.11532,-0.06752
+249,L1,Non-Aggressive,image,shap,0.11303,-0.06752
+249,L1,Non-Aggressive,text,lime,0.35554,0.09771
+249,L1,Non-Aggressive,text,shap,0.26105,0.09771
+250,L1,Aggressive,image,lime,0.06883,0.00401
+250,L1,Aggressive,image,shap,0.01195,0.00401
+250,L1,Aggressive,text,lime,0.18641,0.04486
+250,L1,Aggressive,text,shap,0.18641,0.04486
+250,L2,others,image,lime,0.15419,-0.03503
+250,L2,others,image,shap,0.15011,-0.03503
+250,L2,others,text,lime,0.23962,0.12128
+250,L2,others,text,shap,0.23962,0.12128
+251,L1,Aggressive,image,lime,0.02422,0.01599
+251,L1,Aggressive,image,shap,-0.00593,0.01599
+251,L1,Aggressive,text,lime,0.23802,-0.11271
+251,L1,Aggressive,text,shap,0.1655,-0.11271
+251,L2,gendered aggression,image,lime,0.06155,-0.03642
+251,L2,gendered aggression,image,shap,0.0028,-0.03642
+251,L2,gendered aggression,text,lime,0.45895,-0.04201
+251,L2,gendered aggression,text,shap,0.45895,-0.04201
+252,L1,Aggressive,image,lime,0.00097,-0.00061
+252,L1,Aggressive,image,shap,-0.00087,-0.00061
+252,L1,Aggressive,text,lime,0.01557,0.01557
+252,L1,Aggressive,text,shap,0.01557,0.01557
+252,L2,political aggression,image,lime,0.0063,-0.00072
+252,L2,political aggression,image,shap,0.00693,-0.00072
+252,L2,political aggression,text,lime,0.45801,0.00015
+252,L2,political aggression,text,shap,0.45801,0.00015
+253,L1,Aggressive,image,lime,0.02914,0.01909
+253,L1,Aggressive,image,shap,0.02536,0.01909
+253,L1,Aggressive,text,lime,0.68077,0.47513
+253,L1,Aggressive,text,shap,0.64979,0.47513
+253,L2,religious aggression,image,lime,0.00674,-0.00078
+253,L2,religious aggression,image,shap,0.00759,-0.00078
+253,L2,religious aggression,text,lime,0.57428,0.1015
+253,L2,religious aggression,text,shap,0.57428,0.1015
+254,L1,Aggressive,image,lime,0.12682,0.00852
+254,L1,Aggressive,image,shap,0.07297,0.00852
+254,L1,Aggressive,text,lime,0.05133,-0.0151
+254,L1,Aggressive,text,shap,0.01854,-0.0151
+254,L2,religious aggression,image,lime,0.02372,0.00343
+254,L2,religious aggression,image,shap,0.02239,0.00343
+254,L2,religious aggression,text,lime,0.00663,-0.00476
+254,L2,religious aggression,text,shap,0.02123,-0.00476
+255,L1,Aggressive,image,lime,0.00893,0.00106
+255,L1,Aggressive,image,shap,0.00543,0.00106
+255,L1,Aggressive,text,lime,0.08334,-0.00134
+255,L1,Aggressive,text,shap,0.05365,-0.00134
+255,L2,religious aggression,image,lime,0.00158,0.00034
+255,L2,religious aggression,image,shap,0.00147,0.00034
+255,L2,religious aggression,text,lime,0.97093,0.00015
+255,L2,religious aggression,text,shap,0.97093,0.00015
+256,L1,Non-Aggressive,image,lime,0.0511,-0.00857
+256,L1,Non-Aggressive,image,shap,0.03801,-0.00857
+256,L1,Non-Aggressive,text,lime,0.23095,0.00832
+256,L1,Non-Aggressive,text,shap,0.23095,0.00832
+257,L1,Aggressive,image,lime,0.06408,0.00222
+257,L1,Aggressive,image,shap,0.06437,0.00222
+257,L1,Aggressive,text,lime,0.19624,-0.01865
+257,L1,Aggressive,text,shap,0.13373,-0.01865
+257,L2,others,image,lime,0.00926,0.00288
+257,L2,others,image,shap,0.00137,0.00288
+257,L2,others,text,lime,0.0129,0.00092
+257,L2,others,text,shap,0.01836,0.00092
+258,L1,Aggressive,image,lime,0.16511,0.04671
+258,L1,Aggressive,image,shap,0.16476,0.04671
+258,L1,Aggressive,text,lime,0.45962,0.10863
+258,L1,Aggressive,text,shap,0.38893,0.10863
+258,L2,gendered aggression,image,lime,0.18659,0.06923
+258,L2,gendered aggression,image,shap,0.17141,0.06923
+258,L2,gendered aggression,text,lime,0.48679,-0.00937
+258,L2,gendered aggression,text,shap,0.48726,-0.00937
+259,L1,Aggressive,image,lime,0.00684,-0.00056
+259,L1,Aggressive,image,shap,0.00505,-0.00056
+259,L1,Aggressive,text,lime,0.16638,-0.00011
+259,L1,Aggressive,text,shap,0.16638,-0.00011
+259,L2,political aggression,image,lime,0.01584,0.0009
+259,L2,political aggression,image,shap,0.01164,0.0009
+259,L2,political aggression,text,lime,0.96045,0.00047
+259,L2,political aggression,text,shap,0.96045,0.00047
+260,L1,Aggressive,image,lime,0.01039,0.00272
+260,L1,Aggressive,image,shap,0.01137,0.00272
+260,L1,Aggressive,text,lime,0.01292,0.00255
+260,L1,Aggressive,text,shap,0.01209,0.00255
+260,L2,religious aggression,image,lime,0.00087,-0.00016
+260,L2,religious aggression,image,shap,0.00049,-0.00016
+260,L2,religious aggression,text,lime,0.00061,0.00065
+260,L2,religious aggression,text,shap,0.00054,0.00065
+261,L1,Non-Aggressive,image,lime,0.0761,0.07258
+261,L1,Non-Aggressive,image,shap,0.06769,0.07258
+261,L1,Non-Aggressive,text,lime,0.15075,-0.00803
+261,L1,Non-Aggressive,text,shap,0.15075,-0.00803
+262,L1,Aggressive,image,lime,0.01141,-0.00101
+262,L1,Aggressive,image,shap,0.00977,-0.00101
+262,L1,Aggressive,text,lime,0.00498,-3e-05
+262,L1,Aggressive,text,shap,0.01299,-3e-05
+262,L2,political aggression,image,lime,0.0135,0.00154
+262,L2,political aggression,image,shap,0.00325,0.00154
+262,L2,political aggression,text,lime,0.70902,0.00792
+262,L2,political aggression,text,shap,0.73609,0.00792
+263,L1,Aggressive,image,lime,0.05963,0.01302
+263,L1,Aggressive,image,shap,0.0567,0.01302
+263,L1,Aggressive,text,lime,0.42922,0.02121
+263,L1,Aggressive,text,shap,0.42922,0.02121
+263,L2,religious aggression,image,lime,0.00905,-0.00067
+263,L2,religious aggression,image,shap,0.0093,-0.00067
+263,L2,religious aggression,text,lime,0.7369,-0.00278
+263,L2,religious aggression,text,shap,0.7369,-0.00278
+264,L1,Aggressive,image,lime,0.02206,0.00629
+264,L1,Aggressive,image,shap,0.02206,0.00629
+264,L1,Aggressive,text,lime,0.55114,-0.001
+264,L1,Aggressive,text,shap,0.60814,-0.001
+264,L2,religious aggression,image,lime,0.00242,0.00104
+264,L2,religious aggression,image,shap,0.00339,0.00104
+264,L2,religious aggression,text,lime,0.79178,-0.00021
+264,L2,religious aggression,text,shap,0.79178,-0.00021
+265,L1,Non-Aggressive,image,lime,0.01347,-0.00862
+265,L1,Non-Aggressive,image,shap,0.01347,-0.00862
+265,L1,Non-Aggressive,text,lime,0.48976,0.02984
+265,L1,Non-Aggressive,text,shap,0.48976,0.02984
+266,L1,Aggressive,image,lime,0.01577,0.00651
+266,L1,Aggressive,image,shap,0.01037,0.00651
+266,L1,Aggressive,text,lime,0.01483,-0.00187
+266,L1,Aggressive,text,shap,0.01483,-0.00187
+266,L2,others,image,lime,0.02353,-0.03274
+266,L2,others,image,shap,0.03556,-0.03274
+266,L2,others,text,lime,0.58209,0.00969
+266,L2,others,text,shap,0.58209,0.00969
+267,L1,Non-Aggressive,image,lime,0.02187,0.00113
+267,L1,Non-Aggressive,image,shap,0.02685,0.00113
+267,L1,Non-Aggressive,text,lime,0.09725,0.01447
+267,L1,Non-Aggressive,text,shap,0.09725,0.01447
+268,L1,Non-Aggressive,image,lime,0.02526,-0.0063
+268,L1,Non-Aggressive,image,shap,0.02647,-0.0063
+268,L1,Non-Aggressive,text,lime,0.28465,0.00461
+268,L1,Non-Aggressive,text,shap,0.28465,0.00461
+269,L1,Non-Aggressive,image,lime,0.04029,-0.00588
+269,L1,Non-Aggressive,image,shap,0.0362,-0.00588
+269,L1,Non-Aggressive,text,lime,0.23345,0.05392
+269,L1,Non-Aggressive,text,shap,0.15704,0.05392
+270,L1,Aggressive,image,lime,0.1423,0.02047
+270,L1,Aggressive,image,shap,0.03403,0.02047
+270,L1,Aggressive,text,lime,0.46755,-0.24657
+270,L1,Aggressive,text,shap,0.44138,-0.24657
+270,L2,others,image,lime,0.06538,-0.00237
+270,L2,others,image,shap,0.04903,-0.00237
+270,L2,others,text,lime,0.16242,0.00475
+270,L2,others,text,shap,0.20805,0.00475
+271,L1,Non-Aggressive,image,lime,0.05236,-0.03961
+271,L1,Non-Aggressive,image,shap,0.01756,-0.03961
+271,L1,Non-Aggressive,text,lime,0.21664,0.0639
+271,L1,Non-Aggressive,text,shap,0.21664,0.0639
+272,L1,Aggressive,image,lime,0.08315,-0.03611
+272,L1,Aggressive,image,shap,0.09087,-0.03611
+272,L1,Aggressive,text,lime,0.3856,0.03902
+272,L1,Aggressive,text,shap,0.38764,0.03902
+272,L2,others,image,lime,0.04193,-0.00038
+272,L2,others,image,shap,0.04109,-0.00038
+272,L2,others,text,lime,0.92995,-0.00039
+272,L2,others,text,shap,0.92995,-0.00039
+273,L1,Non-Aggressive,image,lime,0.12681,0.00518
+273,L1,Non-Aggressive,image,shap,0.07443,0.00518
+273,L1,Non-Aggressive,text,lime,0.24035,0.24035
+273,L1,Non-Aggressive,text,shap,0.24035,0.24035
+274,L1,Aggressive,image,lime,0.00534,0.00185
+274,L1,Aggressive,image,shap,0.00283,0.00185
+274,L1,Aggressive,text,lime,0.00791,-0.0002
+274,L1,Aggressive,text,shap,0.0,-0.0002
+274,L2,political aggression,image,lime,0.00668,0.0017
+274,L2,political aggression,image,shap,0.00565,0.0017
+274,L2,political aggression,text,lime,0.61568,0.00102
+274,L2,political aggression,text,shap,0.61568,0.00102
+275,L1,Aggressive,image,lime,0.03578,0.01272
+275,L1,Aggressive,image,shap,0.03925,0.01272
+275,L1,Aggressive,text,lime,0.27324,-0.09497
+275,L1,Aggressive,text,shap,0.27324,-0.09497
+275,L2,others,image,lime,0.19444,0.00312
+275,L2,others,image,shap,0.18777,0.00312
+275,L2,others,text,lime,0.25768,0.25768
+275,L2,others,text,shap,0.25768,0.25768
+276,L1,Aggressive,image,lime,0.02936,0.00155
+276,L1,Aggressive,image,shap,0.02241,0.00155
+276,L1,Aggressive,text,lime,0.01275,0.00043
+276,L1,Aggressive,text,shap,0.01275,0.00043
+276,L2,religious aggression,image,lime,0.00475,3e-05
+276,L2,religious aggression,image,shap,0.00382,3e-05
+276,L2,religious aggression,text,lime,0.00356,0.00048
+276,L2,religious aggression,text,shap,0.02455,0.00048
+277,L1,Aggressive,image,lime,0.04837,0.01314
+277,L1,Aggressive,image,shap,0.03581,0.01314
+277,L1,Aggressive,text,lime,0.11806,-0.00026
+277,L1,Aggressive,text,shap,0.06908,-0.00026
+277,L2,others,image,lime,0.0088,0.00084
+277,L2,others,image,shap,0.00327,0.00084
+277,L2,others,text,lime,0.00469,0.00239
+277,L2,others,text,shap,0.00469,0.00239
+278,L1,Aggressive,image,lime,0.02489,0.00666
+278,L1,Aggressive,image,shap,0.01016,0.00666
+278,L1,Aggressive,text,lime,0.02143,0.00058
+278,L1,Aggressive,text,shap,0.01325,0.00058
+278,L2,religious aggression,image,lime,0.00353,0.00012
+278,L2,religious aggression,image,shap,0.00224,0.00012
+278,L2,religious aggression,text,lime,0.7748,0.4759
+278,L2,religious aggression,text,shap,0.84004,0.4759
+279,L1,Aggressive,image,lime,0.0233,-0.00718
+279,L1,Aggressive,image,shap,0.0233,-0.00718
+279,L1,Aggressive,text,lime,0.04131,-0.00146
+279,L1,Aggressive,text,shap,0.10981,-0.00146
+279,L2,religious aggression,image,lime,0.00424,-0.00076
+279,L2,religious aggression,image,shap,0.00424,-0.00076
+279,L2,religious aggression,text,lime,0.00188,0.00038
+279,L2,religious aggression,text,shap,0.01881,0.00038
+280,L1,Aggressive,image,lime,0.01134,0.00054
+280,L1,Aggressive,image,shap,0.00213,0.00054
+280,L1,Aggressive,text,lime,0.07874,-0.00361
+280,L1,Aggressive,text,shap,0.07874,-0.00361
+280,L2,others,image,lime,0.01187,-0.10666
+280,L2,others,image,shap,0.00627,-0.10666
+280,L2,others,text,lime,0.52365,0.52365
+280,L2,others,text,shap,0.52365,0.52365
+281,L1,Aggressive,image,lime,0.24486,0.17868
+281,L1,Aggressive,image,shap,0.21061,0.17868
+281,L1,Aggressive,text,lime,0.20651,-0.01568
+281,L1,Aggressive,text,shap,0.20651,-0.01568
+281,L2,gendered aggression,image,lime,0.27736,0.07627
+281,L2,gendered aggression,image,shap,0.27572,0.07627
+281,L2,gendered aggression,text,lime,0.08523,0.06147
+281,L2,gendered aggression,text,shap,0.08523,0.06147
+282,L1,Aggressive,image,lime,0.01537,0.00468
+282,L1,Aggressive,image,shap,0.01302,0.00468
+282,L1,Aggressive,text,lime,0.38387,-0.00172
+282,L1,Aggressive,text,shap,0.38387,-0.00172
+282,L2,religious aggression,image,lime,0.00252,-0.00131
+282,L2,religious aggression,image,shap,0.00239,-0.00131
+282,L2,religious aggression,text,lime,0.89204,0.00024
+282,L2,religious aggression,text,shap,0.89204,0.00024
+283,L1,Non-Aggressive,image,lime,0.00671,0.00595
+283,L1,Non-Aggressive,image,shap,0.00418,0.00595
+283,L1,Non-Aggressive,text,lime,0.05855,0.01626
+283,L1,Non-Aggressive,text,shap,0.05855,0.01626
+284,L1,Aggressive,image,lime,0.0958,-0.00425
+284,L1,Aggressive,image,shap,0.09311,-0.00425
+284,L1,Aggressive,text,lime,-0.02315,-0.00455
+284,L1,Aggressive,text,shap,-0.01294,-0.00455
+284,L2,others,image,lime,0.01512,-0.00239
+284,L2,others,image,shap,0.00709,-0.00239
+284,L2,others,text,lime,0.00172,0.00387
+284,L2,others,text,shap,0.00172,0.00387
+285,L1,Aggressive,image,lime,0.02819,0.01785
+285,L1,Aggressive,image,shap,0.03111,0.01785
+285,L1,Aggressive,text,lime,0.25112,-0.01946
+285,L1,Aggressive,text,shap,0.06231,-0.01946
+285,L2,others,image,lime,0.01112,-0.00223
+285,L2,others,image,shap,0.00716,-0.00223
+285,L2,others,text,lime,0.00296,0.00119
+285,L2,others,text,shap,0.00328,0.00119
+286,L1,Aggressive,image,lime,0.13056,-0.03012
+286,L1,Aggressive,image,shap,0.13874,-0.03012
+286,L1,Aggressive,text,lime,0.34271,0.14065
+286,L1,Aggressive,text,shap,0.25904,0.14065
+286,L2,others,image,lime,0.11567,0.01202
+286,L2,others,image,shap,0.08215,0.01202
+286,L2,others,text,lime,0.41488,0.33943
+286,L2,others,text,shap,0.41488,0.33943
+287,L1,Aggressive,image,lime,0.07102,-0.01445
+287,L1,Aggressive,image,shap,0.07208,-0.01445
+287,L1,Aggressive,text,lime,0.67675,0.01342
+287,L1,Aggressive,text,shap,0.6753,0.01342
+287,L2,gendered aggression,image,lime,0.12997,-0.02228
+287,L2,gendered aggression,image,shap,0.0972,-0.02228
+287,L2,gendered aggression,text,lime,0.61358,0.01064
+287,L2,gendered aggression,text,shap,0.60256,0.01064
+288,L1,Aggressive,image,lime,0.00887,0.0015
+288,L1,Aggressive,image,shap,0.00587,0.0015
+288,L1,Aggressive,text,lime,0.00974,-0.00093
+288,L1,Aggressive,text,shap,0.00967,-0.00093
+288,L2,religious aggression,image,lime,0.00152,5e-05
+288,L2,religious aggression,image,shap,0.00101,5e-05
+288,L2,religious aggression,text,lime,0.00095,0.00017
+288,L2,religious aggression,text,shap,0.00125,0.00017
+289,L1,Aggressive,image,lime,0.02729,0.01099
+289,L1,Aggressive,image,shap,0.00991,0.01099
+289,L1,Aggressive,text,lime,0.11236,-0.02362
+289,L1,Aggressive,text,shap,0.11236,-0.02362
+289,L2,others,image,lime,0.04899,0.00415
+289,L2,others,image,shap,0.04658,0.00415
+289,L2,others,text,lime,0.53447,0.00251
+289,L2,others,text,shap,-0.00165,0.00251
+290,L1,Aggressive,image,lime,0.00702,0.0042
+290,L1,Aggressive,image,shap,0.00702,0.0042
+290,L1,Aggressive,text,lime,0.02688,0.00072
+290,L1,Aggressive,text,shap,-5e-05,0.00072
+290,L2,religious aggression,image,lime,0.0021,-0.0002
+290,L2,religious aggression,image,shap,0.0024,-0.0002
+290,L2,religious aggression,text,lime,0.63002,0.00048
+290,L2,religious aggression,text,shap,0.63002,0.00048
+291,L1,Aggressive,image,lime,0.06287,0.01558
+291,L1,Aggressive,image,shap,0.05777,0.01558
+291,L1,Aggressive,text,lime,0.27964,-0.00564
+291,L1,Aggressive,text,shap,0.10062,-0.00564
+291,L2,others,image,lime,0.14221,-0.01794
+291,L2,others,image,shap,0.08501,-0.01794
+291,L2,others,text,lime,0.35645,0.11899
+291,L2,others,text,shap,0.31501,0.11899
+292,L1,Aggressive,image,lime,0.08057,0.00064
+292,L1,Aggressive,image,shap,0.0561,0.00064
+292,L1,Aggressive,text,lime,0.52223,0.09736
+292,L1,Aggressive,text,shap,0.52223,0.09736
+292,L2,gendered aggression,image,lime,0.11629,0.0437
+292,L2,gendered aggression,image,shap,0.04184,0.0437
+292,L2,gendered aggression,text,lime,0.41507,0.12733
+292,L2,gendered aggression,text,shap,0.41507,0.12733
+293,L1,Aggressive,image,lime,0.05904,-0.0072
+293,L1,Aggressive,image,shap,0.05606,-0.0072
+293,L1,Aggressive,text,lime,0.03385,0.01281
+293,L1,Aggressive,text,shap,0.02703,0.01281
+293,L2,others,image,lime,0.02017,-0.00372
+293,L2,others,image,shap,0.02185,-0.00372
+293,L2,others,text,lime,0.01571,0.00534
+293,L2,others,text,shap,0.0086,0.00534
+294,L1,Aggressive,image,lime,0.14279,-0.00429
+294,L1,Aggressive,image,shap,0.14907,-0.00429
+294,L1,Aggressive,text,lime,0.46765,-0.04048
+294,L1,Aggressive,text,shap,0.34448,-0.04048
+294,L2,gendered aggression,image,lime,0.14308,0.04218
+294,L2,gendered aggression,image,shap,0.11655,0.04218
+294,L2,gendered aggression,text,lime,0.52653,0.01219
+294,L2,gendered aggression,text,shap,0.50279,0.01219
+295,L1,Aggressive,image,lime,0.21869,0.01467
+295,L1,Aggressive,image,shap,0.23976,0.01467
+295,L1,Aggressive,text,lime,0.13222,-0.08807
+295,L1,Aggressive,text,shap,0.13222,-0.08807
+295,L2,gendered aggression,image,lime,0.46663,0.08476
+295,L2,gendered aggression,image,shap,0.46663,0.08476
+295,L2,gendered aggression,text,lime,0.23062,-0.25205
+295,L2,gendered aggression,text,shap,0.23062,-0.25205
+296,L1,Aggressive,image,lime,0.01423,0.00576
+296,L1,Aggressive,image,shap,0.00579,0.00576
+296,L1,Aggressive,text,lime,0.1173,-0.01054
+296,L1,Aggressive,text,shap,0.06421,-0.01054
+296,L2,others,image,lime,0.00651,-0.04846
+296,L2,others,image,shap,-0.01348,-0.04846
+296,L2,others,text,lime,0.14277,-0.01709
+296,L2,others,text,shap,0.14277,-0.01709
+297,L1,Aggressive,image,lime,0.06119,0.01121
+297,L1,Aggressive,image,shap,0.03724,0.01121
+297,L1,Aggressive,text,lime,0.08365,-0.0202
+297,L1,Aggressive,text,shap,0.12176,-0.0202
+297,L2,others,image,lime,0.07072,-0.09789
+297,L2,others,image,shap,0.09832,-0.09789
+297,L2,others,text,lime,0.56094,0.19944
+297,L2,others,text,shap,0.56094,0.19944
+298,L1,Aggressive,image,lime,0.01698,0.00314
+298,L1,Aggressive,image,shap,0.00951,0.00314
+298,L1,Aggressive,text,lime,0.03479,-0.00055
+298,L1,Aggressive,text,shap,0.00226,-0.00055
+298,L2,religious aggression,image,lime,0.00125,0.0005
+298,L2,religious aggression,image,shap,0.00132,0.0005
+298,L2,religious aggression,text,lime,0.8912,0.00065
+298,L2,religious aggression,text,shap,0.8912,0.00065
+299,L1,Aggressive,image,lime,0.03479,0.00929
+299,L1,Aggressive,image,shap,0.03882,0.00929
+299,L1,Aggressive,text,lime,0.63428,0.00625
+299,L1,Aggressive,text,shap,0.63428,0.00625
+299,L2,gendered aggression,image,lime,0.10748,0.04586
+299,L2,gendered aggression,image,shap,0.08046,0.04586
+299,L2,gendered aggression,text,lime,0.46852,0.25803
+299,L2,gendered aggression,text,shap,0.46852,0.25803
+300,L1,Aggressive,image,lime,0.00471,0.00041
+300,L1,Aggressive,image,shap,0.0042,0.00041
+300,L1,Aggressive,text,lime,0.01527,0.0044
+300,L1,Aggressive,text,shap,0.00162,0.0044
+300,L2,religious aggression,image,lime,0.00798,-0.00296
+300,L2,religious aggression,image,shap,0.00914,-0.00296
+300,L2,religious aggression,text,lime,0.96997,0.00479
+300,L2,religious aggression,text,shap,0.9703,0.00479
+301,L1,Non-Aggressive,image,lime,0.057,-0.02115
+301,L1,Non-Aggressive,image,shap,0.04734,-0.02115
+301,L1,Non-Aggressive,text,lime,0.38287,0.11587
+301,L1,Non-Aggressive,text,shap,0.40666,0.11587
+302,L1,Aggressive,image,lime,0.0093,0.00714
+302,L1,Aggressive,image,shap,0.01169,0.00714
+302,L1,Aggressive,text,lime,0.18396,0.03852
+302,L1,Aggressive,text,shap,0.18396,0.03852
+302,L2,political aggression,image,lime,0.0186,-0.00203
+302,L2,political aggression,image,shap,0.01731,-0.00203
+302,L2,political aggression,text,lime,0.88332,-0.01583
+302,L2,political aggression,text,shap,0.94462,-0.01583
+303,L1,Non-Aggressive,image,lime,0.0375,0.01501
+303,L1,Non-Aggressive,image,shap,0.04655,0.01501
+303,L1,Non-Aggressive,text,lime,0.29984,0.01034
+303,L1,Non-Aggressive,text,shap,0.29984,0.01034
+304,L1,Aggressive,image,lime,0.00625,-0.00659
+304,L1,Aggressive,image,shap,0.0067,-0.00659
+304,L1,Aggressive,text,lime,0.61871,-0.03649
+304,L1,Aggressive,text,shap,0.61871,-0.03649
+304,L2,others,image,lime,0.02127,0.00089
+304,L2,others,image,shap,0.02443,0.00089
+304,L2,others,text,lime,0.03144,-0.0067
+304,L2,others,text,shap,0.03144,-0.0067
+305,L1,Non-Aggressive,image,lime,0.00125,-0.00393
+305,L1,Non-Aggressive,image,shap,0.00714,-0.00393
+305,L1,Non-Aggressive,text,lime,0.00788,0.00284
+305,L1,Non-Aggressive,text,shap,0.00788,0.00284
+306,L1,Aggressive,image,lime,0.18392,0.04664
+306,L1,Aggressive,image,shap,0.18861,0.04664
+306,L1,Aggressive,text,lime,0.02327,-0.06664
+306,L1,Aggressive,text,shap,0.02327,-0.06664
+306,L2,gendered aggression,image,lime,0.34424,0.13779
+306,L2,gendered aggression,image,shap,0.33958,0.13779
+306,L2,gendered aggression,text,lime,0.16628,-0.01485
+306,L2,gendered aggression,text,shap,0.16628,-0.01485
+307,L1,Aggressive,image,lime,0.03672,-0.00695
+307,L1,Aggressive,image,shap,0.04361,-0.00695
+307,L1,Aggressive,text,lime,0.16954,0.05974
+307,L1,Aggressive,text,shap,0.16954,0.05974
+307,L2,gendered aggression,image,lime,0.06479,-0.0153
+307,L2,gendered aggression,image,shap,-0.00752,-0.0153
+307,L2,gendered aggression,text,lime,0.17769,0.00374
+307,L2,gendered aggression,text,shap,0.17769,0.00374
+308,L1,Aggressive,image,lime,0.04678,0.00147
+308,L1,Aggressive,image,shap,0.04678,0.00147
+308,L1,Aggressive,text,lime,0.6038,-0.01657
+308,L1,Aggressive,text,shap,0.62303,-0.01657
+308,L2,others,image,lime,0.11264,-0.00614
+308,L2,others,image,shap,0.13842,-0.00614
+308,L2,others,text,lime,0.68052,-0.00658
+308,L2,others,text,shap,0.68205,-0.00658
+309,L1,Non-Aggressive,image,lime,0.05411,-0.00778
+309,L1,Non-Aggressive,image,shap,0.01218,-0.00778
+309,L1,Non-Aggressive,text,lime,0.28913,0.03597
+309,L1,Non-Aggressive,text,shap,0.15209,0.03597
+310,L1,Aggressive,image,lime,0.15456,-0.07437
+310,L1,Aggressive,image,shap,0.18829,-0.07437
+310,L1,Aggressive,text,lime,0.50811,-0.10268
+310,L1,Aggressive,text,shap,0.50811,-0.10268
+310,L2,religious aggression,image,lime,0.00485,-0.00116
+310,L2,religious aggression,image,shap,-0.00665,-0.00116
+310,L2,religious aggression,text,lime,0.67968,0.63757
+310,L2,religious aggression,text,shap,0.67549,0.63757
+311,L1,Aggressive,image,lime,0.01976,-0.00037
+311,L1,Aggressive,image,shap,0.01313,-0.00037
+311,L1,Aggressive,text,lime,0.02989,0.00157
+311,L1,Aggressive,text,shap,0.02989,0.00157
+311,L2,political aggression,image,lime,0.01423,0.00458
+311,L2,political aggression,image,shap,0.01187,0.00458
+311,L2,political aggression,text,lime,0.47879,0.00491
+311,L2,political aggression,text,shap,0.47879,0.00491
+312,L1,Aggressive,image,lime,0.03358,-0.00226
+312,L1,Aggressive,image,shap,0.02847,-0.00226
+312,L1,Aggressive,text,lime,0.63759,-0.01703
+312,L1,Aggressive,text,shap,0.63759,-0.01703
+312,L2,religious aggression,image,lime,0.00373,0.00058
+312,L2,religious aggression,image,shap,0.00336,0.00058
+312,L2,religious aggression,text,lime,0.63343,-0.00054
+312,L2,religious aggression,text,shap,0.88603,-0.00054
+313,L1,Non-Aggressive,image,lime,0.01902,-0.0047
+313,L1,Non-Aggressive,image,shap,0.01866,-0.0047
+313,L1,Non-Aggressive,text,lime,0.33197,0.0492
+313,L1,Non-Aggressive,text,shap,0.33197,0.0492
+314,L1,Non-Aggressive,image,lime,0.01247,-0.00435
+314,L1,Non-Aggressive,image,shap,0.01736,-0.00435
+314,L1,Non-Aggressive,text,lime,0.02676,0.01124
+314,L1,Non-Aggressive,text,shap,0.02698,0.01124
+315,L1,Aggressive,image,lime,0.0143,0.00222
+315,L1,Aggressive,image,shap,0.01347,0.00222
+315,L1,Aggressive,text,lime,0.06236,-0.00067
+315,L1,Aggressive,text,shap,0.05988,-0.00067
+315,L2,religious aggression,image,lime,0.0056,0.00045
+315,L2,religious aggression,image,shap,0.00342,0.00045
+315,L2,religious aggression,text,lime,0.93892,0.00014
+315,L2,religious aggression,text,shap,0.96231,0.00014
+316,L1,Aggressive,image,lime,0.01747,-0.0015
+316,L1,Aggressive,image,shap,0.01387,-0.0015
+316,L1,Aggressive,text,lime,0.09538,0.00338
+316,L1,Aggressive,text,shap,0.09538,0.00338
+316,L2,religious aggression,image,lime,0.00072,0.00082
+316,L2,religious aggression,image,shap,0.00126,0.00082
+316,L2,religious aggression,text,lime,0.9753,0.0019
+316,L2,religious aggression,text,shap,0.9753,0.0019
+317,L1,Non-Aggressive,image,lime,0.00816,0.00307
+317,L1,Non-Aggressive,image,shap,0.00977,0.00307
+317,L1,Non-Aggressive,text,lime,0.24958,0.01265
+317,L1,Non-Aggressive,text,shap,0.18447,0.01265
+318,L1,Non-Aggressive,image,lime,-0.02759,-0.02215
+318,L1,Non-Aggressive,image,shap,-0.0074,-0.02215
+318,L1,Non-Aggressive,text,lime,0.14052,0.17938
+318,L1,Non-Aggressive,text,shap,0.16873,0.17938
+319,L1,Aggressive,image,lime,0.00339,-0.00059
+319,L1,Aggressive,image,shap,0.00255,-0.00059
+319,L1,Aggressive,text,lime,0.00174,0.00132
+319,L1,Aggressive,text,shap,0.0021,0.00132
+319,L2,political aggression,image,lime,0.00606,0.00108
+319,L2,political aggression,image,shap,0.00265,0.00108
+319,L2,political aggression,text,lime,0.09446,0.00069
+319,L2,political aggression,text,shap,0.09446,0.00069
+320,L1,Aggressive,image,lime,0.01527,0.00794
+320,L1,Aggressive,image,shap,0.01158,0.00794
+320,L1,Aggressive,text,lime,0.31626,-0.00019
+320,L1,Aggressive,text,shap,0.3716,-0.00019
+320,L2,religious aggression,image,lime,0.00538,-0.00112
+320,L2,religious aggression,image,shap,0.00791,-0.00112
+320,L2,religious aggression,text,lime,0.96596,-0.00076
+320,L2,religious aggression,text,shap,0.95515,-0.00076
+321,L1,Aggressive,image,lime,0.13769,0.11608
+321,L1,Aggressive,image,shap,0.14634,0.11608
+321,L1,Aggressive,text,lime,0.16123,-0.00577
+321,L1,Aggressive,text,shap,0.16123,-0.00577
+321,L2,others,image,lime,-0.02263,-0.14261
+321,L2,others,image,shap,-0.01543,-0.14261
+321,L2,others,text,lime,0.62751,0.02354
+321,L2,others,text,shap,0.62751,0.02354
+322,L1,Aggressive,image,lime,0.06467,0.03141
+322,L1,Aggressive,image,shap,0.05522,0.03141
+322,L1,Aggressive,text,lime,0.07451,0.00735
+322,L1,Aggressive,text,shap,0.05531,0.00735
+322,L2,others,image,lime,0.15676,0.00201
+322,L2,others,image,shap,0.16379,0.00201
+322,L2,others,text,lime,0.58712,-0.13684
+322,L2,others,text,shap,0.61435,-0.13684
+323,L1,Aggressive,image,lime,0.05096,-0.04746
+323,L1,Aggressive,image,shap,0.05475,-0.04746
+323,L1,Aggressive,text,lime,0.05408,0.01164
+323,L1,Aggressive,text,shap,-0.02341,0.01164
+323,L2,religious aggression,image,lime,0.01756,-0.0128
+323,L2,religious aggression,image,shap,0.01756,-0.0128
+323,L2,religious aggression,text,lime,0.9316,-0.01221
+323,L2,religious aggression,text,shap,0.9316,-0.01221
+324,L1,Aggressive,image,lime,0.0474,-0.0015
+324,L1,Aggressive,image,shap,0.01654,-0.0015
+324,L1,Aggressive,text,lime,0.76993,0.084
+324,L1,Aggressive,text,shap,0.76993,0.084
+324,L2,others,image,lime,0.01858,-0.00824
+324,L2,others,image,shap,0.00913,-0.00824
+324,L2,others,text,lime,0.10362,-0.01939
+324,L2,others,text,shap,0.10362,-0.01939
+325,L1,Aggressive,image,lime,0.11304,0.04159
+325,L1,Aggressive,image,shap,0.11304,0.04159
+325,L1,Aggressive,text,lime,0.25997,0.15885
+325,L1,Aggressive,text,shap,0.25997,0.15885
+325,L2,gendered aggression,image,lime,0.1672,0.03521
+325,L2,gendered aggression,image,shap,0.12133,0.03521
+325,L2,gendered aggression,text,lime,0.20342,0.12407
+325,L2,gendered aggression,text,shap,0.12407,0.12407
+326,L1,Aggressive,image,lime,0.00563,-0.01847
+326,L1,Aggressive,image,shap,0.02028,-0.01847
+326,L1,Aggressive,text,lime,0.06041,-0.00723
+326,L1,Aggressive,text,shap,0.06041,-0.00723
+326,L2,others,image,lime,0.07195,0.00433
+326,L2,others,image,shap,0.05015,0.00433
+326,L2,others,text,lime,0.11825,0.05024
+326,L2,others,text,shap,0.11825,0.05024
+327,L1,Aggressive,image,lime,0.01107,-0.00238
+327,L1,Aggressive,image,shap,0.00824,-0.00238
+327,L1,Aggressive,text,lime,0.01345,0.01504
+327,L1,Aggressive,text,shap,0.01637,0.01504
+327,L2,religious aggression,image,lime,0.00148,0.00109
+327,L2,religious aggression,image,shap,0.0015,0.00109
+327,L2,religious aggression,text,lime,0.69616,0.00211
+327,L2,religious aggression,text,shap,0.61817,0.00211
+328,L1,Aggressive,image,lime,0.01768,0.00117
+328,L1,Aggressive,image,shap,0.02121,0.00117
+328,L1,Aggressive,text,lime,0.0054,0.00091
+328,L1,Aggressive,text,shap,0.0054,0.00091
+328,L2,religious aggression,image,lime,0.00334,-0.00013
+328,L2,religious aggression,image,shap,0.00402,-0.00013
+328,L2,religious aggression,text,lime,0.00266,0.00012
+328,L2,religious aggression,text,shap,0.00263,0.00012
+329,L1,Aggressive,image,lime,0.04763,0.00141
+329,L1,Aggressive,image,shap,0.04763,0.00141
+329,L1,Aggressive,text,lime,0.29219,0.00199
+329,L1,Aggressive,text,shap,0.29219,0.00199
+329,L2,others,image,lime,0.10846,-0.02454
+329,L2,others,image,shap,0.07356,-0.02454
+329,L2,others,text,lime,0.13047,0.06718
+329,L2,others,text,shap,0.13047,0.06718
+330,L1,Non-Aggressive,image,lime,0.07927,-0.01005
+330,L1,Non-Aggressive,image,shap,0.06785,-0.01005
+330,L1,Non-Aggressive,text,lime,0.15594,0.02157
+330,L1,Non-Aggressive,text,shap,0.14669,0.02157
+331,L1,Aggressive,image,lime,0.05186,0.04505
+331,L1,Aggressive,image,shap,0.05256,0.04505
+331,L1,Aggressive,text,lime,0.35095,-0.01372
+331,L1,Aggressive,text,shap,0.2821,-0.01372
+331,L2,others,image,lime,0.02456,-0.00225
+331,L2,others,image,shap,0.03098,-0.00225
+331,L2,others,text,lime,0.03089,0.00096
+331,L2,others,text,shap,0.03089,0.00096
+332,L1,Aggressive,image,lime,0.00427,0.0006
+332,L1,Aggressive,image,shap,0.00564,0.0006
+332,L1,Aggressive,text,lime,0.72909,0.00564
+332,L1,Aggressive,text,shap,0.7415,0.00564
+332,L2,religious aggression,image,lime,0.00119,1e-05
+332,L2,religious aggression,image,shap,0.00078,1e-05
+332,L2,religious aggression,text,lime,0.53448,0.00022
+332,L2,religious aggression,text,shap,0.71677,0.00022
+333,L1,Aggressive,image,lime,0.02119,0.00716
+333,L1,Aggressive,image,shap,0.01021,0.00716
+333,L1,Aggressive,text,lime,0.42599,0.00496
+333,L1,Aggressive,text,shap,0.45876,0.00496
+333,L2,religious aggression,image,lime,0.01294,0.00157
+333,L2,religious aggression,image,shap,0.01247,0.00157
+333,L2,religious aggression,text,lime,0.96842,0.96648
+333,L2,religious aggression,text,shap,0.96675,0.96648
+334,L1,Aggressive,image,lime,0.01627,0.00203
+334,L1,Aggressive,image,shap,0.01135,0.00203
+334,L1,Aggressive,text,lime,0.01665,0.00408
+334,L1,Aggressive,text,shap,0.00283,0.00408
+334,L2,religious aggression,image,lime,0.00261,-0.00057
+334,L2,religious aggression,image,shap,0.0025,-0.00057
+334,L2,religious aggression,text,lime,0.85767,0.00043
+334,L2,religious aggression,text,shap,0.85767,0.00043
+335,L1,Aggressive,image,lime,0.12858,0.02908
+335,L1,Aggressive,image,shap,0.08374,0.02908
+335,L1,Aggressive,text,lime,0.48807,0.12802
+335,L1,Aggressive,text,shap,0.48807,0.12802
+335,L2,others,image,lime,0.01011,0.00299
+335,L2,others,image,shap,0.00799,0.00299
+335,L2,others,text,lime,0.11153,0.00237
+335,L2,others,text,shap,0.11153,0.00237
+336,L1,Non-Aggressive,image,lime,0.00936,0.00243
+336,L1,Non-Aggressive,image,shap,0.00873,0.00243
+336,L1,Non-Aggressive,text,lime,0.09564,0.01337
+336,L1,Non-Aggressive,text,shap,0.09564,0.01337
+337,L1,Aggressive,image,lime,0.01009,0.00108
+337,L1,Aggressive,image,shap,0.00953,0.00108
+337,L1,Aggressive,text,lime,0.11707,0.0004
+337,L1,Aggressive,text,shap,0.11795,0.0004
+337,L2,political aggression,image,lime,0.00775,-0.00252
+337,L2,political aggression,image,shap,0.00616,-0.00252
+337,L2,political aggression,text,lime,0.96699,0.96699
+337,L2,political aggression,text,shap,0.96699,0.96699
+338,L1,Non-Aggressive,image,lime,0.13666,-0.03506
+338,L1,Non-Aggressive,image,shap,0.09598,-0.03506
+338,L1,Non-Aggressive,text,lime,0.26677,0.03613
+338,L1,Non-Aggressive,text,shap,0.16948,0.03613
+339,L1,Aggressive,image,lime,0.00386,0.00192
+339,L1,Aggressive,image,shap,0.00241,0.00192
+339,L1,Aggressive,text,lime,0.01191,0.0006
+339,L1,Aggressive,text,shap,0.00709,0.0006
+339,L2,political aggression,image,lime,0.23709,0.00825
+339,L2,political aggression,image,shap,0.23709,0.00825
+339,L2,political aggression,text,lime,0.66482,-0.02751
+339,L2,political aggression,text,shap,0.46,-0.02751
+340,L1,Aggressive,image,lime,0.0282,0.00337
+340,L1,Aggressive,image,shap,0.01608,0.00337
+340,L1,Aggressive,text,lime,0.05263,0.00045
+340,L1,Aggressive,text,shap,0.0495,0.00045
+340,L2,religious aggression,image,lime,0.0011,0.0
+340,L2,religious aggression,image,shap,0.00175,0.0
+340,L2,religious aggression,text,lime,0.22598,0.00013
+340,L2,religious aggression,text,shap,0.16754,0.00013
+341,L1,Aggressive,image,lime,0.00539,0.00092
+341,L1,Aggressive,image,shap,0.00131,0.00092
+341,L1,Aggressive,text,lime,0.00769,0.00074
+341,L1,Aggressive,text,shap,0.00255,0.00074
+341,L2,religious aggression,image,lime,0.00674,-0.00509
+341,L2,religious aggression,image,shap,0.01026,-0.00509
+341,L2,religious aggression,text,lime,0.97246,0.00166
+341,L2,religious aggression,text,shap,0.97246,0.00166
+342,L1,Aggressive,image,lime,0.00391,0.00232
+342,L1,Aggressive,image,shap,0.00682,0.00232
+342,L1,Aggressive,text,lime,0.18903,-0.00247
+342,L1,Aggressive,text,shap,0.18903,-0.00247
+342,L2,gendered aggression,image,lime,0.00859,0.00541
+342,L2,gendered aggression,image,shap,0.00791,0.00541
+342,L2,gendered aggression,text,lime,0.11774,-0.00075
+342,L2,gendered aggression,text,shap,0.11774,-0.00075
+343,L1,Aggressive,image,lime,0.02415,-0.00818
+343,L1,Aggressive,image,shap,0.01309,-0.00818
+343,L1,Aggressive,text,lime,0.31144,-0.01076
+343,L1,Aggressive,text,shap,0.31144,-0.01076
+343,L2,religious aggression,image,lime,0.00633,-0.00061
+343,L2,religious aggression,image,shap,0.00498,-0.00061
+343,L2,religious aggression,text,lime,0.86791,-0.00017
+343,L2,religious aggression,text,shap,0.86791,-0.00017
+344,L1,Aggressive,image,lime,0.06358,0.00723
+344,L1,Aggressive,image,shap,0.06358,0.00723
+344,L1,Aggressive,text,lime,0.19031,-0.13025
+344,L1,Aggressive,text,shap,0.21279,-0.13025
+344,L2,others,image,lime,0.01051,-0.00102
+344,L2,others,image,shap,0.00834,-0.00102
+344,L2,others,text,lime,0.1277,0.02126
+344,L2,others,text,shap,0.11633,0.02126
+345,L1,Aggressive,image,lime,0.03461,-0.00726
+345,L1,Aggressive,image,shap,0.02715,-0.00726
+345,L1,Aggressive,text,lime,0.53626,0.16126
+345,L1,Aggressive,text,shap,0.45083,0.16126
+345,L2,others,image,lime,0.1742,0.07157
+345,L2,others,image,shap,0.23363,0.07157
+345,L2,others,text,lime,0.39958,-0.29109
+345,L2,others,text,shap,0.4473,-0.29109
+346,L1,Aggressive,image,lime,0.19521,0.02115
+346,L1,Aggressive,image,shap,0.19469,0.02115
+346,L1,Aggressive,text,lime,-0.05751,-0.04908
+346,L1,Aggressive,text,shap,-0.04908,-0.04908
+346,L2,gendered aggression,image,lime,0.36151,0.2227
+346,L2,gendered aggression,image,shap,0.29382,0.2227
+346,L2,gendered aggression,text,lime,0.02388,-0.02831
+346,L2,gendered aggression,text,shap,0.02388,-0.02831
+347,L1,Aggressive,image,lime,0.04314,0.00409
+347,L1,Aggressive,image,shap,0.03891,0.00409
+347,L1,Aggressive,text,lime,0.01166,0.00507
+347,L1,Aggressive,text,shap,0.01166,0.00507
+347,L2,religious aggression,image,lime,0.00675,-0.00256
+347,L2,religious aggression,image,shap,0.0063,-0.00256
+347,L2,religious aggression,text,lime,0.90761,-0.00157
+347,L2,religious aggression,text,shap,0.90761,-0.00157
+348,L1,Aggressive,image,lime,0.02058,-0.00069
+348,L1,Aggressive,image,shap,0.0079,-0.00069
+348,L1,Aggressive,text,lime,0.30938,0.21511
+348,L1,Aggressive,text,shap,0.1847,0.21511
+348,L2,gendered aggression,image,lime,0.43152,0.02692
+348,L2,gendered aggression,image,shap,0.43152,0.02692
+348,L2,gendered aggression,text,lime,0.65888,0.59668
+348,L2,gendered aggression,text,shap,0.64876,0.59668
+349,L1,Non-Aggressive,image,lime,0.00439,-0.00974
+349,L1,Non-Aggressive,image,shap,0.00056,-0.00974
+349,L1,Non-Aggressive,text,lime,0.08326,0.00584
+349,L1,Non-Aggressive,text,shap,0.08326,0.00584
+350,L1,Aggressive,image,lime,0.02005,0.00343
+350,L1,Aggressive,image,shap,0.01208,0.00343
+350,L1,Aggressive,text,lime,0.04125,0.02313
+350,L1,Aggressive,text,shap,0.04125,0.02313
+350,L2,gendered aggression,image,lime,0.04122,0.00358
+350,L2,gendered aggression,image,shap,0.00296,0.00358
+350,L2,gendered aggression,text,lime,0.08031,0.00175
+350,L2,gendered aggression,text,shap,0.08031,0.00175
+351,L1,Aggressive,image,lime,0.00498,0.00398
+351,L1,Aggressive,image,shap,0.00118,0.00398
+351,L1,Aggressive,text,lime,0.04227,0.00187
+351,L1,Aggressive,text,shap,0.04227,0.00187
+351,L2,gendered aggression,image,lime,0.01312,0.00183
+351,L2,gendered aggression,image,shap,0.00458,0.00183
+351,L2,gendered aggression,text,lime,0.55001,0.00371
+351,L2,gendered aggression,text,shap,0.56428,0.00371
+352,L1,Non-Aggressive,image,lime,0.06136,-0.00798
+352,L1,Non-Aggressive,image,shap,0.05659,-0.00798
+352,L1,Non-Aggressive,text,lime,0.44516,0.0707
+352,L1,Non-Aggressive,text,shap,0.3799,0.0707
+353,L1,Aggressive,image,lime,0.04756,0.00874
+353,L1,Aggressive,image,shap,0.03746,0.00874
+353,L1,Aggressive,text,lime,0.01608,3e-05
+353,L1,Aggressive,text,shap,0.01608,3e-05
+353,L2,others,image,lime,0.0755,0.06623
+353,L2,others,image,shap,0.0645,0.06623
+353,L2,others,text,lime,0.09158,0.0114
+353,L2,others,text,shap,0.09158,0.0114
+354,L1,Aggressive,image,lime,0.00674,5e-05
+354,L1,Aggressive,image,shap,0.00444,5e-05
+354,L1,Aggressive,text,lime,0.0661,0.00054
+354,L1,Aggressive,text,shap,0.0661,0.00054
+354,L2,political aggression,image,lime,0.02732,0.00437
+354,L2,political aggression,image,shap,0.02072,0.00437
+354,L2,political aggression,text,lime,0.94946,0.01427
+354,L2,political aggression,text,shap,0.94946,0.01427
+355,L1,Non-Aggressive,image,lime,0.07964,0.0126
+355,L1,Non-Aggressive,image,shap,0.09505,0.0126
+355,L1,Non-Aggressive,text,lime,0.60732,0.01711
+355,L1,Non-Aggressive,text,shap,0.60732,0.01711
+356,L1,Non-Aggressive,image,lime,0.04152,-0.01735
+356,L1,Non-Aggressive,image,shap,0.05369,-0.01735
+356,L1,Non-Aggressive,text,lime,0.52142,0.08188
+356,L1,Non-Aggressive,text,shap,0.51692,0.08188
+357,L1,Aggressive,image,lime,0.0316,0.00347
+357,L1,Aggressive,image,shap,0.01666,0.00347
+357,L1,Aggressive,text,lime,0.74686,-0.0322
+357,L1,Aggressive,text,shap,0.73472,-0.0322
+357,L2,others,image,lime,0.00622,0.00044
+357,L2,others,image,shap,0.00584,0.00044
+357,L2,others,text,lime,0.108,0.00429
+357,L2,others,text,shap,0.1055,0.00429
+358,L1,Aggressive,image,lime,0.01574,0.00616
+358,L1,Aggressive,image,shap,0.00691,0.00616
+358,L1,Aggressive,text,lime,0.03921,-0.00118
+358,L1,Aggressive,text,shap,0.02761,-0.00118
+358,L2,religious aggression,image,lime,0.00221,-0.00029
+358,L2,religious aggression,image,shap,0.00171,-0.00029
+358,L2,religious aggression,text,lime,0.44783,0.00074
+358,L2,religious aggression,text,shap,0.4469,0.00074
+359,L1,Aggressive,image,lime,0.00339,0.00197
+359,L1,Aggressive,image,shap,0.00185,0.00197
+359,L1,Aggressive,text,lime,0.03385,0.00636
+359,L1,Aggressive,text,shap,0.0417,0.00636
+359,L2,political aggression,image,lime,0.03544,0.0018
+359,L2,political aggression,image,shap,0.02887,0.0018
+359,L2,political aggression,text,lime,0.17438,0.06077
+359,L2,political aggression,text,shap,0.09771,0.06077
+360,L1,Non-Aggressive,image,lime,0.03758,0.0033
+360,L1,Non-Aggressive,image,shap,0.02006,0.0033
+360,L1,Non-Aggressive,text,lime,0.2716,0.01162
+360,L1,Non-Aggressive,text,shap,0.17788,0.01162
+361,L1,Non-Aggressive,image,lime,0.0151,-0.01892
+361,L1,Non-Aggressive,image,shap,0.00189,-0.01892
+361,L1,Non-Aggressive,text,lime,0.23447,0.03795
+361,L1,Non-Aggressive,text,shap,0.23447,0.03795
+362,L1,Non-Aggressive,image,lime,0.07687,0.00244
+362,L1,Non-Aggressive,image,shap,0.04408,0.00244
+362,L1,Non-Aggressive,text,lime,0.30402,0.30402
+362,L1,Non-Aggressive,text,shap,0.30402,0.30402
+363,L1,Aggressive,image,lime,0.02401,0.00047
+363,L1,Aggressive,image,shap,0.02433,0.00047
+363,L1,Aggressive,text,lime,0.03155,-0.0009
+363,L1,Aggressive,text,shap,0.03155,-0.0009
+363,L2,religious aggression,image,lime,0.00431,0.00259
+363,L2,religious aggression,image,shap,0.00461,0.00259
+363,L2,religious aggression,text,lime,0.87818,0.0011
+363,L2,religious aggression,text,shap,0.86029,0.0011
+364,L1,Aggressive,image,lime,0.00705,-0.0001
+364,L1,Aggressive,image,shap,0.00293,-0.0001
+364,L1,Aggressive,text,lime,0.03519,0.02174
+364,L1,Aggressive,text,shap,0.04362,0.02174
+364,L2,political aggression,image,lime,0.00788,0.00015
+364,L2,political aggression,image,shap,0.0002,0.00015
+364,L2,political aggression,text,lime,0.50625,0.00378
+364,L2,political aggression,text,shap,0.64521,0.00378
+365,L1,Non-Aggressive,image,lime,0.18156,-0.0118
+365,L1,Non-Aggressive,image,shap,0.15462,-0.0118
+365,L1,Non-Aggressive,text,lime,0.424,-0.07091
+365,L1,Non-Aggressive,text,shap,0.36435,-0.07091
+366,L1,Non-Aggressive,image,lime,0.02907,-0.00857
+366,L1,Non-Aggressive,image,shap,0.01393,-0.00857
+366,L1,Non-Aggressive,text,lime,0.58721,0.26479
+366,L1,Non-Aggressive,text,shap,0.58721,0.26479
+367,L1,Aggressive,image,lime,0.00251,-0.00048
+367,L1,Aggressive,image,shap,0.00085,-0.00048
+367,L1,Aggressive,text,lime,0.01251,0.00081
+367,L1,Aggressive,text,shap,0.01251,0.00081
+367,L2,political aggression,image,lime,0.01283,-0.00073
+367,L2,political aggression,image,shap,0.00837,-0.00073
+367,L2,political aggression,text,lime,0.77712,0.38009
+367,L2,political aggression,text,shap,0.77712,0.38009
+368,L1,Aggressive,image,lime,0.03478,0.00019
+368,L1,Aggressive,image,shap,0.03327,0.00019
+368,L1,Aggressive,text,lime,0.03668,0.03668
+368,L1,Aggressive,text,shap,0.03668,0.03668
+368,L2,religious aggression,image,lime,0.11682,-0.03029
+368,L2,religious aggression,image,shap,0.09694,-0.03029
+368,L2,religious aggression,text,lime,0.2836,-0.09296
+368,L2,religious aggression,text,shap,0.2836,-0.09296
+369,L1,Non-Aggressive,image,lime,0.03086,-0.02469
+369,L1,Non-Aggressive,image,shap,0.01109,-0.02469
+369,L1,Non-Aggressive,text,lime,0.21872,0.0214
+369,L1,Non-Aggressive,text,shap,0.21872,0.0214
+370,L1,Non-Aggressive,image,lime,0.02922,-0.00487
+370,L1,Non-Aggressive,image,shap,0.01965,-0.00487
+370,L1,Non-Aggressive,text,lime,0.32142,0.02329
+370,L1,Non-Aggressive,text,shap,0.32142,0.02329
+371,L1,Aggressive,image,lime,0.0227,-0.00146
+371,L1,Aggressive,image,shap,0.0134,-0.00146
+371,L1,Aggressive,text,lime,0.24129,-0.00268
+371,L1,Aggressive,text,shap,0.24129,-0.00268
+371,L2,religious aggression,image,lime,0.00632,-0.006
+371,L2,religious aggression,image,shap,0.00327,-0.006
+371,L2,religious aggression,text,lime,0.92829,0.00386
+371,L2,religious aggression,text,shap,0.92829,0.00386
+372,L1,Non-Aggressive,image,lime,0.12613,-0.00284
+372,L1,Non-Aggressive,image,shap,0.08753,-0.00284
+372,L1,Non-Aggressive,text,lime,0.46523,0.07876
+372,L1,Non-Aggressive,text,shap,0.46523,0.07876
+373,L1,Aggressive,image,lime,0.02084,-0.00019
+373,L1,Aggressive,image,shap,0.01774,-0.00019
+373,L1,Aggressive,text,lime,0.03233,0.00238
+373,L1,Aggressive,text,shap,0.04813,0.00238
+373,L2,religious aggression,image,lime,0.00104,-0.00061
+373,L2,religious aggression,image,shap,0.00023,-0.00061
+373,L2,religious aggression,text,lime,0.00176,0.00027
+373,L2,religious aggression,text,shap,0.0627,0.00027
+374,L1,Aggressive,image,lime,0.00571,5e-05
+374,L1,Aggressive,image,shap,0.0028,5e-05
+374,L1,Aggressive,text,lime,0.30483,0.00092
+374,L1,Aggressive,text,shap,0.70221,0.00092
+374,L2,political aggression,image,lime,0.00618,0.0029
+374,L2,political aggression,image,shap,0.0068,0.0029
+374,L2,political aggression,text,lime,0.95758,0.00383
+374,L2,political aggression,text,shap,0.95597,0.00383
+375,L1,Aggressive,image,lime,0.14008,0.0314
+375,L1,Aggressive,image,shap,0.09093,0.0314
+375,L1,Aggressive,text,lime,0.21126,-0.07193
+375,L1,Aggressive,text,shap,0.21126,-0.07193
+375,L2,others,image,lime,0.33662,-0.03801
+375,L2,others,image,shap,0.32371,-0.03801
+375,L2,others,text,lime,0.21571,0.00994
+375,L2,others,text,shap,0.21571,0.00994
+376,L1,Aggressive,image,lime,0.03564,0.0041
+376,L1,Aggressive,image,shap,0.01855,0.0041
+376,L1,Aggressive,text,lime,0.63291,0.0942
+376,L1,Aggressive,text,shap,0.64532,0.0942
+376,L2,political aggression,image,lime,0.07786,0.01895
+376,L2,political aggression,image,shap,0.06923,0.01895
+376,L2,political aggression,text,lime,0.68833,0.5025
+376,L2,political aggression,text,shap,0.6908,0.5025
+377,L1,Aggressive,image,lime,0.33269,0.00307
+377,L1,Aggressive,image,shap,0.31084,0.00307
+377,L1,Aggressive,text,lime,0.21985,-0.09669
+377,L1,Aggressive,text,shap,-0.00139,-0.09669
+377,L2,others,image,lime,0.14827,-0.31469
+377,L2,others,image,shap,0.14827,-0.31469
+377,L2,others,text,lime,0.27642,-0.0346
+377,L2,others,text,shap,0.29835,-0.0346
+378,L1,Aggressive,image,lime,0.01783,0.0077
+378,L1,Aggressive,image,shap,0.01426,0.0077
+378,L1,Aggressive,text,lime,0.64916,-0.00141
+378,L1,Aggressive,text,shap,0.64916,-0.00141
+378,L2,political aggression,image,lime,0.00791,-0.00701
+378,L2,political aggression,image,shap,0.01085,-0.00701
+378,L2,political aggression,text,lime,0.93613,0.02663
+378,L2,political aggression,text,shap,0.93613,0.02663
+379,L1,Aggressive,image,lime,0.0102,0.00528
+379,L1,Aggressive,image,shap,0.00452,0.00528
+379,L1,Aggressive,text,lime,0.047,0.00833
+379,L1,Aggressive,text,shap,0.047,0.00833
+379,L2,political aggression,image,lime,0.04619,0.00063
+379,L2,political aggression,image,shap,0.02593,0.00063
+379,L2,political aggression,text,lime,0.25335,0.17594
+379,L2,political aggression,text,shap,0.25335,0.17594
+380,L1,Aggressive,image,lime,0.04944,0.00481
+380,L1,Aggressive,image,shap,0.02337,0.00481
+380,L1,Aggressive,text,lime,-0.00734,-0.02239
+380,L1,Aggressive,text,shap,-0.00734,-0.02239
+380,L2,others,image,lime,0.03102,0.00199
+380,L2,others,image,shap,0.02325,0.00199
+380,L2,others,text,lime,0.09468,0.0317
+380,L2,others,text,shap,0.09468,0.0317
+381,L1,Aggressive,image,lime,0.00816,0.00465
+381,L1,Aggressive,image,shap,0.00687,0.00465
+381,L1,Aggressive,text,lime,0.07655,0.01034
+381,L1,Aggressive,text,shap,0.07655,0.01034
+381,L2,political aggression,image,lime,0.01554,-0.00129
+381,L2,political aggression,image,shap,0.01044,-0.00129
+381,L2,political aggression,text,lime,0.74011,0.74011
+381,L2,political aggression,text,shap,0.61308,0.74011
+382,L1,Aggressive,image,lime,0.09711,-0.00453
+382,L1,Aggressive,image,shap,0.09535,-0.00453
+382,L1,Aggressive,text,lime,0.09749,0.11843
+382,L1,Aggressive,text,shap,0.09749,0.11843
+382,L2,gendered aggression,image,lime,0.08404,0.0107
+382,L2,gendered aggression,image,shap,0.06568,0.0107
+382,L2,gendered aggression,text,lime,0.04756,0.04756
+382,L2,gendered aggression,text,shap,0.04756,0.04756
+383,L1,Aggressive,image,lime,0.07814,-0.03269
+383,L1,Aggressive,image,shap,0.06129,-0.03269
+383,L1,Aggressive,text,lime,0.24405,-0.03814
+383,L1,Aggressive,text,shap,0.24405,-0.03814
+383,L2,others,image,lime,0.29358,0.02398
+383,L2,others,image,shap,0.27734,0.02398
+383,L2,others,text,lime,0.4165,-0.10073
+383,L2,others,text,shap,0.4165,-0.10073
+384,L1,Non-Aggressive,image,lime,5e-05,-0.01299
+384,L1,Non-Aggressive,image,shap,0.01069,-0.01299
+384,L1,Non-Aggressive,text,lime,0.20216,-0.01016
+384,L1,Non-Aggressive,text,shap,0.20216,-0.01016
+385,L1,Non-Aggressive,image,lime,0.01591,-0.00736
+385,L1,Non-Aggressive,image,shap,0.0099,-0.00736
+385,L1,Non-Aggressive,text,lime,0.13756,0.0214
+385,L1,Non-Aggressive,text,shap,0.13756,0.0214
+386,L1,Aggressive,image,lime,0.04175,-0.00533
+386,L1,Aggressive,image,shap,0.04904,-0.00533
+386,L1,Aggressive,text,lime,0.39343,-0.02498
+386,L1,Aggressive,text,shap,0.39343,-0.02498
+386,L2,others,image,lime,0.01797,0.00288
+386,L2,others,image,shap,0.00893,0.00288
+386,L2,others,text,lime,0.06122,0.00135
+386,L2,others,text,shap,0.06122,0.00135
+387,L1,Aggressive,image,lime,0.01752,-0.00044
+387,L1,Aggressive,image,shap,0.00907,-0.00044
+387,L1,Aggressive,text,lime,0.13629,0.03112
+387,L1,Aggressive,text,shap,0.14164,0.03112
+387,L2,political aggression,image,lime,0.04672,-0.01502
+387,L2,political aggression,image,shap,0.04522,-0.01502
+387,L2,political aggression,text,lime,0.72394,0.6467
+387,L2,political aggression,text,shap,0.72394,0.6467
+388,L1,Non-Aggressive,image,lime,0.04777,-0.04754
+388,L1,Non-Aggressive,image,shap,0.06004,-0.04754
+388,L1,Non-Aggressive,text,lime,0.57753,0.01383
+388,L1,Non-Aggressive,text,shap,0.57753,0.01383
+389,L1,Aggressive,image,lime,0.1405,0.05975
+389,L1,Aggressive,image,shap,0.0905,0.05975
+389,L1,Aggressive,text,lime,0.43619,0.12659
+389,L1,Aggressive,text,shap,0.43619,0.12659
+389,L2,religious aggression,image,lime,0.06759,0.02457
+389,L2,religious aggression,image,shap,0.07015,0.02457
+389,L2,religious aggression,text,lime,0.48736,0.14186
+389,L2,religious aggression,text,shap,0.49176,0.14186
+390,L1,Aggressive,image,lime,0.00373,0.00045
+390,L1,Aggressive,image,shap,0.00184,0.00045
+390,L1,Aggressive,text,lime,0.00125,0.00047
+390,L1,Aggressive,text,shap,0.00127,0.00047
+390,L2,political aggression,image,lime,0.00547,0.00119
+390,L2,political aggression,image,shap,0.00469,0.00119
+390,L2,political aggression,text,lime,0.00704,0.00042
+390,L2,political aggression,text,shap,0.00885,0.00042
+391,L1,Non-Aggressive,image,lime,0.05015,-0.02381
+391,L1,Non-Aggressive,image,shap,0.05015,-0.02381
+391,L1,Non-Aggressive,text,lime,0.30607,0.00138
+391,L1,Non-Aggressive,text,shap,0.29033,0.00138
+392,L1,Non-Aggressive,image,lime,0.23911,-0.04822
+392,L1,Non-Aggressive,image,shap,0.23739,-0.04822
+392,L1,Non-Aggressive,text,lime,0.3301,0.11032
+392,L1,Non-Aggressive,text,shap,0.3175,0.11032
+393,L1,Aggressive,image,lime,0.02387,0.00409
+393,L1,Aggressive,image,shap,0.02175,0.00409
+393,L1,Aggressive,text,lime,0.31248,-0.01012
+393,L1,Aggressive,text,shap,0.39529,-0.01012
+393,L2,others,image,lime,0.34594,0.06891
+393,L2,others,image,shap,0.34715,0.06891
+393,L2,others,text,lime,0.15072,0.04358
+393,L2,others,text,shap,0.18876,0.04358
+394,L1,Aggressive,image,lime,0.15435,0.04446
+394,L1,Aggressive,image,shap,0.13649,0.04446
+394,L1,Aggressive,text,lime,0.50698,0.39685
+394,L1,Aggressive,text,shap,0.53211,0.39685
+394,L2,gendered aggression,image,lime,0.11813,0.0018
+394,L2,gendered aggression,image,shap,0.11813,0.0018
+394,L2,gendered aggression,text,lime,0.26003,0.00293
+394,L2,gendered aggression,text,shap,0.26003,0.00293
+395,L1,Aggressive,image,lime,0.02014,0.00112
+395,L1,Aggressive,image,shap,0.01295,0.00112
+395,L1,Aggressive,text,lime,0.67,-0.00231
+395,L1,Aggressive,text,shap,0.67,-0.00231
+395,L2,religious aggression,image,lime,0.00169,0.00021
+395,L2,religious aggression,image,shap,0.00098,0.00021
+395,L2,religious aggression,text,lime,0.75301,-9e-05
+395,L2,religious aggression,text,shap,0.75301,-9e-05
+396,L1,Aggressive,image,lime,0.01165,-0.00438
+396,L1,Aggressive,image,shap,0.01347,-0.00438
+396,L1,Aggressive,text,lime,0.12201,0.0097
+396,L1,Aggressive,text,shap,0.12201,0.0097
+396,L2,political aggression,image,lime,0.01345,-0.00045
+396,L2,political aggression,image,shap,0.00446,-0.00045
+396,L2,political aggression,text,lime,0.90297,0.09923
+396,L2,political aggression,text,shap,0.93541,0.09923
+397,L1,Aggressive,image,lime,0.0061,-0.00244
+397,L1,Aggressive,image,shap,0.00548,-0.00244
+397,L1,Aggressive,text,lime,0.04153,-0.00043
+397,L1,Aggressive,text,shap,0.04153,-0.00043
+397,L2,political aggression,image,lime,0.01087,0.00286
+397,L2,political aggression,image,shap,0.0077,0.00286
+397,L2,political aggression,text,lime,0.9652,0.00929
+397,L2,political aggression,text,shap,0.9652,0.00929
+398,L1,Aggressive,image,lime,0.07164,-0.01292
+398,L1,Aggressive,image,shap,0.07335,-0.01292
+398,L1,Aggressive,text,lime,0.29631,-0.01315
+398,L1,Aggressive,text,shap,0.13682,-0.01315
+398,L2,others,image,lime,0.06471,0.00131
+398,L2,others,image,shap,0.0424,0.00131
+398,L2,others,text,lime,0.39423,0.03699
+398,L2,others,text,shap,0.60811,0.03699
+399,L1,Aggressive,image,lime,0.00728,0.00081
+399,L1,Aggressive,image,shap,0.00206,0.00081
+399,L1,Aggressive,text,lime,0.0162,0.00015
+399,L1,Aggressive,text,shap,0.0162,0.00015
+399,L2,political aggression,image,lime,0.00453,0.00069
+399,L2,political aggression,image,shap,0.00114,0.00069
+399,L2,political aggression,text,lime,0.84695,0.00159
+399,L2,political aggression,text,shap,0.92996,0.00159
+400,L1,Aggressive,image,lime,0.16763,0.04687
+400,L1,Aggressive,image,shap,0.21692,0.04687
+400,L1,Aggressive,text,lime,0.0535,0.01389
+400,L1,Aggressive,text,shap,0.0535,0.01389
+400,L2,gendered aggression,image,lime,0.22524,0.01636
+400,L2,gendered aggression,image,shap,0.23014,0.01636
+400,L2,gendered aggression,text,lime,0.05025,0.01332
+400,L2,gendered aggression,text,shap,0.05025,0.01332
+401,L1,Non-Aggressive,image,lime,0.06875,-0.07331
+401,L1,Non-Aggressive,image,shap,0.04915,-0.07331
+401,L1,Non-Aggressive,text,lime,0.55126,0.20087
+401,L1,Non-Aggressive,text,shap,0.56563,0.20087
+402,L1,Aggressive,image,lime,0.0384,-0.00316
+402,L1,Aggressive,image,shap,0.03589,-0.00316
+402,L1,Aggressive,text,lime,0.3388,-0.01997
+402,L1,Aggressive,text,shap,0.3388,-0.01997
+402,L2,others,image,lime,0.01443,-0.00071
+402,L2,others,image,shap,0.0139,-0.00071
+402,L2,others,text,lime,0.25266,0.00036
+402,L2,others,text,shap,0.40889,0.00036
+403,L1,Non-Aggressive,image,lime,0.02031,-0.02228
+403,L1,Non-Aggressive,image,shap,0.01554,-0.02228
+403,L1,Non-Aggressive,text,lime,0.59608,0.52697
+403,L1,Non-Aggressive,text,shap,0.62354,0.52697
+404,L1,Non-Aggressive,image,lime,0.08523,-0.00405
+404,L1,Non-Aggressive,image,shap,0.08007,-0.00405
+404,L1,Non-Aggressive,text,lime,0.40761,-0.046
+404,L1,Non-Aggressive,text,shap,0.40761,-0.046
+405,L1,Aggressive,image,lime,0.12361,0.01829
+405,L1,Aggressive,image,shap,0.08118,0.01829
+405,L1,Aggressive,text,lime,0.12649,0.13922
+405,L1,Aggressive,text,shap,0.13922,0.13922
+405,L2,others,image,lime,0.21343,-0.1029
+405,L2,others,image,shap,0.20164,-0.1029
+405,L2,others,text,lime,0.52721,0.19943
+405,L2,others,text,shap,0.52721,0.19943
+406,L1,Non-Aggressive,image,lime,0.02318,-0.01476
+406,L1,Non-Aggressive,image,shap,-0.00057,-0.01476
+406,L1,Non-Aggressive,text,lime,0.46231,0.03968
+406,L1,Non-Aggressive,text,shap,0.54173,0.03968
+407,L1,Non-Aggressive,image,lime,0.03138,-0.02839
+407,L1,Non-Aggressive,image,shap,0.034,-0.02839
+407,L1,Non-Aggressive,text,lime,0.79582,0.05649
+407,L1,Non-Aggressive,text,shap,0.7937,0.05649
+408,L1,Non-Aggressive,image,lime,0.10831,0.01269
+408,L1,Non-Aggressive,image,shap,0.07373,0.01269
+408,L1,Non-Aggressive,text,lime,0.29934,0.18064
+408,L1,Non-Aggressive,text,shap,0.29934,0.18064
+409,L1,Aggressive,image,lime,0.00349,0.00298
+409,L1,Aggressive,image,shap,0.00342,0.00298
+409,L1,Aggressive,text,lime,0.19913,0.00456
+409,L1,Aggressive,text,shap,0.24539,0.00456
+409,L2,religious aggression,image,lime,-0.0007,-0.00058
+409,L2,religious aggression,image,shap,0.00066,-0.00058
+409,L2,religious aggression,text,lime,0.97256,0.00137
+409,L2,religious aggression,text,shap,0.97179,0.00137
+410,L1,Aggressive,image,lime,0.1721,0.02343
+410,L1,Aggressive,image,shap,0.19817,0.02343
+410,L1,Aggressive,text,lime,0.5353,0.11925
+410,L1,Aggressive,text,shap,0.52832,0.11925
+410,L2,gendered aggression,image,lime,0.18325,0.00078
+410,L2,gendered aggression,image,shap,0.17441,0.00078
+410,L2,gendered aggression,text,lime,0.60195,-0.02645
+410,L2,gendered aggression,text,shap,0.61447,-0.02645
+411,L1,Aggressive,image,lime,0.00785,0.00091
+411,L1,Aggressive,image,shap,0.0154,0.00091
+411,L1,Aggressive,text,lime,-0.00055,-0.00013
+411,L1,Aggressive,text,shap,9e-05,-0.00013
+411,L2,political aggression,image,lime,0.00703,0.00297
+411,L2,political aggression,image,shap,0.00443,0.00297
+411,L2,political aggression,text,lime,0.00202,0.00039
+411,L2,political aggression,text,shap,0.00172,0.00039
+412,L1,Aggressive,image,lime,0.02152,0.00309
+412,L1,Aggressive,image,shap,0.02342,0.00309
+412,L1,Aggressive,text,lime,0.05238,0.0094
+412,L1,Aggressive,text,shap,0.03773,0.0094
+412,L2,religious aggression,image,lime,0.13458,-0.08549
+412,L2,religious aggression,image,shap,0.11161,-0.08549
+412,L2,religious aggression,text,lime,0.77063,0.23444
+412,L2,religious aggression,text,shap,0.77063,0.23444
+413,L1,Aggressive,image,lime,0.04819,0.01081
+413,L1,Aggressive,image,shap,0.0389,0.01081
+413,L1,Aggressive,text,lime,0.31641,0.00166
+413,L1,Aggressive,text,shap,0.31641,0.00166
+413,L2,others,image,lime,0.03099,0.00669
+413,L2,others,image,shap,0.0138,0.00669
+413,L2,others,text,lime,0.01204,0.00318
+413,L2,others,text,shap,0.01204,0.00318
+414,L1,Aggressive,image,lime,0.00664,0.00107
+414,L1,Aggressive,image,shap,0.00589,0.00107
+414,L1,Aggressive,text,lime,0.0003,-0.0002
+414,L1,Aggressive,text,shap,-0.00059,-0.0002
+414,L2,political aggression,image,lime,0.00821,0.00245
+414,L2,political aggression,image,shap,0.00319,0.00245
+414,L2,political aggression,text,lime,0.00155,0.00136
+414,L2,political aggression,text,shap,0.00155,0.00136
+415,L1,Aggressive,image,lime,0.08277,0.00646
+415,L1,Aggressive,image,shap,0.07266,0.00646
+415,L1,Aggressive,text,lime,0.42904,-0.03377
+415,L1,Aggressive,text,shap,0.30104,-0.03377
+415,L2,others,image,lime,0.01201,0.00212
+415,L2,others,image,shap,0.01046,0.00212
+415,L2,others,text,lime,0.07509,-0.0029
+415,L2,others,text,shap,0.08577,-0.0029
+416,L1,Non-Aggressive,image,lime,0.07259,0.02848
+416,L1,Non-Aggressive,image,shap,0.06771,0.02848
+416,L1,Non-Aggressive,text,lime,0.37306,-0.08319
+416,L1,Non-Aggressive,text,shap,0.30881,-0.08319
+417,L1,Aggressive,image,lime,0.0074,0.00228
+417,L1,Aggressive,image,shap,0.0029,0.00228
+417,L1,Aggressive,text,lime,0.16917,-0.00077
+417,L1,Aggressive,text,shap,0.16917,-0.00077
+417,L2,gendered aggression,image,lime,0.01076,0.00527
+417,L2,gendered aggression,image,shap,0.00657,0.00527
+417,L2,gendered aggression,text,lime,0.0268,0.0033
+417,L2,gendered aggression,text,shap,0.0268,0.0033
+418,L1,Non-Aggressive,image,lime,0.00638,-0.01251
+418,L1,Non-Aggressive,image,shap,0.00387,-0.01251
+418,L1,Non-Aggressive,text,lime,0.55395,-0.01951
+418,L1,Non-Aggressive,text,shap,0.54398,-0.01951
+419,L1,Aggressive,image,lime,0.0116,-0.00186
+419,L1,Aggressive,image,shap,0.00497,-0.00186
+419,L1,Aggressive,text,lime,0.7416,-0.00178
+419,L1,Aggressive,text,shap,0.47228,-0.00178
+419,L2,religious aggression,image,lime,0.00137,-0.00029
+419,L2,religious aggression,image,shap,0.00104,-0.00029
+419,L2,religious aggression,text,lime,0.72008,0.16357
+419,L2,religious aggression,text,shap,0.72568,0.16357
+420,L1,Aggressive,image,lime,0.09752,0.00407
+420,L1,Aggressive,image,shap,0.10363,0.00407
+420,L1,Aggressive,text,lime,0.4615,0.00341
+420,L1,Aggressive,text,shap,0.15715,0.00341
+420,L2,gendered aggression,image,lime,0.21604,-0.00839
+420,L2,gendered aggression,image,shap,0.22851,-0.00839
+420,L2,gendered aggression,text,lime,0.48739,0.00102
+420,L2,gendered aggression,text,shap,0.59676,0.00102
+421,L1,Aggressive,image,lime,0.07618,-0.04427
+421,L1,Aggressive,image,shap,0.08566,-0.04427
+421,L1,Aggressive,text,lime,0.09699,-0.235
+421,L1,Aggressive,text,shap,0.09699,-0.235
+421,L2,others,image,lime,0.19609,-0.02256
+421,L2,others,image,shap,0.19609,-0.02256
+421,L2,others,text,lime,0.05266,-0.15276
+421,L2,others,text,shap,0.05266,-0.15276
+422,L1,Non-Aggressive,image,lime,0.01868,0.0041
+422,L1,Non-Aggressive,image,shap,0.01203,0.0041
+422,L1,Non-Aggressive,text,lime,0.23951,0.0491
+422,L1,Non-Aggressive,text,shap,0.47161,0.0491
+423,L1,Aggressive,image,lime,0.06099,0.00549
+423,L1,Aggressive,image,shap,0.05467,0.00549
+423,L1,Aggressive,text,lime,0.1404,0.00272
+423,L1,Aggressive,text,shap,0.13691,0.00272
+423,L2,gendered aggression,image,lime,0.05358,0.00854
+423,L2,gendered aggression,image,shap,0.0632,0.00854
+423,L2,gendered aggression,text,lime,0.137,0.00026
+423,L2,gendered aggression,text,shap,0.137,0.00026
+424,L1,Aggressive,image,lime,0.05598,-0.00784
+424,L1,Aggressive,image,shap,0.05598,-0.00784
+424,L1,Aggressive,text,lime,0.53775,0.45984
+424,L1,Aggressive,text,shap,0.53775,0.45984
+424,L2,others,image,lime,0.03595,0.0049
+424,L2,others,image,shap,0.05097,0.0049
+424,L2,others,text,lime,0.65287,0.36061
+424,L2,others,text,shap,0.68492,0.36061
+425,L1,Aggressive,image,lime,0.00382,0.00113
+425,L1,Aggressive,image,shap,0.00184,0.00113
+425,L1,Aggressive,text,lime,0.57519,0.00039
+425,L1,Aggressive,text,shap,0.57519,0.00039
+425,L2,political aggression,image,lime,0.02086,-0.00195
+425,L2,political aggression,image,shap,0.02171,-0.00195
+425,L2,political aggression,text,lime,0.94066,0.00136
+425,L2,political aggression,text,shap,0.94066,0.00136
+426,L1,Aggressive,image,lime,0.01282,-0.00067
+426,L1,Aggressive,image,shap,0.01104,-0.00067
+426,L1,Aggressive,text,lime,0.25627,0.00013
+426,L1,Aggressive,text,shap,0.25668,0.00013
+426,L2,political aggression,image,lime,0.00913,-0.00712
+426,L2,political aggression,image,shap,0.00536,-0.00712
+426,L2,political aggression,text,lime,0.96243,0.49075
+426,L2,political aggression,text,shap,0.96215,0.49075
+427,L1,Aggressive,image,lime,0.09613,0.03024
+427,L1,Aggressive,image,shap,0.08891,0.03024
+427,L1,Aggressive,text,lime,-0.0015,-0.11855
+427,L1,Aggressive,text,shap,-0.0015,-0.11855
+427,L2,gendered aggression,image,lime,0.18487,0.04747
+427,L2,gendered aggression,image,shap,0.17576,0.04747
+427,L2,gendered aggression,text,lime,0.69088,0.02299
+427,L2,gendered aggression,text,shap,0.69088,0.02299
+428,L1,Non-Aggressive,image,lime,0.02107,-0.00581
+428,L1,Non-Aggressive,image,shap,0.01352,-0.00581
+428,L1,Non-Aggressive,text,lime,0.10619,-0.00176
+428,L1,Non-Aggressive,text,shap,0.32058,-0.00176
+429,L1,Non-Aggressive,image,lime,0.08123,0.01793
+429,L1,Non-Aggressive,image,shap,0.06372,0.01793
+429,L1,Non-Aggressive,text,lime,0.32169,0.09829
+429,L1,Non-Aggressive,text,shap,0.10412,0.09829
+430,L1,Aggressive,image,lime,0.12859,0.01055
+430,L1,Aggressive,image,shap,0.08378,0.01055
+430,L1,Aggressive,text,lime,0.20383,-0.37227
+430,L1,Aggressive,text,shap,0.20383,-0.37227
+430,L2,others,image,lime,0.21118,-0.00948
+430,L2,others,image,shap,0.09818,-0.00948
+430,L2,others,text,lime,0.47634,-0.07117
+430,L2,others,text,shap,0.47634,-0.07117
+431,L1,Aggressive,image,lime,0.00475,-0.00257
+431,L1,Aggressive,image,shap,0.00027,-0.00257
+431,L1,Aggressive,text,lime,0.19114,0.03089
+431,L1,Aggressive,text,shap,0.28412,0.03089
+431,L2,political aggression,image,lime,0.09915,0.05102
+431,L2,political aggression,image,shap,0.07433,0.05102
+431,L2,political aggression,text,lime,0.78633,0.79897
+431,L2,political aggression,text,shap,0.78633,0.79897
+432,L1,Aggressive,image,lime,0.00921,-0.00205
+432,L1,Aggressive,image,shap,0.00805,-0.00205
+432,L1,Aggressive,text,lime,0.02866,0.00014
+432,L1,Aggressive,text,shap,0.00484,0.00014
+432,L2,political aggression,image,lime,0.01024,-4e-05
+432,L2,political aggression,image,shap,0.00999,-4e-05
+432,L2,political aggression,text,lime,0.65998,0.00416
+432,L2,political aggression,text,shap,0.38217,0.00416
+433,L1,Aggressive,image,lime,0.00396,-0.00309
+433,L1,Aggressive,image,shap,0.00241,-0.00309
+433,L1,Aggressive,text,lime,0.04372,0.00039
+433,L1,Aggressive,text,shap,0.01578,0.00039
+433,L2,political aggression,image,lime,0.01186,-0.00485
+433,L2,political aggression,image,shap,0.01082,-0.00485
+433,L2,political aggression,text,lime,0.68764,0.08453
+433,L2,political aggression,text,shap,0.46517,0.08453
+434,L1,Aggressive,image,lime,0.01022,0.00316
+434,L1,Aggressive,image,shap,0.00581,0.00316
+434,L1,Aggressive,text,lime,0.11764,0.00149
+434,L1,Aggressive,text,shap,0.01212,0.00149
+434,L2,religious aggression,image,lime,0.00584,-0.00095
+434,L2,religious aggression,image,shap,0.00286,-0.00095
+434,L2,religious aggression,text,lime,0.97349,0.00057
+434,L2,religious aggression,text,shap,0.97945,0.00057
+435,L1,Aggressive,image,lime,0.03882,-0.00168
+435,L1,Aggressive,image,shap,0.03032,-0.00168
+435,L1,Aggressive,text,lime,0.35492,0.0044
+435,L1,Aggressive,text,shap,0.35492,0.0044
+435,L2,others,image,lime,0.20296,-0.13
+435,L2,others,image,shap,0.20378,-0.13
+435,L2,others,text,lime,0.44995,0.40831
+435,L2,others,text,shap,0.45582,0.40831
+436,L1,Non-Aggressive,image,lime,0.18396,0.00302
+436,L1,Non-Aggressive,image,shap,0.19598,0.00302
+436,L1,Non-Aggressive,text,lime,0.47703,-0.00052
+436,L1,Non-Aggressive,text,shap,0.47703,-0.00052
+437,L1,Non-Aggressive,image,lime,0.18564,0.00171
+437,L1,Non-Aggressive,image,shap,0.10343,0.00171
+437,L1,Non-Aggressive,text,lime,0.53135,0.00278
+437,L1,Non-Aggressive,text,shap,0.53135,0.00278
+438,L1,Aggressive,image,lime,0.02136,-0.00391
+438,L1,Aggressive,image,shap,0.02077,-0.00391
+438,L1,Aggressive,text,lime,0.26014,-0.00101
+438,L1,Aggressive,text,shap,0.26014,-0.00101
+438,L2,religious aggression,image,lime,0.00203,8e-05
+438,L2,religious aggression,image,shap,0.00171,8e-05
+438,L2,religious aggression,text,lime,0.89496,0.00017
+438,L2,religious aggression,text,shap,0.89496,0.00017
+439,L1,Aggressive,image,lime,0.19002,0.02332
+439,L1,Aggressive,image,shap,0.17645,0.02332
+439,L1,Aggressive,text,lime,0.1815,-0.0377
+439,L1,Aggressive,text,shap,0.1815,-0.0377
+439,L2,religious aggression,image,lime,0.10691,-0.00102
+439,L2,religious aggression,image,shap,0.0905,-0.00102
+439,L2,religious aggression,text,lime,0.89729,-0.0412
+439,L2,religious aggression,text,shap,0.89729,-0.0412
+440,L1,Aggressive,image,lime,0.16916,0.02164
+440,L1,Aggressive,image,shap,0.21019,0.02164
+440,L1,Aggressive,text,lime,0.01575,0.01778
+440,L1,Aggressive,text,shap,0.01575,0.01778
+440,L2,gendered aggression,image,lime,0.20852,0.01144
+440,L2,gendered aggression,image,shap,0.20852,0.01144
+440,L2,gendered aggression,text,lime,0.02408,-0.03241
+440,L2,gendered aggression,text,shap,0.02408,-0.03241
+441,L1,Aggressive,image,lime,0.10984,0.02355
+441,L1,Aggressive,image,shap,0.15296,0.02355
+441,L1,Aggressive,text,lime,0.04211,0.01235
+441,L1,Aggressive,text,shap,0.04211,0.01235
+441,L2,gendered aggression,image,lime,0.25916,-0.00134
+441,L2,gendered aggression,image,shap,0.20656,-0.00134
+441,L2,gendered aggression,text,lime,0.05289,-0.04505
+441,L2,gendered aggression,text,shap,0.05289,-0.04505
+442,L1,Aggressive,image,lime,0.01038,0.00767
+442,L1,Aggressive,image,shap,0.01547,0.00767
+442,L1,Aggressive,text,lime,0.01694,-0.00654
+442,L1,Aggressive,text,shap,-0.00024,-0.00654
+442,L2,others,image,lime,0.02527,0.00651
+442,L2,others,image,shap,0.02772,0.00651
+442,L2,others,text,lime,0.31861,-0.01293
+442,L2,others,text,shap,0.04017,-0.01293
+443,L1,Aggressive,image,lime,0.00774,0.00152
+443,L1,Aggressive,image,shap,0.0026,0.00152
+443,L1,Aggressive,text,lime,0.03022,0.03022
+443,L1,Aggressive,text,shap,0.03022,0.03022
+443,L2,political aggression,image,lime,0.01456,0.00282
+443,L2,political aggression,image,shap,0.01039,0.00282
+443,L2,political aggression,text,lime,0.14967,-0.00692
+443,L2,political aggression,text,shap,0.14967,-0.00692
+444,L1,Aggressive,image,lime,0.01632,-0.00638
+444,L1,Aggressive,image,shap,0.01481,-0.00638
+444,L1,Aggressive,text,lime,0.04632,0.014
+444,L1,Aggressive,text,shap,0.04632,0.014
+444,L2,religious aggression,image,lime,0.00092,-0.00057
+444,L2,religious aggression,image,shap,-0.00408,-0.00057
+444,L2,religious aggression,text,lime,0.94875,0.02446
+444,L2,religious aggression,text,shap,0.94875,0.02446
+445,L1,Non-Aggressive,image,lime,0.00224,-0.01875
+445,L1,Non-Aggressive,image,shap,0.00224,-0.01875
+445,L1,Non-Aggressive,text,lime,0.16395,0.00553
+445,L1,Non-Aggressive,text,shap,0.16233,0.00553
+446,L1,Aggressive,image,lime,0.2888,0.0901
+446,L1,Aggressive,image,shap,0.30494,0.0901
+446,L1,Aggressive,text,lime,0.03199,0.01176
+446,L1,Aggressive,text,shap,0.01364,0.01176
+446,L2,gendered aggression,image,lime,0.27183,0.00785
+446,L2,gendered aggression,image,shap,0.23758,0.00785
+446,L2,gendered aggression,text,lime,0.04998,0.00803
+446,L2,gendered aggression,text,shap,0.04998,0.00803
+447,L1,Aggressive,image,lime,0.00545,-0.00295
+447,L1,Aggressive,image,shap,0.00372,-0.00295
+447,L1,Aggressive,text,lime,0.01979,-0.00034
+447,L1,Aggressive,text,shap,0.01844,-0.00034
+447,L2,political aggression,image,lime,0.00564,0.00048
+447,L2,political aggression,image,shap,0.00279,0.00048
+447,L2,political aggression,text,lime,0.94037,0.00527
+447,L2,political aggression,text,shap,0.92426,0.00527
+448,L1,Aggressive,image,lime,0.05046,0.00195
+448,L1,Aggressive,image,shap,0.02591,0.00195
+448,L1,Aggressive,text,lime,0.35517,-0.01132
+448,L1,Aggressive,text,shap,0.38035,-0.01132
+448,L2,gendered aggression,image,lime,0.07157,0.00124
+448,L2,gendered aggression,image,shap,0.03371,0.00124
+448,L2,gendered aggression,text,lime,0.28979,0.0027
+448,L2,gendered aggression,text,shap,0.28979,0.0027
+449,L1,Aggressive,image,lime,0.15238,0.00634
+449,L1,Aggressive,image,shap,0.15238,0.00634
+449,L1,Aggressive,text,lime,0.28258,0.02959
+449,L1,Aggressive,text,shap,0.28258,0.02959
+449,L2,others,image,lime,-0.00145,-0.01672
+449,L2,others,image,shap,-0.00427,-0.01672
+449,L2,others,text,lime,0.17996,0.05222
+449,L2,others,text,shap,0.16105,0.05222
+450,L1,Aggressive,image,lime,0.03925,0.02012
+450,L1,Aggressive,image,shap,0.02909,0.02012
+450,L1,Aggressive,text,lime,0.06483,0.06483
+450,L1,Aggressive,text,shap,0.06483,0.06483
+450,L2,others,image,lime,0.05174,0.02264
+450,L2,others,image,shap,0.05064,0.02264
+450,L2,others,text,lime,0.08087,-0.03801
+450,L2,others,text,shap,0.08087,-0.03801
+451,L1,Aggressive,image,lime,0.06279,-0.01059
+451,L1,Aggressive,image,shap,0.05485,-0.01059
+451,L1,Aggressive,text,lime,0.71055,0.0132
+451,L1,Aggressive,text,shap,0.71055,0.0132
+451,L2,gendered aggression,image,lime,0.11297,0.00273
+451,L2,gendered aggression,image,shap,0.08692,0.00273
+451,L2,gendered aggression,text,lime,0.28198,0.00126
+451,L2,gendered aggression,text,shap,0.28198,0.00126
+452,L1,Non-Aggressive,image,lime,0.07913,-0.04996
+452,L1,Non-Aggressive,image,shap,0.0909,-0.04996
+452,L1,Non-Aggressive,text,lime,0.26645,0.2225
+452,L1,Non-Aggressive,text,shap,0.2867,0.2225
+453,L1,Aggressive,image,lime,0.09632,-0.08166
+453,L1,Aggressive,image,shap,0.07766,-0.08166
+453,L1,Aggressive,text,lime,0.01747,-0.04737
+453,L1,Aggressive,text,shap,0.01747,-0.04737
+453,L2,others,image,lime,0.20968,0.08809
+453,L2,others,image,shap,0.18001,0.08809
+453,L2,others,text,lime,0.05334,0.03465
+453,L2,others,text,shap,0.05334,0.03465
+454,L1,Aggressive,image,lime,0.20402,0.04446
+454,L1,Aggressive,image,shap,0.12419,0.04446
+454,L1,Aggressive,text,lime,0.43033,0.03228
+454,L1,Aggressive,text,shap,0.43033,0.03228
+454,L2,others,image,lime,0.0413,-0.08785
+454,L2,others,image,shap,0.02878,-0.08785
+454,L2,others,text,lime,0.21822,0.21822
+454,L2,others,text,shap,0.21822,0.21822
+455,L1,Aggressive,image,lime,0.2445,0.06463
+455,L1,Aggressive,image,shap,0.20946,0.06463
+455,L1,Aggressive,text,lime,0.13112,-0.00952
+455,L1,Aggressive,text,shap,0.13112,-0.00952
+455,L2,gendered aggression,image,lime,0.22675,0.01252
+455,L2,gendered aggression,image,shap,0.22703,0.01252
+455,L2,gendered aggression,text,lime,0.03111,0.00934
+455,L2,gendered aggression,text,shap,0.03111,0.00934
+456,L1,Aggressive,image,lime,0.01821,-0.00282
+456,L1,Aggressive,image,shap,0.01703,-0.00282
+456,L1,Aggressive,text,lime,0.23306,0.0714
+456,L1,Aggressive,text,shap,0.08294,0.0714
+456,L2,religious aggression,image,lime,0.00612,-0.00378
+456,L2,religious aggression,image,shap,0.00472,-0.00378
+456,L2,religious aggression,text,lime,0.97028,0.00076
+456,L2,religious aggression,text,shap,0.97028,0.00076
+457,L1,Aggressive,image,lime,0.02578,-0.0486
+457,L1,Aggressive,image,shap,0.01188,-0.0486
+457,L1,Aggressive,text,lime,0.22088,-0.03429
+457,L1,Aggressive,text,shap,0.22088,-0.03429
+457,L2,others,image,lime,0.11806,-0.05396
+457,L2,others,image,shap,0.09835,-0.05396
+457,L2,others,text,lime,0.25626,-0.18736
+457,L2,others,text,shap,0.25626,-0.18736
+458,L1,Non-Aggressive,image,lime,0.07736,0.04107
+458,L1,Non-Aggressive,image,shap,0.0736,0.04107
+458,L1,Non-Aggressive,text,lime,0.29416,-0.24551
+458,L1,Non-Aggressive,text,shap,0.29416,-0.24551
+459,L1,Aggressive,image,lime,0.00277,-0.0007
+459,L1,Aggressive,image,shap,0.00247,-0.0007
+459,L1,Aggressive,text,lime,0.27473,-5e-05
+459,L1,Aggressive,text,shap,0.00104,-5e-05
+459,L2,political aggression,image,lime,0.00585,0.00102
+459,L2,political aggression,image,shap,0.00409,0.00102
+459,L2,political aggression,text,lime,0.88497,0.00326
+459,L2,political aggression,text,shap,0.90002,0.00326
+460,L1,Aggressive,image,lime,0.01969,0.00333
+460,L1,Aggressive,image,shap,0.01863,0.00333
+460,L1,Aggressive,text,lime,0.23957,0.0013
+460,L1,Aggressive,text,shap,0.05786,0.0013
+460,L2,religious aggression,image,lime,0.00324,0.00019
+460,L2,religious aggression,image,shap,0.0048,0.00019
+460,L2,religious aggression,text,lime,0.79766,0.00038
+460,L2,religious aggression,text,shap,0.52552,0.00038
+461,L1,Aggressive,image,lime,0.19203,0.01401
+461,L1,Aggressive,image,shap,0.18662,0.01401
+461,L1,Aggressive,text,lime,-0.0116,-0.04935
+461,L1,Aggressive,text,shap,-0.10439,-0.04935
+461,L2,gendered aggression,image,lime,0.06466,0.00071
+461,L2,gendered aggression,image,shap,0.10527,0.00071
+461,L2,gendered aggression,text,lime,-0.01379,-0.01235
+461,L2,gendered aggression,text,shap,-0.01379,-0.01235
+462,L1,Aggressive,image,lime,0.11502,0.05223
+462,L1,Aggressive,image,shap,0.08803,0.05223
+462,L1,Aggressive,text,lime,0.60309,0.13589
+462,L1,Aggressive,text,shap,0.54449,0.13589
+462,L2,gendered aggression,image,lime,0.21417,-0.0589
+462,L2,gendered aggression,image,shap,0.21417,-0.0589
+462,L2,gendered aggression,text,lime,0.61181,0.1769
+462,L2,gendered aggression,text,shap,0.60727,0.1769
+463,L1,Aggressive,image,lime,0.00421,0.00049
+463,L1,Aggressive,image,shap,0.002,0.00049
+463,L1,Aggressive,text,lime,0.02205,0.0011
+463,L1,Aggressive,text,shap,0.02205,0.0011
+463,L2,religious aggression,image,lime,0.00417,0.00094
+463,L2,religious aggression,image,shap,0.00097,0.00094
+463,L2,religious aggression,text,lime,0.41991,-0.00036
+463,L2,religious aggression,text,shap,0.47727,-0.00036
+464,L1,Aggressive,image,lime,0.08225,-0.00123
+464,L1,Aggressive,image,shap,0.08225,-0.00123
+464,L1,Aggressive,text,lime,0.00721,-0.01853
+464,L1,Aggressive,text,shap,0.00721,-0.01853
+464,L2,others,image,lime,0.01581,-0.00325
+464,L2,others,image,shap,0.01801,-0.00325
+464,L2,others,text,lime,0.2475,0.02881
+464,L2,others,text,shap,0.2475,0.02881
+465,L1,Aggressive,image,lime,0.20322,0.03435
+465,L1,Aggressive,image,shap,0.15334,0.03435
+465,L1,Aggressive,text,lime,0.54174,-0.09694
+465,L1,Aggressive,text,shap,0.54174,-0.09694
+465,L2,gendered aggression,image,lime,0.18116,0.01047
+465,L2,gendered aggression,image,shap,0.12837,0.01047
+465,L2,gendered aggression,text,lime,0.55261,0.05346
+465,L2,gendered aggression,text,shap,0.55261,0.05346
+466,L1,Non-Aggressive,image,lime,-0.0061,-0.0069
+466,L1,Non-Aggressive,image,shap,-0.01224,-0.0069
+466,L1,Non-Aggressive,text,lime,0.18507,0.00964
+466,L1,Non-Aggressive,text,shap,0.18507,0.00964
+467,L1,Aggressive,image,lime,0.1244,0.01703
+467,L1,Aggressive,image,shap,0.13036,0.01703
+467,L1,Aggressive,text,lime,0.13801,0.11855
+467,L1,Aggressive,text,shap,0.03441,0.11855
+467,L2,gendered aggression,image,lime,0.14286,0.01457
+467,L2,gendered aggression,image,shap,0.13837,0.01457
+467,L2,gendered aggression,text,lime,0.8333,0.02124
+467,L2,gendered aggression,text,shap,0.8333,0.02124
+468,L1,Aggressive,image,lime,0.03286,-0.00199
+468,L1,Aggressive,image,shap,0.03788,-0.00199
+468,L1,Aggressive,text,lime,0.759,0.00954
+468,L1,Aggressive,text,shap,0.17781,0.00954
+468,L2,others,image,lime,0.0853,0.00089
+468,L2,others,image,shap,0.05444,0.00089
+468,L2,others,text,lime,0.08842,0.02877
+468,L2,others,text,shap,0.12939,0.02877
+469,L1,Non-Aggressive,image,lime,0.06983,-0.02275
+469,L1,Non-Aggressive,image,shap,0.07747,-0.02275
+469,L1,Non-Aggressive,text,lime,0.32483,0.0978
+469,L1,Non-Aggressive,text,shap,0.32483,0.0978
+470,L1,Aggressive,image,lime,0.00565,-0.00058
+470,L1,Aggressive,image,shap,0.00672,-0.00058
+470,L1,Aggressive,text,lime,0.05355,-0.0001
+470,L1,Aggressive,text,shap,0.05355,-0.0001
+470,L2,political aggression,image,lime,0.00474,-0.00186
+470,L2,political aggression,image,shap,0.00577,-0.00186
+470,L2,political aggression,text,lime,0.95305,0.00327
+470,L2,political aggression,text,shap,0.95305,0.00327
+471,L1,Aggressive,image,lime,0.12594,0.02215
+471,L1,Aggressive,image,shap,0.11813,0.02215
+471,L1,Aggressive,text,lime,0.47961,-0.09696
+471,L1,Aggressive,text,shap,0.45882,-0.09696
+471,L2,gendered aggression,image,lime,0.21291,0.01251
+471,L2,gendered aggression,image,shap,0.21291,0.01251
+471,L2,gendered aggression,text,lime,0.29666,-0.03158
+471,L2,gendered aggression,text,shap,0.2996,-0.03158
+472,L1,Aggressive,image,lime,0.35516,0.10864
+472,L1,Aggressive,image,shap,0.34619,0.10864
+472,L1,Aggressive,text,lime,0.01,0.01
+472,L1,Aggressive,text,shap,0.01,0.01
+472,L2,gendered aggression,image,lime,0.50143,0.18508
+472,L2,gendered aggression,image,shap,0.48675,0.18508
+472,L2,gendered aggression,text,lime,0.18176,0.04531
+472,L2,gendered aggression,text,shap,0.18176,0.04531
+473,L1,Aggressive,image,lime,0.14811,0.01773
+473,L1,Aggressive,image,shap,0.1516,0.01773
+473,L1,Aggressive,text,lime,0.23287,0.23287
+473,L1,Aggressive,text,shap,0.23287,0.23287
+473,L2,religious aggression,image,lime,0.01986,0.00712
+473,L2,religious aggression,image,shap,0.0216,0.00712
+473,L2,religious aggression,text,lime,0.00736,0.01827
+473,L2,religious aggression,text,shap,0.00736,0.01827
+474,L1,Aggressive,image,lime,0.02924,0.00064
+474,L1,Aggressive,image,shap,0.01311,0.00064
+474,L1,Aggressive,text,lime,0.0239,-0.00432
+474,L1,Aggressive,text,shap,0.02462,-0.00432
+474,L2,religious aggression,image,lime,0.00222,5e-05
+474,L2,religious aggression,image,shap,0.00158,5e-05
+474,L2,religious aggression,text,lime,0.77356,0.00627
+474,L2,religious aggression,text,shap,0.53796,0.00627
+475,L1,Aggressive,image,lime,0.00808,0.00028
+475,L1,Aggressive,image,shap,0.00683,0.00028
+475,L1,Aggressive,text,lime,0.06855,0.00281
+475,L1,Aggressive,text,shap,0.06855,0.00281
+475,L2,religious aggression,image,lime,0.00285,-3e-05
+475,L2,religious aggression,image,shap,0.00346,-3e-05
+475,L2,religious aggression,text,lime,0.89226,0.47884
+475,L2,religious aggression,text,shap,0.89226,0.47884
+476,L1,Non-Aggressive,image,lime,0.0521,0.00081
+476,L1,Non-Aggressive,image,shap,0.04853,0.00081
+476,L1,Non-Aggressive,text,lime,0.53041,0.17415
+476,L1,Non-Aggressive,text,shap,0.44982,0.17415
+477,L1,Aggressive,image,lime,0.05044,0.01326
+477,L1,Aggressive,image,shap,0.0171,0.01326
+477,L1,Aggressive,text,lime,0.03383,-0.02356
+477,L1,Aggressive,text,shap,0.03383,-0.02356
+477,L2,gendered aggression,image,lime,0.14864,-0.00081
+477,L2,gendered aggression,image,shap,0.07192,-0.00081
+477,L2,gendered aggression,text,lime,0.07346,-0.00419
+477,L2,gendered aggression,text,shap,0.15748,-0.00419
+478,L1,Aggressive,image,lime,0.02292,0.00095
+478,L1,Aggressive,image,shap,0.01758,0.00095
+478,L1,Aggressive,text,lime,0.01265,0.02052
+478,L1,Aggressive,text,shap,0.01265,0.02052
+478,L2,religious aggression,image,lime,0.02348,-0.02347
+478,L2,religious aggression,image,shap,0.0171,-0.02347
+478,L2,religious aggression,text,lime,0.91725,0.57211
+478,L2,religious aggression,text,shap,0.91725,0.57211
+479,L1,Aggressive,image,lime,0.02436,0.00099
+479,L1,Aggressive,image,shap,0.01351,0.00099
+479,L1,Aggressive,text,lime,0.00565,-0.00064
+479,L1,Aggressive,text,shap,0.00565,-0.00064
+479,L2,religious aggression,image,lime,0.00481,-0.0044
+479,L2,religious aggression,image,shap,0.00428,-0.0044
+479,L2,religious aggression,text,lime,0.96413,3e-05
+479,L2,religious aggression,text,shap,0.96413,3e-05
+480,L1,Aggressive,image,lime,0.03572,0.0024
+480,L1,Aggressive,image,shap,0.02963,0.0024
+480,L1,Aggressive,text,lime,0.6063,0.27135
+480,L1,Aggressive,text,shap,0.53691,0.27135
+480,L2,others,image,lime,0.11454,-0.0036
+480,L2,others,image,shap,0.1681,-0.0036
+480,L2,others,text,lime,-0.29139,-0.29974
+480,L2,others,text,shap,-0.20382,-0.29974
+481,L1,Non-Aggressive,image,lime,0.09676,-0.00869
+481,L1,Non-Aggressive,image,shap,0.1039,-0.00869
+481,L1,Non-Aggressive,text,lime,0.29357,0.13465
+481,L1,Non-Aggressive,text,shap,0.29357,0.13465
+482,L1,Aggressive,image,lime,0.04444,-0.03064
+482,L1,Aggressive,image,shap,0.04169,-0.03064
+482,L1,Aggressive,text,lime,0.05562,0.00697
+482,L1,Aggressive,text,shap,0.05562,0.00697
+482,L2,political aggression,image,lime,0.07552,0.007
+482,L2,political aggression,image,shap,0.06298,0.007
+482,L2,political aggression,text,lime,0.63551,0.12702
+482,L2,political aggression,text,shap,0.63551,0.12702
+483,L1,Aggressive,image,lime,0.08346,0.0008
+483,L1,Aggressive,image,shap,0.05551,0.0008
+483,L1,Aggressive,text,lime,0.20338,-0.00733
+483,L1,Aggressive,text,shap,0.21361,-0.00733
+483,L2,gendered aggression,image,lime,0.35629,0.00342
+483,L2,gendered aggression,image,shap,0.4509,0.00342
+483,L2,gendered aggression,text,lime,0.58691,0.59364
+483,L2,gendered aggression,text,shap,0.58691,0.59364
+484,L1,Aggressive,image,lime,0.04172,0.05641
+484,L1,Aggressive,image,shap,0.05022,0.05641
+484,L1,Aggressive,text,lime,0.38026,0.02385
+484,L1,Aggressive,text,shap,0.38026,0.02385
+484,L2,others,image,lime,0.06908,-0.0014
+484,L2,others,image,shap,0.03333,-0.0014
+484,L2,others,text,lime,0.08905,-0.00784
+484,L2,others,text,shap,0.08905,-0.00784

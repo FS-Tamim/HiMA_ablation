@@ -72,6 +72,8 @@ def main():
     MS = pd.read_csv(os.path.join(R, "modality_shapley.csv"))
     FD = pd.read_csv(os.path.join(R, "faithfulness_deletion.csv"))
     AG = pd.read_csv(os.path.join(LS, "agreement.csv"))
+    FL_path = os.path.join(LS, "faithfulness_lime_shap.csv")
+    FL = pd.read_csv(FL_path) if os.path.isfile(FL_path) else pd.DataFrame()
     WA = pd.read_csv(os.path.join(LS, "word_attributions.csv"), encoding="utf-8-sig")
     P = pd.read_csv(os.path.join(R, "per_sample.csv"))
     n = len(P)
@@ -93,6 +95,11 @@ def main():
     MS2 = MS.assign(predicted_class=MS["predicted_class"].map(nice)).rename(columns={
         "predicted_class": "predicted class", "shap_text": "text contribution", "shap_image": "image contribution",
         "text_share": "text share"})
+    FL2 = FL.assign(method=FL["method"].str.upper(), modality=FL["modality"].map({"text": "words", "image": "image regions"})
+                    ).rename(columns={"removed_frac": "fraction removed", "drop_top": "drop: top-ranked removed",
+                                      "drop_random": "drop: random removed",
+                                      "top_beats_random": "top > random (share of memes)"}) if len(FL) else FL
+    fl_txt = FL[(FL["level"] == "L2") & (FL["modality"] == "text")].set_index("method") if len(FL) else None
     FD2 = FD.rename(columns={"removed_frac": "fraction removed", "drop_top": "drop: top-ranked removed",
                              "drop_random": "drop: random removed", "top_beats_random": "top > random (share of memes)"})
     AGs = AG.groupby(["level", "predicted_class"]).agg(memes=("idx", "size"),
@@ -181,7 +188,7 @@ contribution there, against {share.get('political aggression', np.nan):.0%} for 
 {share.get('religious aggression', np.nan):.0%} for religious aggression.</li>
 <li><b>The explanations are faithful.</b> Removing the top 20% of words ranked by Integrated Gradients lowers the Level-2
 confidence by {f_txt['drop_top']:.2f}, against {f_txt['drop_random']:.2f} for random words; for Grad-CAM image regions
-the drop is {f_img['drop_top']:.3f} against {f_img['drop_random']:.3f}.</li>
+the drop is {f_img['drop_top']:.3f} against {f_img['drop_random']:.3f}.{(" LIME and SHAP pass the same test: removing their top 20% of words lowers Level-2 confidence by " + f"{fl_txt.loc['lime', 'drop_top']:.2f} (LIME) and {fl_txt.loc['shap', 'drop_top']:.2f} (SHAP), against {fl_txt.loc['shap', 'drop_random']:.2f} at random.") if fl_txt is not None else ""}</li>
 <li><b>Influential words match each class.</b> Party and leader names for political aggression, religion words for
 religious aggression, women-related words for gendered aggression, study and family words for non-aggressive memes.</li>
 <li><b>LIME and SHAP tell the same story.</b> Across {len(WA):,} word scores the two methods correlate at r = {r_word:.2f};
@@ -220,7 +227,8 @@ adds much at Level 1, while for memes predicted non-aggressive the caption does 
 </div>
 
 <h2 id="faith">Faithfulness of the explanations</h2>
-<div class="box">{table(FD2)}
+<div class="box"><h3>Integrated Gradients and Grad-CAM</h3>{table(FD2)}
+{"<h3>LIME and SHAP</h3>" + table(FL2) if len(FL) else ""}
 <p class="note">A larger confidence drop for top-ranked than for random removal means the explanation points at
 evidence the model really uses.</p></div>
 
