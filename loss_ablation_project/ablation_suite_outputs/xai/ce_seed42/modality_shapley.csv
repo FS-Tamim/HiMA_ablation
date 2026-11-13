@@ -1,0 +1,7 @@
+level,predicted_class,n,shap_text,shap_image,text_share
+L1,Non-Aggressive,122,0.636,-0.004,0.9327
+L1,Aggressive,363,-0.0264,0.0587,0.583
+L2,gendered aggression,80,0.4351,0.2983,0.5977
+L2,others,114,0.4225,0.1323,0.6986
+L2,political aggression,74,0.6691,0.0634,0.8982
+L2,religious aggression,95,0.5794,-0.0425,0.8511

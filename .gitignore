@@ -1,8 +1,10 @@
-﻿# Python environments (several GB)
+# Python environments (several GB)
 .venv/
 .pybase/
+.venv-mac/
 **/.venv/
 **/.pybase/
+**/.venv-mac/
 __pycache__/
 *.pyc
 
@@ -16,3 +18,13 @@ __pycache__/
 # dataset (if it is ever copied here)
 Img/
 **/Img/
+
+# OS files
+.DS_Store
+**/.DS_Store
+
+# XAI: scratch runs, caches and local logs
+**/xai/*_smoke/
+**/lime_shap/cache/
+xai_log_*.txt
+kaggle_run_log.json

@@ -48,7 +48,12 @@ from sklearn.metrics import (
 from sklearn.preprocessing import LabelEncoder
 
 warnings.filterwarnings("ignore")
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+if torch.cuda.is_available():
+    device = torch.device("cuda")
+elif os.environ.get("ABLATION_DEVICE", "") == "mps" and torch.backends.mps.is_available():
+    device = torch.device("mps")                    # Apple GPU: opt-in, HRFDCA training needs > 8 GB
+else:
+    device = torch.device("cpu")
 if torch.cuda.is_available():
     torch.backends.cuda.matmul.allow_tf32 = True
     torch.backends.cudnn.allow_tf32 = True
@@ -435,7 +440,7 @@ def save_curve(tr, va, title, path):
 # ============================================================
 # 6. ONE EXPERIMENT
 # ============================================================
-def run_one(part, model_key, loss_key, seed, df, le2, out_dir, smoke=False):
+def run_one(part, model_key, loss_key, seed, df, le2, out_dir, smoke=False, save_ckpt=None, epochs=None):
     loss_cfg = LOSS_CONFIGS[loss_key]
     n_l2 = len(le2.classes_)
     l2_long = le2.classes_.tolist()
@@ -464,7 +469,7 @@ def run_one(part, model_key, loss_key, seed, df, le2, out_dir, smoke=False):
     model = model.to(device)
 
     train_ds, val_ds, test_ds = mk(train_df, True), mk(val_df, False), mk(test_df, False)
-    epochs = cfg["epochs"]
+    epochs = epochs or cfg["epochs"]
     if smoke:
         epochs = 1
         train_ds = Subset(train_ds, range(min(96, len(train_ds))))
@@ -506,6 +511,9 @@ def run_one(part, model_key, loss_key, seed, df, le2, out_dir, smoke=False):
             best_state = {k: v.detach().cpu().clone() for k, v in model.state_dict().items()}
     model.load_state_dict(best_state)
     print(f"  Best epoch: {best_ep} (val loss {best:.4f})")
+    if save_ckpt:                                   # used by xai_analysis.py
+        torch.save({"state_dict": best_state, "part": part, "model": model_key, "loss": loss_key,
+                    "seed": seed, "best_epoch": best_ep, "l2_classes": le2.classes_.tolist()}, save_ckpt)
 
     _, y1t, y1p, y2t, y2p = eval_epoch(model, test_loader, sel1, sel2, lambda_r)
     tag = f"{model_key}_{loss_key}_seed{seed}"
