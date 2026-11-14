@@ -112,6 +112,34 @@ def main():
     # ---------------- example memes: IG / Grad-CAM card + LIME / SHAP ----------------
     old = open(os.path.join(R, "xai_report.html"), encoding="utf-8").read()
     words = {k: g.sort_values("position") for k, g in WA.groupby(["idx", "level"])}
+    RA_path = os.path.join(LS, "region_attributions.csv")
+    regions = ({k: g for k, g in pd.read_csv(RA_path).groupby(["idx", "level"])} if os.path.isfile(RA_path) else {})
+
+    def where(cx, cy):
+        v = "top" if cy < 1 / 3 else ("bottom" if cy > 2 / 3 else "middle")
+        h = "left" if cx < 1 / 3 else ("right" if cx > 2 / 3 else "centre")
+        return "centre" if (v, h) == ("middle", "centre") else f"{v} {h}"
+
+    def value_tables(i, lv):
+        """Top words and top image regions for one meme and level, with their LIME and SHAP values."""
+        parts = []
+        if (i, lv) in words:
+            g = words[(i, lv)].assign(a=lambda d: d["shap"].abs()).sort_values("a", ascending=False).head(6)
+            rows = "".join(f"<tr><td class='bn'>{html.escape(str(r.word))}</td><td>{r.shap:+.3f}</td><td>{r.lime:+.3f}</td></tr>"
+                           for r in g.itertuples())
+            parts.append(f"<div><b>Top words (by |SHAP|)</b><table><thead><tr><th>word</th><th>SHAP</th><th>LIME</th>"
+                         f"</tr></thead><tbody>{rows}</tbody></table></div>")
+        if (i, lv) in regions:
+            g = regions[(i, lv)]
+            pos = np.clip(g["shap"].to_numpy(), 0, None); k = max(1, int(round(0.2 * len(g))))
+            conc = np.sort(pos)[::-1][:k].sum() / max(pos.sum(), 1e-12)
+            t = g.sort_values("shap", ascending=False).head(5)
+            rows = "".join(f"<tr><td>{where(r.cx, r.cy)}</td><td>{r.area_frac:.1%}</td><td>{r.shap:+.3f}</td>"
+                           f"<td>{r.lime:+.3f}</td></tr>" for r in t.itertuples())
+            parts.append(f"<div><b>Top image regions (by SHAP)</b><table><thead><tr><th>location</th><th>area</th>"
+                         f"<th>SHAP</th><th>LIME</th></tr></thead><tbody>{rows}</tbody></table>"
+                         f"<p class='note'>{len(g)} regions; the top 20% hold {conc:.0%} of the positive SHAP value.</p></div>")
+        return f'<div class="vals"><h5>Level {lv[1]} values</h5>{"".join(parts)}</div>' if parts else ""
     cards = []
     for sec in re.findall(r"<section>.*?</section>", old, re.S):
         m = re.search(r"test sample (\d+)", sec)
@@ -131,6 +159,7 @@ def main():
                 for meth in ["shap", "lime"]:
                     extra.append(f'<div class="row"><b>{meth.upper()} — Level {lv[1]}</b><br><span class="txt">'
                                  f'{colour_words(g["word"].tolist(), g[meth].to_numpy())}</span></div>')
+        extra.append('<div class="valgrid">' + "".join(value_tables(i, lv) for lv in ["L1", "L2"]) + "</div>")
         cards.append(sec.replace("</section>", "".join(extra) + "</section>"))
 
     css = """
@@ -156,6 +185,10 @@ ul.find li{margin:6px 0}
 .ok,.bad{font-size:12px;font-weight:600;padding:2px 8px;border-radius:10px;border:1px solid}
 .ok{color:#006300} .bad{color:#d03b3b} .key span{padding:2px 6px;border-radius:3px}
 section.card h3{margin-top:0}
+.valgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(460px,1fr));gap:12px;margin-top:10px}
+.vals{border:1px solid var(--line);border-radius:8px;padding:10px 12px;background:#fff}
+.vals h5{margin:0 0 6px;font-size:14px} .vals>div{display:inline-block;vertical-align:top;margin-right:14px}
+.vals table{font-size:13px} .vals td,.vals th{padding:3px 8px} td.bn{text-align:left;font-size:15px}
 """
     key = ('<p class="key">Word colours: <span style="background:rgba(235,104,52,.6)">supports the predicted class</span> '
            '<span style="background:rgba(42,120,214,.6)">argues against it</span>. Hover a word for its value.</p>')
@@ -253,7 +286,9 @@ evidence the model really uses.</p></div>
 
 <h2 id="memes">Meme gallery: every method side by side</h2>
 <div class="box"><p>{len(cards)} test memes (correct and misclassified, all classes). For each: the Grad-CAM and
-cross-attention maps, Integrated Gradients words, then the LIME and SHAP image maps and words.</p>{key}</div>
+cross-attention maps, Integrated Gradients words, then the LIME and SHAP image maps and words, and tables with the
+actual LIME and SHAP values of the strongest words and image regions. The values for every word and region of all
+485 memes are in <code>word_attributions.csv</code> and <code>region_attributions.csv</code>.</p>{key}</div>
 {"".join(cards)}
 
 <h2 id="notes">Limitations</h2>
