@@ -115,6 +115,29 @@ def main():
     RA_path = os.path.join(LS, "region_attributions.csv")
     regions = ({k: g for k, g in pd.read_csv(RA_path).groupby(["idx", "level"])} if os.path.isfile(RA_path) else {})
 
+    # per-meme text vs image split from LIME / SHAP: summed |attribution| of words vs image regions
+    def split(i, lv, m):
+        w = words.get((i, lv)); r = regions.get((i, lv))
+        if r is None:
+            return None
+        wa = float(w[m].abs().sum()) if w is not None else 0.0
+        ra = float(r[m].abs().sum())
+        wp = float(np.clip(w[m], 0, None).sum()) if w is not None else 0.0
+        rp = float(np.clip(r[m], 0, None).sum())
+        return wa / max(wa + ra, 1e-12), wp, rp
+
+    def split_line(i):
+        out = []
+        for m in ["shap", "lime"]:
+            parts = []
+            for lv in ["L1", "L2"]:
+                v = split(i, lv, m)
+                if v:
+                    parts.append(f"Level {lv[1]}: text share {v[0]:.2f} (words +{v[1]:.3f}, image regions +{v[2]:.3f})")
+            if parts:
+                out.append(f'<p class="note"><b>{m.upper()} text vs image:</b> ' + " &nbsp;|&nbsp; ".join(parts) + "</p>")
+        return "".join(out)
+
     def where(cx, cy):
         v = "top" if cy < 1 / 3 else ("bottom" if cy > 2 / 3 else "middle")
         h = "left" if cx < 1 / 3 else ("right" if cx > 2 / 3 else "centre")
@@ -149,6 +172,8 @@ def main():
         sec = re.sub(r'<img src="(samples/[^"]+)"[^>]*>',
                      lambda mm: img(os.path.join(R, mm.group(1)), "Grad-CAM and attention maps", 1400, True), sec)
         sec = sec.replace("<section>", f'<section class="card" id="m{i}">', 1)
+        sec = re.sub(r'(<p class="note"><b>Modality Shapley:</b>.*?</p>)', lambda mm: mm.group(1) + split_line(i), sec,
+                     count=1, flags=re.S)
         sec = sec.replace("<b>Level 1 words</b>", "<b>Integrated Gradients — Level 1</b>")
         sec = sec.replace("<b>Level 2 words</b>", "<b>Integrated Gradients — Level 2</b>")
         extra = ['<h4>LIME and SHAP</h4>',
@@ -190,7 +215,11 @@ section.card h3{margin-top:0}
 .vals h5{margin:0 0 6px;font-size:14px} .vals>div{display:inline-block;vertical-align:top;margin-right:14px}
 .vals table{font-size:13px} .vals td,.vals th{padding:3px 8px} td.bn{text-align:left;font-size:15px}
 """
-    key = ('<p class="key">Word colours: <span style="background:rgba(235,104,52,.6)">supports the predicted class</span> '
+    key = ('<p class="note">Under each meme, <b>Modality Shapley</b> gives the text and image contribution to the predicted '
+           'class (probability units). The <b>SHAP / LIME text vs image</b> lines give the caption\'s share of the meme\'s '
+           'total attribution (|words| / (|words| + |image regions|)) and the summed positive attribution of words and '
+           'of image regions.</p>'
+           '<p class="key">Word colours: <span style="background:rgba(235,104,52,.6)">supports the predicted class</span> '
            '<span style="background:rgba(42,120,214,.6)">argues against it</span>. Hover a word for its value.</p>')
 
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
